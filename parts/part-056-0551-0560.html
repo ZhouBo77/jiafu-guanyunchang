@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 551–560 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-055-0541-0550.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-057-0561-0570.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-551">第551章 大王快登基吧</a></li><li><a href="#ch-552">第552章 劉備同意稱帝</a></li><li><a href="#ch-553">第553章 倭國使者來了？</a></li><li><a href="#ch-554">第554章 倭活的金山銀山</a></li><li><a href="#ch-555">第555章 劉備登基</a></li><li><a href="#ch-556">第556章 給倭使下套</a></li><li><a href="#ch-557">第557章 貪婪的倭國使者</a></li><li><a href="#ch-558">第558章 該犒賞群臣了吧？</a></li><li><a href="#ch-559">第559章 莫名躺槍的王甫</a></li><li><a href="#ch-560">第560章 大肆封賞</a></li></ul>
 <section class="chapter" id="ch-551">
 <h2>第551章 大王快登基吧</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_551.html">原始页面</a></div>
 <p>大漢立國之初，尚書令只是個隸屬於少府的小官，卻隨著時間推移不斷變遷，等到光武帝時徹底發生了質變，變成了僅次於三公的副丞相，大權獨攬位高權重。</p>
 <p>光武帝劉秀登基之後為削弱相權，加強中央集權，將三公的權力全部集於尚書台，將三公徹底變成了榮譽虛銜，因此統領尚書台的尚書令就成了堪比丞相的存在。</p>
 <p>目前尚書令不但總領章奏文書，參與政令制定，還掌控尚書台屬官的獎懲考核，間接影響朝臣選拔，等於既掌控了決策權又掌控了人事任免權，這兩項可都是實打實的實權。</p>
@@ -69,7 +76,6 @@
 </section>
 <section class="chapter" id="ch-552">
 <h2>第552章 劉備同意稱帝</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_552.html">原始页面</a></div>
 <p>江南初定，尚未完成的工作太多，這些事情全壓在諸葛亮的肩上，因此來到江陵的這段時間，諸葛亮一刻也沒停歇過，忙的像個陀螺。</p>
 <p>這次終於利用罷工的機會給自己放了幾天假，窩在家裡睡大覺好好的休息了一把。</p>
 <p>他休息了劉備卻扛不住了，親自跑到諸葛亮帳篷撥開守衛直接進入，進帳發現諸葛亮正在悠閑品茶，忍不住埋怨道：“軍師好雅興啊。”</p>
@@ -113,11 +119,9 @@
 <p>看到海岸的三人全都爆發出驚人的生命力，死死抱住巨木在水裡瘋狂蹬腿，但卻不知道這裡是長江入海口啊，長江水從這裡匯入大海，對海水形成了強大的衝擊力，導致三人越是蹬腿，巨木就越是向後退去，越是努力離海岸線反而越遠。</p>
 <p>正不知所措之際，長江口突然駛出一支龐大的艦隊，為首的旗艦超過二十丈長，足有三四層樓高，船上懸挂著漢字與周字兩面大旗。</p>
 <p>這赫然是周循率領的大漢水師艦隊。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-553">
 <h2>第553章 倭國使者來了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_553.html">原始页面</a></div>
 <p>看著突然出現的艦隊，倭國三人全都驚的張大嘴巴呆若木雞。</p>
 <p>那船太大了，立在海上跟座山似的根本看不清全貌，這這這……</p>
 <p>這特么是船嗎，這分明是座島嶼啊。</p>
@@ -165,11 +169,9 @@
 <p>“那場大戰持續了整整十四年，因戰爭而死的大漢百姓超過三千五百多萬，我爺爺兄弟七人四個都死在了抗戰戰場上，我爺爺也被鬼子炸斷一條腿終身殘疾，在我十二歲的時候就沒了。”</p>
 <p>“另外倭國還屠了建業三十萬百姓，建業可是當時的大漢都城，不止如此，倭國在大漢境內還做了許多慘絕人寰的事，所作所為比五胡亂華時，將漢人當作兩腳羊的羯族都惡毒。”</p>
 <p>“總之我跟倭國杠上了，後半輩子就算什麼都不幹也得將倭國從地圖上永遠抹去。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-554">
 <h2>第554章 倭活的金山銀山</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_554.html">原始页面</a></div>
 <p>劉備諸葛亮臉色同時陰沉下來，看著王甫送來的信件眼中滿是殺機。</p>
 <p>小小倭國竟然屠殺中原三千五百萬人，要知道大漢目前的總人口都沒三千五百萬吶，該死的倭國竟然屠了整個大漢？</p>
 <p>更別說建業的三十萬了，當時的建業可是國都，屠戮國都等於在打整個大漢的臉，這種事沒經歷過國都被異族攻破的劉備諸葛亮是說什麼也不能接受的。</p>
@@ -213,7 +215,6 @@
 </section>
 <section class="chapter" id="ch-555">
 <h2>第555章 劉備登基</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_555.html">原始页面</a></div>
 <p>建安二十六年冬月初七，大吉，宜慶典，是劉備登基的良辰吉日。</p>
 <p>早晨天剛亮各衙門就展開行動，無數士兵在關羽的指揮下走上街頭，站在街道兩邊組成人牆。</p>
 <p>人牆中間，一條紅地毯從劉備的王帳直接通到城外祭壇，祭壇周圍更是甲士如森刀槍如林，身經百戰煞氣衝天的甲士們宛如標槍一般筆直的站在原地防衛，靜等他們的王出現。</p>
@@ -258,7 +259,6 @@
 </section>
 <section class="chapter" id="ch-556">
 <h2>第556章 給倭使下套</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_556.html">原始页面</a></div>
 <p>劉備既然決定讓倭國使者為自己登基之事錦上添花，自然不能任由這三個侏儒跟進城的土包子似的亂看亂說，肯定是要教他們基本的常識與禮儀的。</p>
 <p>教導的重任非常榮幸的落在了揚州刺史王甫的肩上，此刻的王甫就站在祭壇二里之外，看著三位已經換上新衣，卻還沒自己肩膀高的使者，像老師面對即將首次登台表演的學生似的緊張的問道：“見了陛下該有的禮儀和該說的話都記住了嗎？”</p>
 <p>三人為首的狗古田川連忙點頭道：“使君的教導外臣片刻也不敢忘，來的路上一直在背，保證沒問題。”</p>
@@ -282,7 +282,6 @@
 <p>狗古田川連忙拜道：“稟陛下，倭國發生叛亂，反賊卑彌呼無視大漢朝廷命令公然稱王建立邪馬台國，我國無力鎮壓還望陛下出兵相助。”</p>
 <p>目前倭國國內，邪馬台女王卑彌呼是正統，他們狗奴國才是反賊，但在王甫的教導下這個位置反過來了。</p>
 <p>劉備冷哼道：“區區小國反賊也配我大漢出兵嗎，賞你一批兵器帶回去自己打去吧，帶過來。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>數名士兵抬著幾口大箱子走了過來，來到狗古田川面前打開箱蓋。</p>
 <p>箱蓋掀開的瞬間，陣陣亮光刺的狗古田川本能的側頭閉眼，適應之後定睛再看，箱中堆滿了嶄新的環首刀，刀刃亮的跟鏡子似的看著就鋒利無比。</p>
 <p>狗古田川原本對劉備只賜兵器而不派兵還有些失望，看到環首刀的瞬間失望便變成了驚喜。</p>
@@ -309,7 +308,6 @@
 </section>
 <section class="chapter" id="ch-557">
 <h2>第557章 貪婪的倭國使者</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_557.html">原始页面</a></div>
 <p>看著賊眉鼠眼的倭國使者，關興恨不得掀了火鍋，拿湯汁給他們洗個澡，仔細想想又忍住了，弄死他們三個誰回倭國給自己開礦啊對吧？</p>
 <p>暫時還需要他們，現在還不是意氣用事的時候，得忍住。</p>
 <p>不得不說關興的演技比劉備差遠了，雖然沒有說什麼但善於察言觀色的狗古田川還是從他的語氣中聽出了關興對他們三人的不友好，連忙賠笑道：“卑職見過關將軍，將軍有什麼需要儘管吩咐，卑職赴湯蹈火萬死不辭。”</p>
@@ -361,7 +359,6 @@
 </section>
 <section class="chapter" id="ch-558">
 <h2>第558章 該犒賞群臣了吧？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_558.html">原始页面</a></div>
 <p>狗古田川臉色數變，有心不買但想到國內形勢……</p>
 <p>目前倭國境內他們狗奴國與邪馬台國交戰正酣，且他們狗奴國明顯是處於劣勢的，沒有大漢的武器真的扛不住啊。</p>
 <p>更令狗古田川擔心的是，等自己回到國內將劉備賜的武器用到戰場上，邪馬台女王那個女表子挨揍之後肯定會調查武器來源，知道他們是從大漢搞到的武器，邪馬台女王能不動心？</p>
@@ -410,7 +407,6 @@
 </section>
 <section class="chapter" id="ch-559">
 <h2>第559章 莫名躺槍的王甫</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_559.html">原始页面</a></div>
 <p>劉備登基后的首次封賞可是涉及到在場官員的後半生乃至幾代人的大事情，因此不止中老年官員在積極討論，少年官員同樣加入到了討論行列。</p>
 <p>張苞糜威等人全都自發的圍在關興身邊，好奇問道：“安國，你知不知道自己這次會封個什麼爵位？”</p>
 <p>比起自己爵位，在場所有人都更加關心關興的封賞。</p>
@@ -460,11 +456,9 @@
 <p>軍器監，負責兵器鎧甲等軍事裝備的生產製造以及儲備。</p>
 <p>都水監，負責船隻水運事務以及河渠的建造維護，是主管水利的衙門，水利可是大事，任何朝代都很重視。</p>
 <p>國子監，負責教育事業，相當於教育部。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-560">
 <h2>第560章 大肆封賞</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_560.html">原始页面</a></div>
 <p>這份通告是諸葛亮親手寫的，用最簡潔的文字將三省六部一台九寺五監的職能寫的清清楚楚。</p>
 <p>更重要的是這套官職體系與大漢目前正在實行的官職體系出入不大，所謂的六部只不過是現下正在實行的六曹，只是將六曹職能更加明確化，正規化了而已。</p>
 <p>變化不大百官就容易理解，容易理解就容易接受，受諸葛亮邀請參與過官制討論的張昭當即出列拜道：“臣附議，此套官職體系更加合理，職能更加明確，可以實行。”</p>
@@ -527,9 +521,9 @@
 <p>諸葛亮繼續念道：“封劉永為中山王，封劉理為常山王。”</p>
 <p>劉永劉理是劉備跟吳夫人生的兒子，兩人都未成年。</p>
 <p>最後諸葛亮又拿出一份詔書，以前所未有的凝重語氣大聲念道：“侄子關興麥城之戰力挽狂瀾，戰功卓著，特封為神策侯，秩比五千石，封為鎮東將軍兼太子舍人。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-551">第551章 大王快登基吧</a></li><li><a href="#ch-552">第552章 劉備同意稱帝</a></li><li><a href="#ch-553">第553章 倭國使者來了？</a></li><li><a href="#ch-554">第554章 倭活的金山銀山</a></li><li><a href="#ch-555">第555章 劉備登基</a></li><li><a href="#ch-556">第556章 給倭使下套</a></li><li><a href="#ch-557">第557章 貪婪的倭國使者</a></li><li><a href="#ch-558">第558章 該犒賞群臣了吧？</a></li><li><a href="#ch-559">第559章 莫名躺槍的王甫</a></li><li><a href="#ch-560">第560章 大肆封賞</a></li></ul></aside>
+  </div>
 </body>
 </html>

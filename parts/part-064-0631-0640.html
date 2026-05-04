@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 631–640 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-063-0621-0630.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-065-0641-0650.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-631">第631章 理念之爭，階級矛盾</a></li><li><a href="#ch-632">第632章 將鍋甩給曹魏</a></li><li><a href="#ch-633">第633章 劉備收到徐庶書信</a></li><li><a href="#ch-634">第634章 子欲養而親不待</a></li><li><a href="#ch-635">第635章 豪華大餐</a></li><li><a href="#ch-636">第636章 商業區</a></li><li><a href="#ch-637">第637章 來都來了</a></li><li><a href="#ch-638">第638章 三天不打，上房揭瓦</a></li><li><a href="#ch-639">第639章 門口站著去</a></li><li><a href="#ch-640">第640章 劉備拒絕誘惑</a></li></ul>
 <section class="chapter" id="ch-631">
 <h2>第631章 理念之爭，階級矛盾</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_631.html">原始页面</a></div>
 <p>中原亂戰幾十年，打的十室九空人口凋零，打的士族百姓集體厭戰是真不想打了。</p>
 <p>而且大漢滅亡才不過短短半年，曹魏朝臣基本都是漢臣，對大漢依然有著很深的感情，劉備又是漢室宗親，若真能匡扶漢室的話，中原士族在感情上是不抵觸的，矛盾點只在於利益而已，只要利益足夠，中原士族投降劉備沒有絲毫心理負擔。</p>
 <p>也就是說以鍾繇為代表的中原士族是真心想跟劉備談判的，只要劉備能保證他們的利益，他們立刻就能背叛曹丕重回大漢懷抱。</p>
@@ -76,7 +83,6 @@
 </section>
 <section class="chapter" id="ch-632">
 <h2>第632章 將鍋甩給曹魏</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_632.html">原始页面</a></div>
 <p>最近曹丕一直在縱情聲色混吃等死，就算鍾繇也不敢在小事上打擾，怕把曹丕惹煩了遇到大事就見不到了，所以鍾繇不是剛有想法就來找曹丕商議的，而是已經將所有事情辦妥才來找曹丕簽字執行的。</p>
 <p>也就是說出使偽漢的前期工作都已經做完了，連遠在平陽做縣令的劉駿都被召到洛陽了，只要曹丕同意就能執行了。</p>
 <p>所以第二天一早徐庶便帶著副使劉駿和使團其他成員率隊出發，曹丕率領文武百官親自出城相送。</p>
@@ -124,7 +130,6 @@
 </section>
 <section class="chapter" id="ch-633">
 <h2>第633章 劉備收到徐庶書信</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_633.html">原始页面</a></div>
 <p>聽到徐庶的詢問，劉駿腦中本能浮現出了劉備的音容。</p>
 <p>他跟劉備是見過面的，當年劉備客居在袁紹麾下時回過一趟老家，那時祖父和父親還在世，劉備跟他們聊了一整夜，但那時自己年紀還小，而且沒覺得劉備有啥特殊之處，所以就沒怎麼搭理。</p>
 <p>但誰能想到劉備會一路逆襲登基稱帝啊，早知道的話當年說什麼也得跟著劉備一起走了。</p>
@@ -179,7 +184,6 @@
 </section>
 <section class="chapter" id="ch-634">
 <h2>第634章 子欲養而親不待</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_634.html">原始页面</a></div>
 <p>雖然不知徐庶過來的目的，但劉備跟徐庶的感情在那擺著，且對當年徐庶離開之事一直引以為憾，這次徐庶好不容易過來，劉備肯定要好好彌補一下這份遺憾的。</p>
 <p>張苞答非所問道：“這次出使咱們大漢的正使是徐庶，副使你知道是誰不，平陽縣令劉駿。”</p>
 <p>關興再次震驚道：“誰，你說誰，劉元起的孫子劉駿？”</p>
@@ -231,7 +235,6 @@
 </section>
 <section class="chapter" id="ch-635">
 <h2>第635章 豪華大餐</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_635.html">原始页面</a></div>
 <p>好友見面總有聊不完的話題，劉關張諸葛圍著徐庶說個不停，加上孫權張昭等人也偶爾插幾句嘴，害的關興想上去跟徐庶這位傳奇名人打個招呼都沒機會，只好回到劉禪身邊跟劉駿聊天。</p>
 <p>劉駿清楚劉備稱帝對他們老劉家意味著什麼，自然也清楚劉備讓劉禪親近自己的良苦用心，哪裡敢怠慢半分？</p>
 <p>要知道劉禪可是當朝太子大漢儲君，將來是要繼承皇位的，他們涿郡劉家可就一飛衝天了。</p>
@@ -283,7 +286,6 @@
 </section>
 <section class="chapter" id="ch-636">
 <h2>第636章 商業區</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_636.html">原始页面</a></div>
 <p>今天這頓大餐絕對是三皇五帝以來最豪華的一場盛宴，文武百官此前別說吃過，連聽都沒聽過。</p>
 <p>面對如此豪華大餐，在場眾人自然是敞開肚皮大快朵頤，吃撐了就歇會繼續吃，中間還相互舉杯遙碰幾杯，君臣喝的那叫一個瀟洒快意。</p>
 <p>酒宴持續了整整三個時辰才結束，包括劉備徐庶在內，超過九成的人都被抬了出去。</p>
@@ -325,11 +327,9 @@
 <p>余陽介紹道：“七天前開業的，這裡畢竟是商業區，南來北往的有錢行商那麼多，沒家青樓也說不過去啊。”</p>
 <p>劉禪興奮道：“那還說啥，進去瞧瞧，咱就在這吃飯了，都是吃飯在哪不是吃。”</p>
 <p>身後眾人臉色齊變，關興更是連忙說道：“卧槽，殿下，這地可不能去啊，陛下知道了會揍你的。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-637">
 <h2>第637章 來都來了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_637.html">原始页面</a></div>
 <p>關興是真被劉禪整無語了，這特么是青樓不是酒樓，你身為當朝儲君去逛這種地方合適嗎，怎麼啥熱鬧都想湊啊，好奇心這麼重嗎？</p>
 <p>想去也行但別拉著我啊，咱倆一起進去的話回頭肯定還是我背鍋，我可不想無緣無故挨頓打。</p>
 <p>想到這裡關興連忙勸道：“殿下冷靜，人家還沒營業呢，咱們貿然進去打擾不好，還是換個地方吃飯吧。”</p>
@@ -377,11 +377,9 @@
 <p>如此又等了小半個時辰，耳邊終於傳來了姑娘們的笑聲，劉禪關興張苞等人尋聲望去，看清來人，三人的身體本能前傾，連眼睛都不由的瞪大了幾分。</p>
 <p>只見為首的姑娘雙十年紀，身穿青白相間的長裙，精緻的臉蛋配上合適的髮髻，一顰一笑都惹人心醉。</p>
 <p>這家青樓竟有如此美女，看來海昏侯為經營好這份產業還真下了血本啊。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-638">
 <h2>第638章 三天不打，上房揭瓦</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_638.html">原始页面</a></div>
 <p>身為大漢最頂級的二代，大漢三傻什麼樣的美女沒見過，讓他們三人都感到驚艷，可想而知為首女子的容貌有多逆天。</p>
 <p>關興拉過余陽問道：“這姑娘是哪來的，你知道底細嗎？”</p>
 <p>余陽解釋道：“聽海昏侯府的公子說過，此女名叫紫萱，是他們海昏劉氏精心培養，原本準備送給東吳重臣為妾，為家族換取利益的，但前幾年江南的局勢比較亂，他們劉家也沒想好該送給誰，所以就一直留到了今天，如今海昏劉氏飛黃騰達不用巴結誰了，便將此女拉出來充幾天門面，據屬下所知，此女只在開業當天露過一次面，此後數日並未接過客，估計是想待價而沽。”</p>
@@ -429,7 +427,6 @@
 </section>
 <section class="chapter" id="ch-639">
 <h2>第639章 門口站著去</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_639.html">原始页面</a></div>
 <p>劉備在外跑了一天早已疲憊不堪，迫切的想回去休息，畢竟六十多歲的人了，不可能像年輕時那樣連軸轉。</p>
 <p>但當聽到劉禪逛青樓的瞬間，劉備體內頓生一股洪荒之力，氣咻咻向青樓衝去。</p>
 <p>與此同時，青樓之內。</p>
@@ -479,11 +476,9 @@
 <p>劉駿大喜後退拜道：“謝叔父。”</p>
 <p>劉備揮手道：“行了，今日之事你也有錯，出去跟他們仨一起站著去。”</p>
 <p>很快門外面壁的就從三個變成了四個。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-640">
 <h2>第640章 劉備拒絕誘惑</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_640.html">原始页面</a></div>
 <p>悲催四人組在門口站了整整一晚上，期間沒吃飯沒喝水，到了天亮腿都軟了。</p>
 <p>早晨劉備醒來朝四人呵斥道：“可以滾了，下次再敢去那種地方打斷你們的狗腿，滾蛋。”</p>
 <p>四人如蒙大赦火速逃離，劉備則進入殿內批改奏摺開始一天的工作，沒忙多久徐庶受召趕到，被陳到請了進去。</p>
@@ -525,7 +520,8 @@
 <p>離開這天劉備親自出城相送，一直站在路邊等徐庶的背影消失才返回。</p>
 <p>工作是工作，感情是感情，與曹魏的爭端絲毫影響不了他對徐庶的情誼，只是徐庶此次回去之後曹魏肯定會做出反應，曹丕會如何出招，他又該如何應對呢？</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-631">第631章 理念之爭，階級矛盾</a></li><li><a href="#ch-632">第632章 將鍋甩給曹魏</a></li><li><a href="#ch-633">第633章 劉備收到徐庶書信</a></li><li><a href="#ch-634">第634章 子欲養而親不待</a></li><li><a href="#ch-635">第635章 豪華大餐</a></li><li><a href="#ch-636">第636章 商業區</a></li><li><a href="#ch-637">第637章 來都來了</a></li><li><a href="#ch-638">第638章 三天不打，上房揭瓦</a></li><li><a href="#ch-639">第639章 門口站著去</a></li><li><a href="#ch-640">第640章 劉備拒絕誘惑</a></li></ul></aside>
+  </div>
 </body>
 </html>

@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 281–290 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-028-0271-0280.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-030-0291-0300.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-281">第281章 韓當自盡</a></li><li><a href="#ch-282">第282章 關興：徐盛竟然抄襲我？</a></li><li><a href="#ch-283">第283章 徐盛收到韓當遺言</a></li><li><a href="#ch-284">第284章 徐盛把自己坑了</a></li><li><a href="#ch-285">第285章 關興冒險追徐盛</a></li><li><a href="#ch-286">第286章 跟徐盛搶時間</a></li><li><a href="#ch-287">第287章 終究還是用上了</a></li><li><a href="#ch-288">第288章 關興徐盛走廊衝鋒</a></li><li><a href="#ch-289">第289章 徐盛走進死胡同</a></li><li><a href="#ch-290">第290章 獨特的叫醒服務</a></li></ul>
 <section class="chapter" id="ch-281">
 <h2>第281章 韓當自盡</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_281.html">原始页面</a></div>
 <p>兩支大軍再次遭遇，沒有多餘廢話直接就向對方殺了過去，前鋒部隊宛如發狂野獸般撞在一起，刀鋒所過之處砍的斷肢殘臂伴著鮮血橫飛。</p>
 <p>但這次大戰沒有懸念，吳軍幾乎一觸即潰，讓漢軍輕鬆打出了優勢。</p>
 <p>漢吳兩軍雖都是折騰好幾天的疲兵，但漢軍接連獲勝士氣如虹，吳軍卻士氣低落滿臉絕望，心神早已到了崩潰邊緣，哪裡還是漢軍的對手？</p>
@@ -94,7 +101,6 @@
 </section>
 <section class="chapter" id="ch-282">
 <h2>第282章 關興：徐盛竟然抄襲我？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_282.html">原始页面</a></div>
 <p>與伏惟聖朝以孝治天下的西晉不同，大漢提倡忠孝仁義禮智信，忠字為首，講究忠臣不事二主。</p>
 <p>韓當是孫堅的家臣，隨孫堅孫策父子四處征戰，又助孫權鎮守江東多年，骨子裡早已打上孫氏的烙印，而且年事已高時日無多，自然沒必要臨陣投降導致晚節不保。</p>
 <p>所以見突圍無望，韓當毫不猶豫的選擇了自盡，用自己的生命成就忠義之名。</p>
@@ -148,7 +154,6 @@
 </section>
 <section class="chapter" id="ch-283">
 <h2>第283章 徐盛收到韓當遺言</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_283.html">原始页面</a></div>
 <p>伴隨著雷聲轟鳴，蠶豆大的雨珠傾斜而下，砸在地上瞬間甩開八瓣。</p>
 <p>正帶著百姓和士兵在縣城西邊布置陷阱的丁奉見此果斷撤退，用最快的速度向縣城跑去。</p>
 <p>西邊是陸遜趕來的方向，徐盛丁奉怕挖的陷阱太多反把陸遜擋住，所以只布置了十里，而且是從十里之外往縣城方向挖的，目前離縣城已不足三里，幾乎挖到了縣城城下，想要回城抬腳就到。</p>
@@ -198,7 +203,6 @@
 </section>
 <section class="chapter" id="ch-284">
 <h2>第284章 徐盛把自己坑了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_284.html">原始页面</a></div>
 <p>徐盛目前的官職是建武將軍，領廬江太守，封都亭侯。</p>
 <p>這還是呂蒙反攻建業失敗，撤回江陵之後孫權為安撫麾下官員臨時升的，此前徐盛只是個小小的中郎將督校兵，地位比校尉略高而已。</p>
 <p>儘管如此依然是伍長仰望的存在，換作平時伍長別說在徐盛面前大喘氣，怕連見人家一面都難，遠遠看見都得跑步上前。</p>
@@ -223,7 +227,6 @@
 <p>打敗漢軍之後說不定還可以進山進攻因圍攻韓當而同樣變成疲兵的走廊漢軍，若是成功……</p>
 <p>這事有搞頭，可以整。</p>
 <p>正在斜眼看天的伍長聞言頓時來了精神，激動說道：“我看行，卑職願當先鋒，率先衝進漢營陣斬關興，用關興頭顱祭奠我家少主和我的兄弟們。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>丁奉被這個粗暴的想法嚇了一跳連忙阻止道：“快拉倒吧，咱們在縣城和關興之間挖了二十里長的陷阱，等清理完陷阱，關興早反應過來布好口袋等我們了。”</p>
 <p>“徐將軍，咱倆可以死，但別忘了呂據將軍還在你身邊呢，呂據若有個三長兩短，平南將軍敢讓你全家陪葬信不信？”</p>
 <p>平南將軍呂范出身汝南大族，早年光門客就有上百人，又是助孫策脫離袁術掌控的老臣，在江東的地位比張昭都不遑多讓。</p>
@@ -250,7 +253,6 @@
 </section>
 <section class="chapter" id="ch-285">
 <h2>第285章 關興冒險追徐盛</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_285.html">原始页面</a></div>
 <p>逼死韓當的戰績固然令人興奮，但別忘了關興此戰的目標是徐盛。</p>
 <p>那麼問題來了，徐盛有沒有收到韓當自盡的消息呢？</p>
 <p>關興起身渡步，蹙緊眉頭陷入沉思，邊思索邊喃喃自語道：“懷玉山那麼大，亂兵又那麼多，沈翊不可能將所有吳軍都圍住，總會跑掉幾個漏網之魚的，逃出的亂兵哪怕只有一個去給徐盛報信都可能導致徐盛提前逃走。”</p>
@@ -301,7 +303,6 @@
 </section>
 <section class="chapter" id="ch-286">
 <h2>第286章 跟徐盛搶時間</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_286.html">原始页面</a></div>
 <p>物以稀為貴，多了就不值錢了。</p>
 <p>這話放在工程行業同樣適用，同樣的資金同等的工期，自然是工程量越小質量越高了。</p>
 <p>徐盛在縣城東西兩邊都挖了陷阱，西邊比東邊少了十里，因此西邊的陷阱格外密集。</p>
@@ -351,7 +352,6 @@
 </section>
 <section class="chapter" id="ch-287">
 <h2>第287章 終究還是用上了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_287.html">原始页面</a></div>
 <p>看著李狗剩的背影，吳越心中升起前所未有的慶幸，慶幸突如其來的暴雨堵住了自己去路。</p>
 <p>先前幾乎剛與沈翊分開就遇到了暴雨，逼的他不得不進入山洞躲避，躲雨雖然耽誤了不少時間，卻也讓將士們獲得了短暫的睡眠。</p>
 <p>若非將士睡的太死太難叫醒，他怎麼可能直到現在還沒趕回僅有二十里的陣地？</p>
@@ -377,7 +377,6 @@
 <p>吳越則率領親兵原地值守，萬一徐盛突然殺來，他要給搬樹的士兵返回陣地爭取時間。</p>
 <p>看著不斷拉來，很快便堆滿路中央的樹枝，吳越忍不住感慨道：“關將軍真是太有先見之明了，工兵曲真是太好用了，可惜沒將整個工兵營都給帶過來，否則速度肯定更快，說不定徐盛趕來之前，自己都布置好鹿角建好防禦陣地了。”</p>
 <p>吳越又是激動又是遺憾的指揮大軍按照陣型擺放樹枝，爭取火焰點燃之後能迅速蔓延整個走廊將徐盛死死擋住。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>指揮的同時還不忘親自上手，結果一摸抓了一把水，忍不住蹙眉道：“不行，樹枝太濕了火折根本點不著，你們幾個去旁邊架堆火，燒的越旺越好，看到徐盛之後用鐵鍬直接將火扔進樹堆就行。”</p>
 <p>吳越不知道徐盛什麼時候來，從而無法確定樹枝能堆多少，為避免樹堆與火堆重合，果斷讓士兵將火堆架到了里許之外。</p>
 <p>徐盛走到樹堆前還需穿過一段陷阱區域，因此火堆就算放到二里之外也完全趕得上。</p>
@@ -405,7 +404,6 @@
 </section>
 <section class="chapter" id="ch-288">
 <h2>第288章 關興徐盛走廊衝鋒</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_288.html">原始页面</a></div>
 <p>孤軍深入最怕被包圍。</p>
 <p>徐盛擔心被漢軍前圍后堵，因此穿過陷阱區域之後沒敢停留繼續趕路，帶著兩腿泥漿深一腳淺一腳的走了好幾個時辰眼看天就要黑了，摸著飢腸轆轆的肚皮思忖著要不要休息片刻再走，突然聽到丁奉驚恐吼道：“快看那是什麼？”</p>
 <p>精神高度緊張的時候，任何風吹草動都可能嚇人一激靈，徐盛被丁奉突如其來的暴喝聲驚的心都差點從嗓子眼裡跳出來，卻顧不得斥責連忙順著他的視線看去，看清之後徐盛緊張的心瞬間沉到谷底。</p>
@@ -451,7 +449,6 @@
 </section>
 <section class="chapter" id="ch-289">
 <h2>第289章 徐盛走進死胡同</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_289.html">原始页面</a></div>
 <p>關興率軍踩著徐盛留下的腳印穿過陷阱區域，又踩著徐盛的腳印繼續前進。</p>
 <p>剛下過雨的路面是鬆軟的，上百斤的體重踩下去很容易陷進去，再拔出來就是一腳泥。</p>
 <p>但別人踩過之後就不同了，鬆軟的稀泥被踩到了腳印兩邊，腳印中間相對堅實，最起碼沒有踩第一遍時那麼容易沾泥，關興他們踩著腳印走確實輕鬆不少。</p>
@@ -501,7 +498,6 @@
 </section>
 <section class="chapter" id="ch-290">
 <h2>第290章 獨特的叫醒服務</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_290.html">原始页面</a></div>
 <p>打仗是個比拼意志的活，一旦開戰忍飢挨餓就成了家常便飯。</p>
 <p>夏天跟著關興從大末趕到玉山，剛眯了會又跟關興折騰一整天，現在又累又餓的看見吃的根本走不動道。</p>
 <p>隊長順著他的視線看到自己燉的肉說道：“當然可以，這是兄弟們過來途中順手打的幾隻野雞，準備晚上值夜的時候改善伙食呢現在看來是沒口福了，你們先吃吧，但不建議多吃，就你們目前的樣子，吃飽了怕就走不動道了。”</p>
@@ -525,7 +521,6 @@
 <p>關興聽完彙報凝眉思忖道：“算算時間陸遜也快到了，咱們現在全是疲兵，若陸遜在咱們殲滅徐盛之前趕到，咱們的麻煩可就大了。”</p>
 <p>“所以不能全擠在這裡，派人通知沈翊，睡醒之後不用趕來跟咱們會合，立即率領大軍押解降兵返回玉山，然後跟以前一樣層層阻擊，緩慢退往大末，遇到陸遜撤退就好不要硬拼。”</p>
 <p>“至於咱們，殲滅徐盛之後跟著王濤從武夷山繞回大末，陸遜有本事就進山來追，沒本事就乾瞪眼吧。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>對漢軍來說最差的情形是與徐盛激戰之際陸遜殺到，那漢軍怕就要全軍覆沒了，所以明天進山之前必須派人守住缺口阻擊陸遜，至少為關興殲滅徐盛爭取一兩天時間。</p>
 <p>其次是殲滅徐盛的瞬間陸遜率軍趕到，那時漢軍剛經歷一場惡戰，人困馬乏的根本不可能擋住陸遜。</p>
 <p>這點更好解決，武夷山地形複雜，隨便找個地方就能擋住陸遜大半天，為漢軍爭取睡一覺的時間。</p>
@@ -550,7 +545,8 @@
 <p>沈翊急的吃奶的力氣都用出來了，可李狗剩睡的太死怎麼都搖不醒，沈將軍來氣了，脫下鞋子握住後跟，將鞋前掌對準李狗剩臉龐，掄起手臂狠狠抽了下去。</p>
 <p>啪……</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-281">第281章 韓當自盡</a></li><li><a href="#ch-282">第282章 關興：徐盛竟然抄襲我？</a></li><li><a href="#ch-283">第283章 徐盛收到韓當遺言</a></li><li><a href="#ch-284">第284章 徐盛把自己坑了</a></li><li><a href="#ch-285">第285章 關興冒險追徐盛</a></li><li><a href="#ch-286">第286章 跟徐盛搶時間</a></li><li><a href="#ch-287">第287章 終究還是用上了</a></li><li><a href="#ch-288">第288章 關興徐盛走廊衝鋒</a></li><li><a href="#ch-289">第289章 徐盛走進死胡同</a></li><li><a href="#ch-290">第290章 獨特的叫醒服務</a></li></ul></aside>
+  </div>
 </body>
 </html>

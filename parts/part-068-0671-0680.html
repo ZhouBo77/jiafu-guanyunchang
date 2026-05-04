@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 671–680 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-067-0661-0670.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-069-0681-0690.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-671">第671章 黑心資本家劉玄德</a></li><li><a href="#ch-672">第672章 老劉家的魅魔屬性</a></li><li><a href="#ch-673">第673章 手把手教導</a></li><li><a href="#ch-674">第674章 生存之道</a></li><li><a href="#ch-675">第675章 關興授課</a></li><li><a href="#ch-676">第676章 無煙灶</a></li><li><a href="#ch-677">第677章 實戰演練</a></li><li><a href="#ch-678">第678章 姜維上場</a></li><li><a href="#ch-679">第679章 拿土匪練手</a></li><li><a href="#ch-680">第680章 剿匪就這麼簡單</a></li></ul>
 <section class="chapter" id="ch-671">
 <h2>第671章 黑心資本家劉玄德</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_671.html">原始页面</a></div>
 <p>陳瑜前腳剛被劉禪張苞帶走，諸葛亮後腳就到了。</p>
 <p>諸葛亮進殿行禮，氣喘吁吁的問道：“陛下，子仲，這麼著急召臣過來可是出了什麼大事？”</p>
 <p>諸葛亮也在田間勞碌一天了，回到相府屁股還沒坐熱呢就收到了糜竺請他入宮的消息。</p>
@@ -72,7 +79,6 @@
 </section>
 <section class="chapter" id="ch-672">
 <h2>第672章 老劉家的魅魔屬性</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_672.html">原始页面</a></div>
 <p>劉備非常贊同派人前往曹魏建立敵後根據地的計劃，因為這事好處太多壞處太少，成功了對北伐能起到非常大的助益，失敗了也只是損失一些游擊隊員而已，不會影響到朝廷的北伐大計。</p>
 <p>成功了有收益，失敗了沒損失，這樣的好生意是個人都會做。</p>
 <p>但前提是關興不能去，雖然關興有著豐富的敵後作戰經驗，又有著崇高的威望，潛入敵後能夠迅速將各根據地連成片，甚至可能打造出一支敢與魏軍正面硬剛的鐵軍，但劉備依舊不想讓關興前往，因為風險太大。</p>
@@ -94,7 +100,6 @@
 <p>劉備點頭道：“話雖如此但游擊隊的生存條件比安國在東吳的時候可強太多了，當年咱們忙著北伐，可沒為二弟和安國提供任何助力，但這一次，咱們絕不能置身事外。”</p>
 <p>說完劉備回到桌前翻箱倒櫃，折騰半天終於找到關興年前提交的，關於派人深入曹魏腹地建立根據地的奏摺，與諸葛亮再次閱讀分析準備完善。</p>
 <p>與此同時，關興邁著八字步趕到東宮，進門發現劉禪跟陳瑜聊的正歡，劉禪不知說了什麼竟惹得陳瑜哈哈大笑。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興見此忍不住對劉禪生出一絲欽佩，劉禪別的方面或許不行，但在待人接物方面卻有一種常人難以企及的親和力，跟誰都能聊到一起去的同時，還能讓人瞬間產生親近和信任。</p>
 <p>這事從夏侯霸降蜀就能看出來，歷史上夏侯霸為逃避司馬家的迫害逃到巴蜀，逃亡巴蜀前夏侯霸心裡也是有顧慮的，畢竟他爹是被蜀軍大將黃忠給砍的，鬼知道蜀國上下對他是個什麼態度？</p>
 <p>但是結果，夏侯霸入蜀之後劉禪三言兩語就打消了他的顧慮，將他變成了追隨姜維，死心塌地為蜀國效力的北伐大將，這拉攏人的本事比他老祖宗劉邦也不差。</p>
@@ -116,11 +121,9 @@
 <p>所以劉禪也跟著一起來了。</p>
 <p>五人騎馬很快趕到軍營，負責學員的教官蜀馬忠和特種隊校尉周山立刻出營迎接，小跑到五人面前躬身拜道：“臣馬忠（周山）拜見太子殿下，見過神策侯，見過……”</p>
 <p>劉禪伸手扶起兩人笑道：“進營吧，你們訓練這麼久也該拉出來溜溜了，所以神策侯給你們找了點活干，進營再說。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-673">
 <h2>第673章 手把手教導</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_673.html">原始页面</a></div>
 <p>營中目前有三千人，千名游擊隊學員，日常由蜀馬忠負責教導，兩千特種隊員，由校尉周山負責統領。</p>
 <p>之所以將他們放在一起是因為學員也屬於軍人，需要進行軍事訓練，同時因為深入敵後也需要特種作戰。</p>
 <p>五人進營一聲令下，三千大軍立即放下手頭事務跑到校場集結，集結效率異常迅速且過程井然有序，看的關興非常滿意。</p>
@@ -160,7 +163,6 @@
 </section>
 <section class="chapter" id="ch-674">
 <h2>第674章 生存之道</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_674.html">原始页面</a></div>
 <p>隨著劉禪關興等人的到來，軍營中的氣氛瞬間熱鬧了不少，將士們連幹活都更有勁了。</p>
 <p>畢竟來的是太子殿下和神策侯，這個時候若能在太子殿下面前混個臉熟，將來太子殿下登基之後，自己說不定也能水漲船高，雞犬升天啊。</p>
 <p>抱著這樣的想法，大夥對劉禪的到來是絕對持歡迎態度的。</p>
@@ -196,7 +198,6 @@
 </section>
 <section class="chapter" id="ch-675">
 <h2>第675章 關興授課</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_675.html">原始页面</a></div>
 <p>關興聽完都忍不住為孫狼點贊，不愧是積年老匪，逃命的經驗真特么豐富，豐富的自己都挑不出毛病。</p>
 <p>關興咳嗽一聲將眾人的視線拉到自己身上，然後問道：“孫狼的經驗總結起來就三條，首先遠離人群避開熟人眼線，防止被出賣，其次尋找食物，野味昆蟲樹皮草根，想盡一切辦法填飽肚子保持體力，最後辨別草藥自己療傷，你們還有沒有不同意見？”</p>
 <p>眾人集體沉默，他們可沒有孫狼的逃命經驗，無法提供這方面的意見。</p>
@@ -234,7 +235,6 @@
 </section>
 <section class="chapter" id="ch-676">
 <h2>第676章 無煙灶</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_676.html">原始页面</a></div>
 <p>見蜀馬忠沉默，關興繼續說道：“諸位記住，不管是虛張聲勢還是聲東擊西都是手段而非目的，咱們在敵後的核心目的是什麼，是謀生存求發展。”</p>
 <p>“所以任何時候都要記住，打鐵還需自身硬，自身實力才是硬道理，沒有實力貿然施展陰謀詭計很容易被敵人將計就計。”</p>
 <p>“而且因為咱們弱小，所以咱們的容錯率很低，失敗一次可能就命喪黃泉了，所以必須謹慎謹慎再謹慎，寧可失去機會也不能將自己置於險地。”</p>
@@ -273,7 +273,6 @@
 </section>
 <section class="chapter" id="ch-677">
 <h2>第677章 實戰演練</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_677.html">原始页面</a></div>
 <p>解散隊伍，關興轉身對劉禪笑道：“殿下，我們要出去拉練了，您是不是該回宮了？”</p>
 <p>劉禪當場急眼道：“我不回去，回去又要被父皇和相父逼著讀書了，打死我也不回去，再說了拉練這麼有意思的事情你怎麼能不帶我？”</p>
 <p>每個大漢男兒心中都有一個將軍夢，劉禪也是一樣，也曾夢想過像霍去病那樣率領大軍馳騁疆場征戰四方，但他知道自己幾斤幾兩，因此這事也就在心裡想想。</p>
@@ -322,7 +321,6 @@
 </section>
 <section class="chapter" id="ch-678">
 <h2>第678章 姜維上場</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_678.html">原始页面</a></div>
 <p>三屯長是真儘力了，畢竟對面兵力是他的八九倍，可以從容施展各種戰術，他卻只能疲於奔命，這仗沒法打。</p>
 <p>關興沒有責備而是鼓勵道：“你能堅持這麼多天已經很不錯了，但都堅持到這個地步了，放棄是不是有點太可惜了，確定不再掙扎一下了？”</p>
 <p>三屯長搖頭道：“卑職也想堅持，但實在是無能為力了，我認輸。”</p>
@@ -370,7 +368,6 @@
 </section>
 <section class="chapter" id="ch-679">
 <h2>第679章 拿土匪練手</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_679.html">原始页面</a></div>
 <p>姜維也是熟讀兵書之輩，自認領軍能力不輸任何一人，結果剛上場就落了個全軍覆沒，心裡多少有點憋屈，聞言苦笑道：“竟沒跑出去，到底哪裡出了問題？”</p>
 <p>劉禪用他那摸過腳丫子的手拍著姜維的肩膀笑道：“沒跑出去不是很正常嗎，你接手的時候身邊已不足百人，馬忠卻有好幾千人，兵力是你的數十倍，這要讓你跑出去了馬忠的臉往哪放？”</p>
 <p>“另外我雖沒怎麼看過兵書卻也知道打仗是個以多欺少，以強欺弱的遊戲，兵多的一方獲勝那不是應該的嗎，至於像官渡赤壁那樣以少勝多，翻遍古今能找出幾例啊？”</p>
@@ -413,7 +410,6 @@
 </section>
 <section class="chapter" id="ch-680">
 <h2>第680章 剿匪就這麼簡單</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_680.html">原始页面</a></div>
 <p>順利拿到指揮權的孫狼激動的哈喇子都快流出來了，卻強行抑制著仰天長嘯的衝動躬身拜道：“這次還請兄弟們多多配合，等回到江陵我請大家下館子。”</p>
 <p>不激動不行啊，要知道他出道以來扮演的一直都是被官兵圍剿的土匪角色，這還是首次以官兵身份去圍剿土匪的，想想都覺得刺激。</p>
 <p>土匪剛洗白上岸就拿昔日的土匪同行開刀，能不刺激嗎？</p>
@@ -447,9 +443,9 @@
 <p>酉齒愕然道：“什麼玩意，新任太守竟然跑來打我，他瘋了吧他，我還沒去找他呢他怎麼敢的？”</p>
 <p>外面的人哭道：“看他們的鎧甲武器不像是郡兵，倒像是朝廷的精銳大軍，首領沒時間了，快走啊。”</p>
 <p>“卧槽……”酉齒被朝廷精銳大軍幾個字給嚇住了，顧不得思索朝廷精銳為何會出現在這裡，連忙起身穿衣準備逃走，誰料腰帶還沒系好房門便被暴力踢開，一名身穿鎧甲的將領龍行虎步的走了進來，盯著酉齒厲聲呵斥道：“你就是馬兒嶺的匪寇首領酉齒？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-671">第671章 黑心資本家劉玄德</a></li><li><a href="#ch-672">第672章 老劉家的魅魔屬性</a></li><li><a href="#ch-673">第673章 手把手教導</a></li><li><a href="#ch-674">第674章 生存之道</a></li><li><a href="#ch-675">第675章 關興授課</a></li><li><a href="#ch-676">第676章 無煙灶</a></li><li><a href="#ch-677">第677章 實戰演練</a></li><li><a href="#ch-678">第678章 姜維上場</a></li><li><a href="#ch-679">第679章 拿土匪練手</a></li><li><a href="#ch-680">第680章 剿匪就這麼簡單</a></li></ul></aside>
+  </div>
 </body>
 </html>

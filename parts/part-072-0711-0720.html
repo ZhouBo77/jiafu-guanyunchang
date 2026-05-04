@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 711–720 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-071-0701-0710.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-073-0721-0730.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-711">第711章 潘濬鍊鋼</a></li><li><a href="#ch-712">第712章 馬超與薩珊家族的決戰</a></li><li><a href="#ch-713">第713章 意志力的碾壓</a></li><li><a href="#ch-714">第714章 大獲全勝</a></li><li><a href="#ch-715">第715章 分裂的安息才是好安息</a></li><li><a href="#ch-716">第716章 向劉備求助</a></li><li><a href="#ch-717">第717章 狗咬狗，一嘴毛</a></li><li><a href="#ch-718">第718章 暫時吃不下</a></li><li><a href="#ch-719">第719章 我打劫，你銷贓</a></li><li><a href="#ch-720">第720章 出賣與被出賣</a></li></ul>
 <section class="chapter" id="ch-711">
 <h2>第711章 潘濬鍊鋼</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_711.html">原始页面</a></div>
 <p>社會是一點點發展起來的，城池是一座座建立起來的。</p>
 <p>也就是說建城是個漫長的過程，不可能瞬間就遍地城池進入城鎮化。</p>
 <p>就拿大漢來說吧，大漢目前的城池數量不足後世明清的一半，人口超過百萬的城池更是一座都沒有。</p>
@@ -87,7 +94,6 @@
 </section>
 <section class="chapter" id="ch-712">
 <h2>第712章 馬超與薩珊家族的決戰</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_712.html">原始页面</a></div>
 <p>其實很多發明都是自然界早就存在的，因此並不算髮明頂多算髮現。</p>
 <p>無意中發現石油焦的潘濬像發現了新大陸，火速招人提鍊石油焦，再用石油焦鍊鋼打造兵器。</p>
 <p>而在生產過程中，隨著生產流程的熟練，生產工人又會逐漸改變生產工藝，技術流是這麼一點點的，跟蝸牛爬行似的緩慢前進的。</p>
@@ -131,11 +137,9 @@
 <p>見薩珊大軍弓箭手就位，漢軍跟在長槍兵後面的盾牌兵迅速衝到長槍兵前方組成盾陣助長槍兵防禦，頂住三波箭雨，付出一定代價之後，漢軍長槍兵終於殺到薩珊大軍前方，隨後捨棄刀盾兵，嗷嗷叫著沖向薩珊軍陣。</p>
 <p>阿爾達希爾見此急忙調兵阻擋，奈何漢軍長槍兵身後還有弓箭手呢，弓箭手終於逮住機會，舉弓抬頭，用拋射的方式將箭矢射向天空。</p>
 <p>隨著箭矢射出破空聲四起，無數箭矢形成箭雨，在半空中掀起刺耳的風嘯聲，無情的向薩珊家族大軍頭頂打去。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-713">
 <h2>第713章 意志力的碾壓</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_713.html">原始页面</a></div>
 <p>在數十萬人交戰的戰場上，弓箭手射箭根本不需要考慮精準，只要把箭射出去就贏了。</p>
 <p>因為數量太多了，數萬支箭矢同時划著拋物線落下，形成的箭雨密集的連陽光都能遮住，更別說其他了。</p>
 <p>在長槍兵與刀盾兵的拚死掩護下，馬家軍弓箭手終於進入射程並將箭矢射了出去。</p>
@@ -184,7 +188,6 @@
 </section>
 <section class="chapter" id="ch-714">
 <h2>第714章 大獲全勝</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_714.html">原始页面</a></div>
 <p>馬超率領兩萬尚未參戰，精氣神各方面都處在巔峰狀態的騎兵浩浩蕩蕩殺進敵陣。</p>
 <p>正在與敵軍交戰的漢軍見自家將軍殺來，果斷退後將戰場交給了馬超率領的騎兵，然後……</p>
 <p>雙方雖然混戰在一起，但服飾和膚色還是很好辨認的，根本不用擔心認錯人誤傷友軍。</p>
@@ -235,7 +238,6 @@
 </section>
 <section class="chapter" id="ch-715">
 <h2>第715章 分裂的安息才是好安息</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_715.html">原始页面</a></div>
 <p>跪著走過來？</p>
 <p>這未免太侮辱人了。</p>
 <p>阿爾達希爾聽的氣血上涌，恨不得立刻衝過去跟馬超拚命。</p>
@@ -287,7 +289,6 @@
 </section>
 <section class="chapter" id="ch-716">
 <h2>第716章 向劉備求助</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_716.html">原始页面</a></div>
 <p>馬超的智商雖不及劉備諸葛亮，但能成為一方諸侯，智商肯定是高過普通人的。</p>
 <p>只是他武力超群，習慣了以暴力解決問題，懶的動腦而已，久而久之就產生了以暴制暴的路徑依賴，對於動腦的事本能反感。</p>
 <p>潘濬卻是靠智商吃飯的，聞言解釋道：“統一安息的誘惑雖然很大，但根本沒有可操作性，安息太大了，山脈草原沙漠加起來比大漢還大，咱們根本不可能將觸手伸到每個角落，只能佔領重要城池，佔領城池雖好，但對咱們弊遠大於利。”</p>
@@ -331,7 +332,6 @@
 </section>
 <section class="chapter" id="ch-717">
 <h2>第717章 狗咬狗，一嘴毛</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_717.html">原始页面</a></div>
 <p>外交也是場戰役，目的是逼迫敵方答應自己的要求，包括合理要求與非合理要求。</p>
 <p>所以在談判之前，強勢方都會給弱勢方一個下馬威，藉此打擊對方氣勢，掌控談判的主動權。</p>
 <p>潘濬久在官場深諳此道，因此會議剛一結束便請屠林帶著安息使者魯道夫去參觀城外戰俘營了。</p>
@@ -385,7 +385,6 @@
 </section>
 <section class="chapter" id="ch-718">
 <h2>第718章 暫時吃不下</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_718.html">原始页面</a></div>
 <p>安息帝國疆域廣袤，境內山川湖海沙漠平原都有，但最肥沃的卻是兩河流域的美索不達米亞平原。</p>
 <p>那片平原是安息帝國最重要的產糧區，也是安息與大秦（羅馬）爭奪的地區，目前只剩一半在安息帝國手裡，剩下的被大秦搶了去。</p>
 <p>儘管如此，安息帝國依然富得流油，可惜富而不強，若沒馬超強行介入，估計用不了多久這片平原就歸薩珊家族了。</p>
@@ -407,7 +406,6 @@
 <p>阿爾達希爾也沒多待，第二天一早便被馬超踢到戰俘營，帶著數十萬戰俘滾回家族運糧去了。</p>
 <p>馬超將這些戰俘都還給阿爾達希爾了，因為留著沒用也養不起，與其留著還不如讓他們跟著阿爾達希爾回去給自己種糧呢。</p>
 <p>至於這些人回去之後會不會再次跟著阿爾達希爾來攻打自己，馬超根本不擔心，首先他的實力夠強，不怕這群人再來。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>其次這群人已經被漢軍殺破膽，對漢軍產生了強大的心理陰影，面對漢軍已經提不起對抗的勇氣了，一群被嚇破膽的廢物有什麼可怕的。</p>
 <p>最後他也沒打算在坦貝多待，薩珊家族與安息帝國的糧食到手就走人了，不擔心對方報復。</p>
 <p>所以這些俘虜對他既沒用處也沒威脅，放了也就放了，但沒有全放，而是挑選了數十名薩珊家族的文官留在身邊備用，準備通過這些人了解安息與大秦的地勢地形以及風土人情。</p>
@@ -433,7 +431,6 @@
 </section>
 <section class="chapter" id="ch-719">
 <h2>第719章 我打劫，你銷贓</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_719.html">原始页面</a></div>
 <p>春天到了，萬物開始復甦了，人也跟著躁動了。</p>
 <p>汝南郡。</p>
 <p>昆陽通往許都的官道上，百餘名土匪正趴在路邊的草叢中靜等獵物上門。</p>
@@ -486,7 +483,6 @@
 </section>
 <section class="chapter" id="ch-720">
 <h2>第720章 出賣與被出賣</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_720.html">原始页面</a></div>
 <p>跟周三皮又閑扯幾句，孫狼告辭離去，出了院子並未返回山寨，而是爬上不遠處的歪脖子樹偷偷觀察，想看看周三皮會不會立即離開？</p>
 <p>他跟周三皮雖是發小兼同夥，是曾經可以將後背交給對方的人，但那畢竟是曾經，現在周三皮什麼態度他真不敢保證，畢竟人心是善變的。</p>
 <p>況且他被魏軍逼去江南這麼久，周三皮竟然沒有受到絲毫影響，這就不得不令人懷疑了。</p>
@@ -533,9 +529,9 @@
 <p>為什麼這麼積極，不就是為了搶功嗎？</p>
 <p>四位縣令與林麻虎這位校尉邊走邊商量，尚未趕到指定地點便商量好了作戰方案，到達地點之後立刻布置埋伏靜等孫狼到來。</p>
 <p>這些趴在草叢中的伏擊大軍都抱著同一個想法，孫狼今晚不來則罷，只要敢來就絕對逃不掉。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-711">第711章 潘濬鍊鋼</a></li><li><a href="#ch-712">第712章 馬超與薩珊家族的決戰</a></li><li><a href="#ch-713">第713章 意志力的碾壓</a></li><li><a href="#ch-714">第714章 大獲全勝</a></li><li><a href="#ch-715">第715章 分裂的安息才是好安息</a></li><li><a href="#ch-716">第716章 向劉備求助</a></li><li><a href="#ch-717">第717章 狗咬狗，一嘴毛</a></li><li><a href="#ch-718">第718章 暫時吃不下</a></li><li><a href="#ch-719">第719章 我打劫，你銷贓</a></li><li><a href="#ch-720">第720章 出賣與被出賣</a></li></ul></aside>
+  </div>
 </body>
 </html>

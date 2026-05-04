@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 241–250 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-024-0231-0240.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-026-0251-0260.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-241">第241章 豐碩的勝利果實</a></li><li><a href="#ch-242">第242章 劉備對涼州的人事任命</a></li><li><a href="#ch-243">第243章 曹操：還給我剩了點？</a></li><li><a href="#ch-244">第244章 曹操對鄧艾的考教</a></li><li><a href="#ch-245">第245章 關興回到會稽</a></li><li><a href="#ch-246">第246章 忙碌的關興</a></li><li><a href="#ch-247">第247章 仇人見面，分外眼紅</a></li><li><a href="#ch-248">第248章 漢使VS漢使</a></li><li><a href="#ch-249">第249章 孫權：你倆到底是來幹啥的？</a></li><li><a href="#ch-250">第250章 糜芳：關羽怎麼還不死？</a></li></ul>
 <section class="chapter" id="ch-241">
 <h2>第241章 豐碩的勝利果實</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_241.html">原始页面</a></div>
 <p>咚咚咚……</p>
 <p>張飛的動作太粗暴，將張苞腦袋砸在地上不說，連半張臉都砸進了浸滿鮮血的泥地里，張苞被迫吞了好幾口血泥。</p>
 <p>好不容易抬起頭卻驚恐發現老爹依舊不罷休還準備繼續摁，張苞嚇的連忙喊道：“停停停，我叫還不行嗎？”</p>
@@ -82,7 +89,6 @@
 </section>
 <section class="chapter" id="ch-242">
 <h2>第242章 劉備對涼州的人事任命</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_242.html">原始页面</a></div>
 <p>兩軍交戰最重要的就是士氣，士氣又跟勝負脫不開關係，只要一直獲勝，士氣就會一直高漲。</p>
 <p>漢軍剛剛獲勝正是氣勢如虹的時候，因此聽諸葛亮說曹操可能攻打漢中非但沒有恐懼反而激動不已，紛紛請纓道：“區區曹賊不足為懼，他若敢來定叫他有來無回。”</p>
 <p>“沒錯，大王已在漢中，襄樊，隴西連勝曹賊三場，再勝一場也不是什麼難事，軍師你就說怎麼打吧。”</p>
@@ -105,7 +111,6 @@
 <p>重用王平還有個好處，可以讓尚未投降的魏軍將領看到劉備對魏軍將領的態度，從而讓他們在今後的戰鬥中不用顧忌安心投降。</p>
 <p>再說習珍，在孫權呂蒙背刺，荊州全失的情況下依舊忍辱負重伺機而動，這份忠心難能可貴，比糜芳傅士仁之流強太多了，不重用他重用誰？</p>
 <p>關平王平同時出列拜道：“喏。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>劉備繼續說道：“任命吳班為隴西太守，趙累為金城太守……”</p>
 <p>大軍即將撤回漢中開始下場大戰，臨走之前自然要做好善後事宜，最重要的事情肯定是涼州的人事任命，留守涼州的全是劉備的鐵杆心腹，不管忠心還是能力都毫無問題。</p>
 <p>有黃權關平等人在，將來就算魏軍大舉西征，這些人也足以堅持到自己派兵支援的那天。</p>
@@ -130,7 +135,6 @@
 </section>
 <section class="chapter" id="ch-243">
 <h2>第243章 曹操：還給我剩了點？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_243.html">原始页面</a></div>
 <p>洛陽通往長安的官道上，一支約兩萬人的大軍正打著曹字旗號艱難前進，大軍中央有駕五匹駿馬拉著的豪華馬車，車裡坐的正是魏王曹操。</p>
 <p>曹操的馬車豪華異常，裡面擺著床和桌案，又坐著好幾個人卻絲毫不顯的擁擠。</p>
 <p>目前坐在曹操身邊的有官復原職的鐘繇，有京兆杜氏家主，官拜司空司直的杜畿，有漢中之戰時犯錯被免，又官復原職的曹洪，還有一位灰發灰須的老頭，神醫華佗。</p>
@@ -183,7 +187,6 @@
 </section>
 <section class="chapter" id="ch-244">
 <h2>第244章 曹操對鄧艾的考教</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_244.html">原始页面</a></div>
 <p>曹操眼中閃過一抹震驚，不可思議的問道：“新野鄧艾，你是南陽鄧氏族人？”</p>
 <p>南陽鄧氏可是天下首屈一指的大族，始祖乃是劉秀雲台二十八將之首的高密侯鄧禹，鄧禹的孫女更是和帝劉肈的第二任皇后。</p>
 <p>這位鄧皇后可了不得，以女君之名親政長達十六年，是東漢六后臨朝的最賢者，也是兩漢太后第一人，評價甚至在呂后之上。</p>
@@ -249,7 +252,6 @@
 </section>
 <section class="chapter" id="ch-245">
 <h2>第245章 關興回到會稽</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_245.html">原始页面</a></div>
 <p>曹操與鄧艾口中的隴東就是大名鼎鼎的河套地區，黃河在流經安定北地兩郡時拐了好幾個彎，形成了一個幾字形，將兩郡之地套在了幾字形內，因此取名河套。</p>
 <p>河套地區水草豐美，自古便是漢人與草原胡人爭奪的戰略要地。</p>
 <p>可惜的是百年前發生羌亂，朝廷派兵征討非但沒有剿滅反而連戰連敗，導致河套地區徹底淪為了胡人的馬場。</p>
@@ -309,7 +311,6 @@
 </section>
 <section class="chapter" id="ch-246">
 <h2>第246章 忙碌的關興</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_246.html">原始页面</a></div>
 <p>順利回到會稽郡，看著謝沖紀傑等熟人，關興竟生出一種恍如隔世之感。</p>
 <p>他才離開幾天吶，再次回來竟變成已婚人士了。</p>
 <p>修身齊家治國平天下，家既是男人的軟肋也是男人的鎧甲，想到孫魯育的柔情，關興心裡默默發誓道：“江東是我的，誰也甭想從我手裡再搶走，誰也甭想破壞我的家庭。”</p>
@@ -358,7 +359,6 @@
 </section>
 <section class="chapter" id="ch-247">
 <h2>第247章 仇人見面，分外眼紅</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_247.html">原始页面</a></div>
 <p>關興跟著沈翊趕往大末城，來到城下抬頭一看驚訝發現，偌大的大末縣城竟變成了一座大工地，漢軍與降兵宛如兄弟般相互配合，數人一組在城下忙的熱火朝天。</p>
 <p>在他們的忙碌下，一座嶄新的城牆拔地而起，目前已經超過丈五高，估計再有半個月就能大體完工。</p>
 <p>沈翊看著自己親手打造的城牆滿臉得意的說道：“為讓降兵儘快融入軍中，我便將大軍與降兵打散糅合到了一起，剛開始雙方確實有些摩擦，現在卻好了很多。”</p>
@@ -412,7 +412,6 @@
 </section>
 <section class="chapter" id="ch-248">
 <h2>第248章 漢使VS漢使</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_248.html">原始页面</a></div>
 <p>使者出使他國都是帶著使命來的，要麼求和要麼結盟要麼下戰書，但費禕不同，他是奉劉備之命來看呂蒙笑話，以報呂蒙白衣渡江之仇的。</p>
 <p>但不知是他命不好還是呂蒙命太好，剛進江陵呂蒙就掛逑了，害的他笑話沒有看成，從而導致任務失敗。</p>
 <p>更悲催的是他只從劉備手中領到看呂蒙笑話這一個任務，所以呂蒙死後他就不知道幹什麼了，只能待在驛館蹭吃蹭喝。</p>
@@ -465,7 +464,6 @@
 </section>
 <section class="chapter" id="ch-249">
 <h2>第249章 孫權：你倆到底是來幹啥的？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_249.html">原始页面</a></div>
 <p>看著被隔開的兩位特使，孫權同樣生出擺座生死擂台，乾脆弄死一個算了的想法。</p>
 <p>他最近是真鬱悶，江東的壞消息是一件接著一件，竟沒有一件讓人順心的事情。</p>
 <p>最讓他不能接受的是朱治投關羽，朱治可是追隨孫堅討伐過董卓的老將，孫權出於信任才讓他擔任江東六郡之首的吳郡太守，結果這老傢伙在關羽面前一箭沒放就投了？</p>
@@ -525,7 +523,6 @@
 </section>
 <section class="chapter" id="ch-250">
 <h2>第250章 糜芳：關羽怎麼還不死？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_250.html">原始页面</a></div>
 <p>蔣濟聽出了孫權的敷衍，收起聖旨繼續笑道：“陛下下旨之前魏王特意奏請陛下，說吳侯身為荊州牧，都督荊揚交益四州諸軍事，有責任也有義務收復江東。”</p>
 <p>“魏王還說江東被關羽禍害的不輕，請吳侯收復江東之後勞心勞力加緊治理，儘快恢復江東的穩定與繁榮。”</p>
 <p>這話翻譯過來就是，江東是你孫權的，打敗關羽收回江東我們就撤了。</p>
@@ -579,9 +576,9 @@
 <p>這話說的真直接，直接的孫權那叫一個牙疼。</p>
 <p>其他人見張昭顧雍皆已表態，紛紛躬身拜道：“臣附議。”</p>
 <p>孫權滿意點頭道：“那就說說怎麼打吧。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-241">第241章 豐碩的勝利果實</a></li><li><a href="#ch-242">第242章 劉備對涼州的人事任命</a></li><li><a href="#ch-243">第243章 曹操：還給我剩了點？</a></li><li><a href="#ch-244">第244章 曹操對鄧艾的考教</a></li><li><a href="#ch-245">第245章 關興回到會稽</a></li><li><a href="#ch-246">第246章 忙碌的關興</a></li><li><a href="#ch-247">第247章 仇人見面，分外眼紅</a></li><li><a href="#ch-248">第248章 漢使VS漢使</a></li><li><a href="#ch-249">第249章 孫權：你倆到底是來幹啥的？</a></li><li><a href="#ch-250">第250章 糜芳：關羽怎麼還不死？</a></li></ul></aside>
+  </div>
 </body>
 </html>

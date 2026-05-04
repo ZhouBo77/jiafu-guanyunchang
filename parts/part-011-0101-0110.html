@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 101–110 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-010-0091-0100.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-012-0111-0120.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-101">第101章 給全琮一點小小震撼</a></li><li><a href="#ch-102">第102章 菜雞互啄，全琮被俘</a></li><li><a href="#ch-103">第103章 全琮：那是我的九族啊</a></li><li><a href="#ch-104">第104章 俘虜見面會</a></li><li><a href="#ch-105">第105章 多少帶點私人恩怨</a></li><li><a href="#ch-106">第106章 用著不放心，扔著不甘心</a></li><li><a href="#ch-107">第107章 又多數千張吃飯的嘴</a></li><li><a href="#ch-108">第108章 改造具有滯后性</a></li><li><a href="#ch-109">第109章 還願意當你女婿</a></li><li><a href="#ch-110">第110章 都是千年狐狸，誰也別玩聊齋</a></li></ul>
 <section class="chapter" id="ch-101">
 <h2>第101章 給全琮一點小小震撼</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_101.html">原始页面</a></div>
 <p>此戰所需的武器糧草都在大末存著，因此關興不需要帶什麼輜重，輕裝簡行一路狂奔就成。</p>
 <p>關興晚上出發，第三天早晨順利趕到大末，與駐守大末的沈翊交流一番就去休息，天黑繼續出發趕往於潛。</p>
 <p>大末到於潛三百餘里，關興晝伏夜出走了整整五天終於趕到於潛境內。</p>
@@ -86,7 +93,6 @@
 </section>
 <section class="chapter" id="ch-102">
 <h2>第102章 菜雞互啄，全琮被俘</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_102.html">原始页面</a></div>
 <p>見全琮朝自己殺來，關興樂了。</p>
 <p>這小子竟然沒跑，而是跟當日的張承一樣主動衝鋒，試圖穩住陣腳，為吳軍爭取時間包圍自己？</p>
 <p>那還有什麼好說的，拚命吧，只要拿下全琮，此戰就圓滿結束了。</p>
@@ -142,7 +148,6 @@
 </section>
 <section class="chapter" id="ch-103">
 <h2>第103章 全琮：那是我的九族啊</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_103.html">原始页面</a></div>
 <p>這是關興來到江東之後最驚險的一戰，差點就把自己給交代了。</p>
 <p>全琮雖不是什麼猛將，但他關興也不是啊，兩人半斤對八兩，打的那叫一個針尖對麥芒。</p>
 <p>鄧宏見關興近乎虛脫便沒再管，而是衝到吳軍的戰旗前一刀將旗杆砍斷，扯開嗓子吼道：“全琮已經被俘，爾等速速投降。”</p>
@@ -209,7 +214,6 @@
 </section>
 <section class="chapter" id="ch-104">
 <h2>第104章 俘虜見面會</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_104.html">原始页面</a></div>
 <p>關興急著吃瓜，進城之後沒有逗留，直奔周循諸葛恪的住處。</p>
 <p>兩人被安排在縣衙後院，除不能離開院子之外其他方面都很自由。</p>
 <p>關興推門進入院子，發現兩人正坐在樹蔭下下棋，旁邊還擺著茶壺和時令瓜果，過的那叫一個逍遙，真的是半點沒委屈自己。</p>
@@ -272,7 +276,6 @@
 </section>
 <section class="chapter" id="ch-105">
 <h2>第105章 多少帶點私人恩怨</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_105.html">原始页面</a></div>
 <p>通往諸暨的官道上，數萬大軍排成長龍緩慢前進，領軍的正是張承。</p>
 <p>迎風飄揚的張字旗下，張承騎著戰馬目視前方，眼中露出強烈的戰意和對即將雪恥的期待。</p>
 <p>這次他不會再輕視關興，所以沒有加快速度，而是緩慢前進，保持隊形和體力的同時靜等另外兩路的消息，爭取做到三路大軍齊頭並進，將關興徹底困死在烏傷城。</p>
@@ -323,11 +326,9 @@
 <p>說完抓著殘兵火速離開，張承則跟淳于式面對面相顧無言。</p>
 <p>天亮大軍繼續出發，這次張承加快了速度，沒等天黑便趕到了諸暨城外十里處。</p>
 <p>遠遠望著熟悉的諸暨城，張承的心情比上墳都沉重。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-106">
 <h2>第106章 用著不放心，扔著不甘心</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_106.html">原始页面</a></div>
 <p>張承命大軍安營紮寨，同時派斥候向前探查，自己卻站在營外，望著諸暨陷入沉思。</p>
 <p>諸暨城牆不高，城內漢軍也不會很多，看著輕鬆就能攻下，張承卻不敢貿然進攻。</p>
 <p>關興留給他的陰影太深，現在又輕鬆殲滅全琮與山越兩路大軍，讓他的合圍計劃胎死腹中，這種情況下張承哪敢妄動？</p>
@@ -388,7 +389,6 @@
 </section>
 <section class="chapter" id="ch-107">
 <h2>第107章 又多數千張吃飯的嘴</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_107.html">原始页面</a></div>
 <p>天亮吳軍繼續進攻，不過進攻前得先清理陷阱。</p>
 <p>昨天他們退走之後，該死的漢軍又把陷阱給布置上了。</p>
 <p>好在一夜時間太短，陷阱布置的不多，午時剛過就清理完了，張承沒再耽擱，直接下令進攻。</p>
@@ -444,7 +444,6 @@
 </section>
 <section class="chapter" id="ch-108">
 <h2>第108章 改造具有滯后性</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_108.html">原始页面</a></div>
 <p>吳軍雖然拿下諸暨，張承卻不敢繼續追擊。</p>
 <p>因為漢軍是主動撤離的，出城追擊的話很容易陷入上次那種他逃他追的窘境，說不定一不小心又追到歙縣去了。</p>
 <p>可原地待著也不是辦法，剡縣還在漢軍手裡呢，若待在諸暨不動，漢軍從剡縣殺出騷擾自己後方怎麼辦？</p>
@@ -505,11 +504,9 @@
 <p>嘆息聲尚未結束，凄厲的慘叫聲便傳入耳中，驚的眾俘虜臉色齊變同時扭頭查看。</p>
 <p>然後就看見一名同僚倒在地上抱著右腿哀嚎，他的腳面上赫然插著一根手指粗細的竹籤。</p>
 <p>眾俘虜急忙圍上，抬著受傷俘虜原路返回，邊跑邊說道：“快報給張承將軍，請軍醫過來診治。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-109">
 <h2>第109章 還願意當你女婿</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_109.html">原始页面</a></div>
 <p>張承接到消息不敢怠慢，立刻派出軍醫前去診治，並且好言安撫，讓俘虜們小心些，等清理完陷阱再前進。</p>
 <p>這批俘虜現在是大爺，張承可不敢惡語相向，只能好言勸說，請他們先幹活，同時祈禱關興快點過來將他們接走。</p>
 <p>他是一刻也不想跟俘虜們待了，提心又吊膽的。</p>
@@ -573,7 +570,6 @@
 </section>
 <section class="chapter" id="ch-110">
 <h2>第110章 都是千年狐狸，誰也別玩聊齋</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_110.html">原始页面</a></div>
 <p>面對關興的勸降，張承非但沒有生氣反而露出一絲奇異。</p>
 <p>他跟關氏父子也是打過交道的，知道關羽欽定的繼承人始終都是長子關平，而非眼前的關興。</p>
 <p>在所有人眼裡，關興就是一個被養廢了的紈絝，沒人拿他當過回事。</p>
@@ -599,7 +595,6 @@
 <p>他倆會面的場景被正在陷阱邊緣幹活的俘虜全程看在眼裡，俘虜們見關興轉身離去，竟不約而同的生出一種被拋棄的恐慌，在心裡默默祈禱道：“關將軍你別走，你回回頭啊，你把我們也帶回去啊。”</p>
 <p>可惜他們沒等來關興卻等到了張承，張承盯著他們打量片刻嘆息道：“都回去休息吧，換其他人來弄。”</p>
 <p>俘虜們歡呼離去，游勇卻跑過來詫異問道：“將軍，這是為何，陷阱不清理了嗎？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>張承苦笑道：“這群人什麼德行你也看到了，哪個像好好乾活的，指望他們清理陷阱下個月也清理不完。”</p>
 <p>“而且我嚴重懷疑關興約我的目的不是勸降和交換俘虜那麼簡單，比起跟我交換俘虜，他更願意把我抓住，去跟孫紹交換俘虜。”</p>
 <p>游勇臉色微變，蹙眉思忖道：“將軍的意思是關興有其他目的？”</p>
@@ -626,7 +621,8 @@
 <p>“至於佯攻山陰的偏師，讓王濤跟著去，一旦戰事不利立馬退回會稽山，有王濤這位山越少主在，偏師在山裡丟不了。”</p>
 <p>關興蹙眉道：“可以當做備用方案，先觀察兩天，看看張承的反應再說。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-101">第101章 給全琮一點小小震撼</a></li><li><a href="#ch-102">第102章 菜雞互啄，全琮被俘</a></li><li><a href="#ch-103">第103章 全琮：那是我的九族啊</a></li><li><a href="#ch-104">第104章 俘虜見面會</a></li><li><a href="#ch-105">第105章 多少帶點私人恩怨</a></li><li><a href="#ch-106">第106章 用著不放心，扔著不甘心</a></li><li><a href="#ch-107">第107章 又多數千張吃飯的嘴</a></li><li><a href="#ch-108">第108章 改造具有滯后性</a></li><li><a href="#ch-109">第109章 還願意當你女婿</a></li><li><a href="#ch-110">第110章 都是千年狐狸，誰也別玩聊齋</a></li></ul></aside>
+  </div>
 </body>
 </html>

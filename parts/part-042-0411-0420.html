@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 411–420 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-041-0401-0410.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-043-0421-0430.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-411">第411章 曹仁拍板，賈逵執行</a></li><li><a href="#ch-412">第412章 張京回歸，駱統降魏</a></li><li><a href="#ch-413">第413章 關羽的改變</a></li><li><a href="#ch-414">第414章 捷報震驚關羽</a></li><li><a href="#ch-415">第415章 關羽東望荊州</a></li><li><a href="#ch-416">第416章 關羽誓奪荊州</a></li><li><a href="#ch-417">第417章 關興又要干狠活？</a></li><li><a href="#ch-418">第418章 搏一搏，單車變摩托</a></li><li><a href="#ch-419">第419章 商人報復孫權的積極性</a></li><li><a href="#ch-420">第420章 關興被召回建業</a></li></ul>
 <section class="chapter" id="ch-411">
 <h2>第411章 曹仁拍板，賈逵執行</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_411.html">原始页面</a></div>
 <p>危機危機，危險與機遇永遠都是伴生關係，遭遇的危險越大，翻身的可能性就越高。</p>
 <p>前提是你得有敏銳的眼光和敢想敢幹的勇氣。</p>
 <p>這兩點賈逵恰好都具備，賈逵面對穩如老狗的關羽有種老虎吃天無從下口的無力，但將目光移到孫權身上之後卻驚訝發現一切豁然開朗，因為魏軍在孫權那邊能打的牌太多了。</p>
@@ -82,7 +89,6 @@
 </section>
 <section class="chapter" id="ch-412">
 <h2>第412章 張京回歸，駱統降魏</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_412.html">原始页面</a></div>
 <p>曹仁官拜車騎將軍，是名副其實的曹魏軍方第一人，拋開掌握的權力不談，單論身份地位的話與孫權平級，孫權是驃騎將軍。</p>
 <p>駱統卻只是個比校尉略微強點的建忠中郎將，換作平時在曹仁面前連座位都不配有，現在曹仁卻親自出寨迎接，讓他怎能不受寵若驚？</p>
 <p>好在駱統不是紈絝，更不是以為有個做御史大夫的繼父撐腰就不知道天高地厚的傻冒，見曹仁過來連忙躬身參拜道：“下官駱統見過車騎將軍。”</p>
@@ -125,11 +131,9 @@
 <p>“文遠，加派斥候打探關羽動向，防止關羽襲擊，再命大軍轉攻為守，陸續撤往陵陽黟縣，再命臧霸返回江北親自坐鎮濡須口，告訴臧霸，一定要守住濡須口，千萬別被關羽奪去。”</p>
 <p>濡須口是巢湖通往長江的入水口，是夾在濡須山和七寶山之間的河道，濡須口在手，魏軍水師就會從巢湖源源不斷的湧入長江，踏足長江南岸，濡須口失守，魏軍水師就會被堵在巢湖無法寸進。</p>
 <p>濡須口是連接南北的咽喉要道，誰控制了濡須口誰就掌握了進攻的主動權，因此曹仁雖已準備撤退，卻也不打算放棄好不容易奪下的濡須口。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-413">
 <h2>第413章 關羽的改變</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_413.html">原始页面</a></div>
 <p>世間之事最大的扯淡之處在於天意這狗東西永遠跟你反著來，有心栽花花不開，無心插柳柳成蔭乃是常態。</p>
 <p>陸遜做夢也不會想到，他向曹仁求援的舉動非但沒求來援軍，反而讓曹仁先關羽一步了解到了前線戰局，然後快速反應，做出了最有利於魏軍的決定。</p>
 <p>從這點上來看，曹仁說什麼也得給陸遜記上一功。</p>
@@ -186,7 +190,6 @@
 </section>
 <section class="chapter" id="ch-414">
 <h2>第414章 捷報震驚關羽</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_414.html">原始页面</a></div>
 <p>關羽聞言忙向周倉望了過去，眼中滿是期許。</p>
 <p>比起關興的安危，他更關心劉備那邊的戰局，畢竟兒子他有好幾個，大哥卻只有一個。</p>
 <p>周倉沒有回答而是當場解下腰帶脫掉褲子，在關羽王甫驚愕的注視下將褲子順著線頭撕開遞給關羽說道：“沿途的吳軍哨卡查的比較嚴，所以我將陛下的書信縫成了褲子。”</p>
@@ -240,7 +243,6 @@
 </section>
 <section class="chapter" id="ch-415">
 <h2>第415章 關羽東望荊州</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_415.html">原始页面</a></div>
 <p>舉孝廉重名望的時代，評價一個人的標準除官職高低之外，還要看他在民間的聲望以及士族中的影響。</p>
 <p>舉個最簡單的例子，襄樊之戰前孫權被朝廷承認的官職只是討虜將軍，會稽太守，連爵位都沒有，關羽卻是曹操以天子名義親封的漢壽亭侯，官職爵位都比孫權高出一大截，但你能說關羽的影響力比當時的孫權大嗎？</p>
 <p>孫權官職再小那也是江東之主，是擁兵數萬，可以直接左右天下局勢的一方諸侯啊。</p>
@@ -288,7 +290,6 @@
 </section>
 <section class="chapter" id="ch-416">
 <h2>第416章 關羽誓奪荊州</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_416.html">原始页面</a></div>
 <p>關羽跟孫權的梁子太深，導致孫權降劉的可能性無限接近於零。</p>
 <p>儘管如此關羽依舊不想接受孫權攜江陵而降曹魏的現實，弱弱說道：“也許可能大概……還是可以爭取一下的對吧？”</p>
 <p>王甫搖頭道：“就算孫權願意降劉但他麾下的臣屬呢，還有您麾下的叛徒呢，別忘了糜芳傅士仁還在江陵呢，此二賊雖不受孫權重視但別忘了他們手中有私兵吶。”</p>
@@ -339,7 +340,6 @@
 </section>
 <section class="chapter" id="ch-417">
 <h2>第417章 關興又要干狠活？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_417.html">原始页面</a></div>
 <p>時間就是生命，戰場上尤其如此，任何一剎那都可能決定生死，所以說兵貴神速，為跟敵人搶時間幾天幾夜不睡覺都是家常便飯。</p>
 <p>現在更是到了爭奪荊州的關鍵時刻，關羽跟王甫商議完畢便開始為進攻做準備，但世間之事的扯淡之處就在於事情要麼不來，要麼組團來。</p>
 <p>關羽從孫尚香步練師手中接過書信，派出信使送往荊州，又清點完糧草正準備出征，信使回報說陸遜諸葛瑾等俘虜被押回來了。</p>
@@ -363,7 +363,6 @@
 <p>否則容易陰溝裡翻船，變成敗走麥城的關羽啊。</p>
 <p>所以他在呂岱面前一直執晚輩禮，禮節方面非常到位。</p>
 <p>呂岱對他的態度很滿意，所以也沒倚老賣老，而是捋須思忖許久才說道：“陸大都督的建議沒錯，但有個前提，就是曹仁尚不知道吳軍被全殲的消息，或者說知道了也不會理會，而是依舊待在宛陵等你去攻，但少將軍覺得曹仁收到吳軍被全殲的消息之後還會待在宛陵不動嗎，或者說他還待的住嗎？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興瞳孔微縮陷入沉思，曹仁收到陸遜被俘的消息之後還會繼續待在宛陵跟關羽對峙嗎？</p>
 <p>用腳後跟想也知道不會啊，那麼問題來了，曹仁會怎麼做呢？</p>
 <p>呂岱不等關興詢問便繼續說道：“經此一戰少將軍名動天下，包括曹仁在內的所有人怕都已將你當成了在世霍去病，這種時候誰敢怠慢你？”</p>
@@ -390,7 +389,6 @@
 </section>
 <section class="chapter" id="ch-418">
 <h2>第418章 搏一搏，單車變摩托</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_418.html">原始页面</a></div>
 <p>什麼樣的將領帶什麼樣的兵，擅長冒險的關興帶出來的自然也是一群敢想敢幹的狠人。</p>
 <p>因此聽到關興的逆天言論之後沈翊非但沒有震驚，反而湊近幾分好奇問道：“詳細說說。”</p>
 <p>關興將他拉到床邊坐下，摟著他的脖子說道：“收復江陵最大難點不在曹仁在孫權，在他那幫臣屬，陸遜被俘的消息傳回之後，這群東吳臣屬肯定會分成降劉降曹兩派並且展開激烈爭奪，畢竟誰都想立功讓新主子高看一眼不是。”</p>
@@ -436,7 +434,6 @@
 </section>
 <section class="chapter" id="ch-419">
 <h2>第419章 商人報復孫權的積極性</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_419.html">原始页面</a></div>
 <p>事情只有做了才知道錯沒錯，路只有走了才知道能不能到。</p>
 <p>所以心動千萬次不如行動一次，年輕人想要出頭就得敢想敢幹敢拼。</p>
 <p>關興沈翊都是實幹派，計議商定立刻展開行動，天亮親自將呂岱戴良錢博等人送走，然後便從全軍之中挑選行動人員。</p>
@@ -490,11 +487,9 @@
 <p>周倉堅持道：“這是老將軍的死命令，你必須執行，我還要去向大王彙報情況，先告辭了。”</p>
 <p>關興望著周倉的背影悠悠嘆道：“老關這不沒事找事嗎，不管了繼續出發。”</p>
 <p>沈翊連忙勸道：“不行啊將軍，軍令如山，公然抗命的後果可是很嚴重的，您不回去沒問題，問題是今後我們有樣學樣，同樣不聽您的命令咋辦？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-420">
 <h2>第420章 關興被召回建業</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_420.html">原始页面</a></div>
 <p>關興確實可以無視關羽的命令，他既是關羽的親兒子又剛打了勝仗抗命能咋滴，關羽再生氣還能砍了他不成？</p>
 <p>話雖如此但別忘了他現在是軍人，軍令如山從來都不是一句空話，而是接到命令就必須嚴格執行的鐵律。</p>
 <p>否則真像沈翊說的，今天你抗命，明天我們跟風你咋整？</p>
@@ -546,7 +541,8 @@
 <p>況且荊州已經成了他的執念，當日既然是從他的手裡丟的，現在他自然想親手奪回來。</p>
 <p>聽到關羽要親自帶隊奇襲，關興王甫臉色同時大變，異口同聲的說道：“不行，絕對不行。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-411">第411章 曹仁拍板，賈逵執行</a></li><li><a href="#ch-412">第412章 張京回歸，駱統降魏</a></li><li><a href="#ch-413">第413章 關羽的改變</a></li><li><a href="#ch-414">第414章 捷報震驚關羽</a></li><li><a href="#ch-415">第415章 關羽東望荊州</a></li><li><a href="#ch-416">第416章 關羽誓奪荊州</a></li><li><a href="#ch-417">第417章 關興又要干狠活？</a></li><li><a href="#ch-418">第418章 搏一搏，單車變摩托</a></li><li><a href="#ch-419">第419章 商人報復孫權的積極性</a></li><li><a href="#ch-420">第420章 關興被召回建業</a></li></ul></aside>
+  </div>
 </body>
 </html>

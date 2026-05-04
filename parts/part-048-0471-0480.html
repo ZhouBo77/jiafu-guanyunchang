@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 471–480 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-047-0461-0470.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-049-0481-0490.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-471">第471章 荊州士族負荊請罪</a></li><li><a href="#ch-472">第472章 劉備的消息</a></li><li><a href="#ch-473">第473章 兵出東三郡</a></li><li><a href="#ch-474">第474章 凄慘的周倉，激動的劉備</a></li><li><a href="#ch-475">第475章 劉備的速度</a></li><li><a href="#ch-476">第476章 諸葛亮的分析</a></li><li><a href="#ch-477">第477章 曹操氣吐血了</a></li><li><a href="#ch-478">第478章 曹操開始交代後事了</a></li><li><a href="#ch-479">第479章 張苞：鄰居家孩子太可恨了</a></li><li><a href="#ch-480">第480章 劉備腸子都悔青了</a></li></ul>
 <section class="chapter" id="ch-471">
 <h2>第471章 荊州士族負荊請罪</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_471.html">原始页面</a></div>
 <p>魏軍是倉惶出逃的，負責帶隊的蔣濟又是個謀士型人才，既沒有于禁的威望也沒有于禁的治軍能力，倉促之間根本無法整合軍隊，只好不斷的催促魏軍加速，在他看來只要速度夠快，關興就追不上自己。</p>
 <p>這種想法導致的結果就是隊伍拉了好幾里長，後面的士兵無法看清前方的場景，只能跟著戰旗跑。</p>
 <p>若能一直跑下去也沒事，但當前路被堵的時候可就出事了，前方魏軍受到吳軍所驚愣在原地不知所措，後方士兵卻沒看到吳軍繼續往前沖，結果自然就撞到了隊友的背上，導致本就混亂的陣型更加混亂。</p>
@@ -79,7 +86,6 @@
 </section>
 <section class="chapter" id="ch-472">
 <h2>第472章 劉備的消息</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_472.html">原始页面</a></div>
 <p>敗走麥城到現在已有大半年，經過一系列苦戰，關興終於全殲吳軍打敗於禁收復江陵。</p>
 <p>但江陵的收復不是結束而是開始，目前曹仁還在皖贛走廊跟關羽對峙，徐晃還在沿著漢江猛攻西城試圖打進漢中，局勢依舊危機，還遠沒到可以高枕無憂的時候。</p>
 <p>所以關興必須一鼓作氣再接再厲，將魏軍徹底從漢江以南趕出去。</p>
@@ -125,7 +131,6 @@
 </section>
 <section class="chapter" id="ch-473">
 <h2>第473章 兵出東三郡</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_473.html">原始页面</a></div>
 <p>關興連忙鬆開雙手，輕撫著董恢的肩膀笑道：“不好意思沒注意，你千萬別介意。”</p>
 <p>安撫完董恢立即收起笑臉鄭重說道：“既是于禁的親兵統領從蔣濟于禁口中聽到的應該就不會錯了，諸位，全殲徐晃的機會來了。”</p>
 <p>“東三郡什麼地形大家都清楚，現在大王堵著西城，咱們若能奪回房陵上庸，與大王在西城會師的話定能將徐晃全殲在西城城下，這可是全殲徐晃大軍的最好機會，諸位有沒有興趣？”</p>
@@ -182,7 +187,6 @@
 </section>
 <section class="chapter" id="ch-474">
 <h2>第474章 凄慘的周倉，激動的劉備</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_474.html">原始页面</a></div>
 <p>底層人民在個人素質方面多少有點堪憂，出口成臟隨地吐痰都是家常便飯，織席販履出身的劉備也一樣，甭指望從他嘴裡聽到什麼好話。</p>
 <p>能力暫且不論，單從個人素質方面來說，劉備跟他的老祖宗劉邦那個老流氓還是挺像的。</p>
 <p>因此在聽到周倉回來的消息時當場爆粗道：“卧槽，你說啥？”</p>
@@ -232,7 +236,6 @@
 </section>
 <section class="chapter" id="ch-475">
 <h2>第475章 劉備的速度</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_475.html">原始页面</a></div>
 <p>劉備搶過劍柄按照周倉的教導用力的擰，試了幾圈悲催發現自己也不行，雙手顫抖的根本使不上力，只好扔給趙雲說道：“子龍你來。”</p>
 <p>趙雲試了幾下同樣沒擰開，周倉來的路上沒注意防護，導致介面的縫隙里滲入了許多水和雜質給綉住了，但趙云何許人也，見擰不開索性用力一掰將劍柄強行掰斷，然後就看到了被捲起來藏在劍柄中的紙卷。</p>
 <p>趙雲抽出巴掌長大拇指粗的紙卷遞給劉備，劉備連忙接過並說道：“都圍過來一起看。”</p>
@@ -282,11 +285,9 @@
 <p>諸葛亮握扇的手一頓心頭一緊，迫不及待的問道：“大王你怎麼回來了，可是出了什麼事情。”</p>
 <p>詢問的同時諸葛亮心底泛起一絲緊張，能讓劉備親自跑來的肯定是大事。</p>
 <p>劉備衝到諸葛亮身邊，將劍柄遞到他的面前喘著粗氣說道：“看看這個。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-476">
 <h2>第476章 諸葛亮的分析</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_476.html">原始页面</a></div>
 <p>劍柄被趙雲掰斷了，導致插在劍柄中的紙卷有一小部分露在了外面。</p>
 <p>諸葛亮接過劍柄抽出紙卷查看，沒等看完便猛的瞪大眼睛右手一松，羽扇無力的掉在了地上。</p>
 <p>諸葛亮卻恍若未覺繼續翻閱，看完最後一張雙腿一軟直接癱倒在地。</p>
@@ -337,7 +338,6 @@
 </section>
 <section class="chapter" id="ch-477">
 <h2>第477章 曹操氣吐血了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_477.html">原始页面</a></div>
 <p>送走諸葛亮之後，劉備便開始積極為出征做準備。</p>
 <p>但大軍出征可不是說走就走的旅程，需要準備的東西太多了，首先是糧草，劉備窮兵黷武持續征戰，導致糧草消耗太大，現在倉促間又要籌集一大批，需要從牙縫裡往出擠，需要精打細算將每一粒糧草都算清楚。</p>
 <p>其次是兵馬，目前劉備的兵馬都在各地抵禦魏軍進攻，要將兵馬抽調回來還要保證防線穩固不被魏軍突破，這可是個非常考驗技術的活。</p>
@@ -381,7 +381,6 @@
 </section>
 <section class="chapter" id="ch-478">
 <h2>第478章 曹操開始交代後事了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_478.html">原始页面</a></div>
 <p>生產力低下的年代，壯勞力的作用是無可替代的，種地需要壯勞力，打仗需要壯勞力，修橋鋪路搞運輸都需要壯勞力。</p>
 <p>但壯勞力就那麼多，要打仗就沒法種地，要種地就沒法打仗，畢竟壯勞力是人不是神仙，沒有分身術不可能既打仗又種地又搞建設。</p>
 <p>這就跟抱起磚頭無法抱你，放下磚頭無法養你一樣充滿了無奈。</p>
@@ -427,7 +426,6 @@
 </section>
 <section class="chapter" id="ch-479">
 <h2>第479章 張苞：鄰居家孩子太可恨了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_479.html">原始页面</a></div>
 <p>什麼？</p>
 <p>你說什麼？</p>
 <p>張飛全身一顫本能回頭，卻悲催發現身體跟埋了幾十年終於被挖出的殭屍似的，僵硬的動下手指都難。</p>
@@ -480,7 +478,6 @@
 </section>
 <section class="chapter" id="ch-480">
 <h2>第480章 劉備腸子都悔青了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_480.html">原始页面</a></div>
 <p>聽到劉封的彙報，劉備整個人都不好了，他好不容易集結大軍擺好姿勢，準備跟徐晃大幹一場了，結果你告訴我徐晃跑了？</p>
 <p>更無語的還是從子午道跑的？</p>
 <p>徐晃若是沿著上庸房陵撤回襄陽，他還可以率軍追擊，但從子午道撤了他就愛莫能助了，子午道那地形他可不敢追，也沒必要追。</p>
@@ -529,7 +526,8 @@
 <p>關興若是一流高手，那劉備張飛，趙雲陳到等人就是超一流高手，對於關興那點微末伎倆還真看不上。</p>
 <p>所以劉備才在知道關興親自沖陣時當場失態，該死的關安國，你以為你是你子龍叔啊。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-471">第471章 荊州士族負荊請罪</a></li><li><a href="#ch-472">第472章 劉備的消息</a></li><li><a href="#ch-473">第473章 兵出東三郡</a></li><li><a href="#ch-474">第474章 凄慘的周倉，激動的劉備</a></li><li><a href="#ch-475">第475章 劉備的速度</a></li><li><a href="#ch-476">第476章 諸葛亮的分析</a></li><li><a href="#ch-477">第477章 曹操氣吐血了</a></li><li><a href="#ch-478">第478章 曹操開始交代後事了</a></li><li><a href="#ch-479">第479章 張苞：鄰居家孩子太可恨了</a></li><li><a href="#ch-480">第480章 劉備腸子都悔青了</a></li></ul></aside>
+  </div>
 </body>
 </html>

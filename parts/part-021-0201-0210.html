@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 201–210 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-020-0191-0200.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-022-0211-0220.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-201">第201章 老實人耍陰招</a></li><li><a href="#ch-202">第202章 張飛夜襲郭淮</a></li><li><a href="#ch-203">第203章 張飛：老子也有騎兵了</a></li><li><a href="#ch-204">第204章 郝昭消失了？</a></li><li><a href="#ch-205">第205章 漢軍順利進入大震關</a></li><li><a href="#ch-206">第206章 郝昭阻擊，張飛破敵</a></li><li><a href="#ch-207">第207章 郝昭，你在等什麼？</a></li><li><a href="#ch-208">第208章 張飛進攻，郝昭防守</a></li><li><a href="#ch-209">第209章 郝昭邀請張飛單挑</a></li><li><a href="#ch-210">第210章 張飛兵臨街亭</a></li></ul>
 <section class="chapter" id="ch-201">
 <h2>第201章 老實人耍陰招</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_201.html">原始页面</a></div>
 <p>郭淮是兩天前趕到雍縣的，他原本打算在路上阻擊黃權，誰料趕到時黃權已經進城了，而且窩在城裡不出來了，這就讓他當場抓瞎了。</p>
 <p>要知道黃權麾下可是有上萬兵馬，又有城牆防護佔盡地利，自己卻只有四千騎兵，怎麼打？</p>
 <p>雍縣城牆雖只有三米高，但再低也是城牆啊，戰馬根本沖不過去好嘛。</p>
@@ -73,7 +80,6 @@
 </section>
 <section class="chapter" id="ch-202">
 <h2>第202章 張飛夜襲郭淮</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_202.html">原始页面</a></div>
 <p>黃權是個精明人，早在離開五丈原的時候就著手建立了一條臨時性情報系統，簡單點說就是命斥候呈網狀散布在郭淮周圍，時刻關注郭淮的位置，同時用最快的速度將消息傳回後方。</p>
 <p>因此前往岐山與偏師會合的張飛每隔兩刻鐘就能收到斥候傳回的郭淮信息，時時更新郭淮位置。</p>
 <p>深夜寅時四刻，也就是凌晨四點整，張飛順利出現在郭淮營外，將大軍藏在遠處，自己帶著兩名老兵悄悄摸到郭淮營地，發現營中人頭攢動戒備森嚴卻沒慌亂，而是繞路探查附近地形，整整折騰了兩刻鐘才回到軍中。</p>
@@ -119,7 +125,6 @@
 </section>
 <section class="chapter" id="ch-203">
 <h2>第203章 張飛：老子也有騎兵了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_203.html">原始页面</a></div>
 <p>騎兵比步兵速度快，比步兵衝擊力強，但步兵比騎兵靈活。</p>
 <p>黃權一波箭雨將魏軍射的人仰馬翻陣型散亂，然後不敢耽擱帶頭衝鋒，用最快的速度殺到魏軍面前。</p>
 <p>漢軍輕鬆繞開箱框樹榦等障礙物衝到魏軍陣中，然後不與魏軍硬拼，而是利用個子矮的優勢專砍馬腿，甚至拼著挨上魏軍一刀也要砍掉馬腿，馬腿砍了騎兵自然就廢了。</p>
@@ -177,7 +182,6 @@
 </section>
 <section class="chapter" id="ch-204">
 <h2>第204章 郝昭消失了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_204.html">原始页面</a></div>
 <p>意識到蜀軍可能奔襲大震關后費曜便開始準備，抽調了眉縣三分之二的兵力追擊蜀軍。</p>
 <p>昨天又收到郭淮書信，說大震關可能不保，讓他快速趕來截擊黃權，只要滅掉黃權率領的蜀軍主力，毀掉蜀軍的糧草補給，大震關丟了也無所謂。</p>
 <p>費曜覺得郭淮說的在理，而且蜀軍已被郭淮咬住不用顧忌，所以便帶兵亡命狂奔，準備儘快與郭淮會合阻擊黃權。</p>
@@ -229,7 +233,6 @@
 </section>
 <section class="chapter" id="ch-205">
 <h2>第205章 漢軍順利進入大震關</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_205.html">原始页面</a></div>
 <p>靠山吃山，靠海吃海。</p>
 <p>汧縣背靠秦嶺，很多百姓都靠打獵為生，常年奔波山中，對秦嶺的地形比對自家後花園都熟。</p>
 <p>因此郭淮輕鬆找到幾名嚮導，給予重金讓他們幫郝昭帶路，郝昭休息半夜，寅時剛到便被郭淮叫醒，率領大軍跟著嚮導進入秦嶺，準備繞過大震關進入隴山道，阻擊從大震關趕來的蜀軍。</p>
@@ -281,7 +284,6 @@
 </section>
 <section class="chapter" id="ch-206">
 <h2>第206章 郝昭阻擊，張飛破敵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_206.html">原始页面</a></div>
 <p>隴山道中。</p>
 <p>張飛率軍快速前進，趕路的同時還不忘派斥候探查前方道路以及道路兩側的山林，防止郝昭突然殺出襲擊他們。</p>
 <p>儘管做了防範，張飛依舊覺得不保險，喊來范疆問道：“你對隴山道了解多少？”</p>
@@ -323,7 +325,6 @@
 </section>
 <section class="chapter" id="ch-207">
 <h2>第207章 郝昭，你在等什麼？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_207.html">原始页面</a></div>
 <p>看著范疆離去的背影，張飛嘴角泛起了成竹在胸的笑容。</p>
 <p>這種翻山越嶺，繞路穿插的戰術若在江南，成功的可能性很小，但在江北成功概率卻很高。</p>
 <p>因為江南江北的山不一樣，江南的山尤其是巴蜀的山到處都是飛鳥難渡的懸崖峭壁，山體近乎垂直不說還非常的高，最矮的斷崖都在十米往上。</p>
@@ -377,7 +378,6 @@
 </section>
 <section class="chapter" id="ch-208">
 <h2>第208章 張飛進攻，郝昭防守</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_208.html">原始页面</a></div>
 <p>天黑了。</p>
 <p>張飛卻沒閑著，而是將大軍分為兩撥輪流值守休息，臨睡前特意叮囑值夜守軍，記得給還在燃燒的魏軍鹿角添柴，別讓火滅了。</p>
 <p>經過一晚上的燃燒，魏軍鹿角被燒的只剩一半不到，但該死的郝昭又拿出備用鹿角在陣前加了五排。</p>
@@ -433,7 +433,6 @@
 </section>
 <section class="chapter" id="ch-209">
 <h2>第209章 郝昭邀請張飛單挑</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_209.html">原始页面</a></div>
 <p>孤軍深入乃兵家大忌，一旦深入，時間就會變成最大的殺手，會一點點的磨死你。</p>
 <p>所以孤軍深入的大軍若無法及時完成任務，等待你的就只剩死路。</p>
 <p>郝昭清楚這點，所以他才選擇節節撤退層層阻擊，以空間換時間，藉此不斷消耗蜀軍的糧草和士氣。</p>
@@ -495,7 +494,6 @@
 </section>
 <section class="chapter" id="ch-210">
 <h2>第210章 張飛兵臨街亭</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_210.html">原始页面</a></div>
 <p>人這輩子只要想通了，天大的事都不是事了。</p>
 <p>郝昭此前是有些畏懼張飛的，畢竟張飛是能跟呂布大戰三百回合的男人，成名太早名氣又太大，連夏侯惇曹仁等人見了都怕，何況他郝昭啊。</p>
 <p>郝昭也怕張飛，但那特么是以前。</p>
@@ -548,9 +546,9 @@
 <p>張飛盯著嶄新的城牆和城內飄揚的魏軍戰旗看了幾眼，勒馬說道：“街亭有了防備，咱們已經沒有偷襲的機會，回去打造攻城器械準備強攻吧。”</p>
 <p>說完打馬就要回營，突然聽見右邊有人喊道：“張將軍，等一等。”</p>
 <p>張飛順著喊聲看去，只見五六名穿著魏軍服飾的士兵狼狽的爬出山林跑向自己，再一細看，跑在最前的像是自己的部將張達。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-201">第201章 老實人耍陰招</a></li><li><a href="#ch-202">第202章 張飛夜襲郭淮</a></li><li><a href="#ch-203">第203章 張飛：老子也有騎兵了</a></li><li><a href="#ch-204">第204章 郝昭消失了？</a></li><li><a href="#ch-205">第205章 漢軍順利進入大震關</a></li><li><a href="#ch-206">第206章 郝昭阻擊，張飛破敵</a></li><li><a href="#ch-207">第207章 郝昭，你在等什麼？</a></li><li><a href="#ch-208">第208章 張飛進攻，郝昭防守</a></li><li><a href="#ch-209">第209章 郝昭邀請張飛單挑</a></li><li><a href="#ch-210">第210章 張飛兵臨街亭</a></li></ul></aside>
+  </div>
 </body>
 </html>

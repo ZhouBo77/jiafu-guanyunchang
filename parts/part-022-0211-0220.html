@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 211–220 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-021-0201-0210.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-023-0221-0230.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-211">第211章 劉備初見姜維</a></li><li><a href="#ch-212">第212章 趙雲收姜維為徒</a></li><li><a href="#ch-213">第213章 馬超出山，重掌兵權</a></li><li><a href="#ch-214">第214章 諸葛亮掌控一切</a></li><li><a href="#ch-215">第215章 司馬懿要拚命？</a></li><li><a href="#ch-216">第216章 諸葛亮準備提前進攻</a></li><li><a href="#ch-217">第217章 埋葬魏軍的風水寶地</a></li><li><a href="#ch-218">第218章 萬事俱備，只等天黑</a></li><li><a href="#ch-219">第219章 決戰開始</a></li><li><a href="#ch-220">第220章 都不是傻子</a></li></ul>
 <section class="chapter" id="ch-211">
 <h2>第211章 劉備初見姜維</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_211.html">原始页面</a></div>
 <p>張達的出現讓張飛大喜，連忙勒住馬韁原地等候。</p>
 <p>北伐之時他將張達調給了兒子張苞，跟隨張苞去了隴西的張達突然出現在這裡只能說明一個問題，劉備已經趕到隴西並與諸葛亮會合了。</p>
 <p>否則諸葛亮不可能知道自己會來街亭，自然也不會派張達過來。</p>
@@ -88,7 +95,6 @@
 </section>
 <section class="chapter" id="ch-212">
 <h2>第212章 趙雲收姜維為徒</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_212.html">原始页面</a></div>
 <p>天下戰亂數十年，劉家的宗室親王都快死絕了。</p>
 <p>目前除皇帝劉協那幾個雖然獲封卻被曹操囚禁的倒霉兒子之外，剩下的王就兩個，魏王曹操和漢中王劉備。</p>
 <p>劉備早已不是當年那個織席販履的草莽，而是蛻變成了雄踞揚益兩州之地，擁兵十數萬的諸侯王，是金字塔最頂尖的存在。</p>
@@ -115,7 +121,6 @@
 <p>這話聽在姜維耳中宛如天籟，腦子暈乎乎的好像靈魂都要出竅了，顧不得多想立刻跪地磕頭道：“徒兒拜見師父。”</p>
 <p>劉備滿意的捋須道：“你們師徒回頭再敘舊，先帶我去見軍師，寡人有重要軍情要跟軍師商議。”</p>
 <p>張苞連忙說道：“我來帶路，伯約你立刻去通知軍師。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>姜維起身一拜，上馬迅速向大營跑去，張苞則不自覺的跳上趙雲戰馬跟他共乘一騎，帶著劉備等人往大營趕去。</p>
 <p>張苞的作用不是帶路而是刷臉，有他在沿途的巡邏兵不會阻攔。</p>
 <p>帶著劉備進入大營沒多久，就見諸葛亮帶著關平趙累等將領迎面趕來。</p>
@@ -145,7 +150,6 @@
 </section>
 <section class="chapter" id="ch-213">
 <h2>第213章 馬超出山，重掌兵權</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_213.html">原始页面</a></div>
 <p>劉備睡了整整兩天才醒，醒來臉都沒洗便去找諸葛亮詢問情況。</p>
 <p>他是信任諸葛亮，但信任不代表真的屁事不管安心當甩手掌柜。</p>
 <p>要知道這可是季漢最重要的一次北伐，寄託著匡扶漢室的所有希望，若是戰敗，他這輩子可能就再也出不了川了。</p>
@@ -192,11 +196,9 @@
 <p>劉備說道：“時間緊迫寡人就不留你了，你收拾一下儘快出發吧。”</p>
 <p>馬超再拜道：“請大王和軍師放心，臣一定搶在張郃之前拿下金城，堵死張郃西逃之路。”</p>
 <p>具體怎麼做劉備沒說馬超也沒問，因為馬超除驃騎將軍外還兼任著涼州牧，也就是涼州的軍政要務理論上皆歸馬超管。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-214">
 <h2>第214章 諸葛亮掌控一切</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_214.html">原始页面</a></div>
 <p>送走馬超，劉備原地轉身再次看向地圖，盯著地圖上的敵我態勢說道：“如今我軍主力在正面與魏軍對峙，習珍習宏坐鎮上邽堵住陳倉狹道，斷了張郃由渭水撤往陳倉的念頭，程畿馮習又佔領彰縣襄武獂道一線，阻斷了張郃與隴西太守游楚的聯繫，張郃等於已經被你半包圍了。”</p>
 <p>“現在馬超又去了金城，三弟若再如期趕到街亭，咱們針對張郃的包圍圈可就徹底形成了。”</p>
 <p>說到這裡縱然以劉備的心性也忍不住一陣激動，包圍五萬精銳魏軍，這在此前可是想都不敢想的事情啊。</p>
@@ -241,11 +243,9 @@
 <p>劉備嘆道：“是啊，三弟的糧草太少堅持不了多久，那現在怎麼辦？”</p>
 <p>諸葛亮說道：“繼續喊話打擊魏軍士氣，等待馬超到位和張達回歸，同時做好防範防止魏軍突襲或者進攻，等張達回來，再根據三將軍的情況決定發起總攻還是繼續對峙。”</p>
 <p>在收到張飛的確切消息之前，他們只能如此。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-215">
 <h2>第215章 司馬懿要拚命？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_215.html">原始页面</a></div>
 <p>“對面的曹賊魏狗們，張飛將軍已經殺到街亭，切斷了你們退路，你們有家回不去啦。”</p>
 <p>“你們馬上就要死在隴西了，想想你們的父母，想想你們的媳婦你們的娃，你們若都死了，媳婦就要陪別的男人睡了，孩子就要管別的男人叫爹了。”</p>
 <p>“所以快跑吧，現在回家還來得及啊，等張飛將軍殺到街亭可就真回不去啦。”</p>
@@ -301,7 +301,6 @@
 </section>
 <section class="chapter" id="ch-216">
 <h2>第216章 諸葛亮準備提前進攻</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_216.html">原始页面</a></div>
 <p>人生除死無大事。</p>
 <p>當你走投無路感到絕望的時候，請別忘了你還有一條死路。</p>
 <p>司馬懿現在就是這樣的心態，既然該死的大耳賊和諸葛村夫不讓他們好過，那就索性拼了。</p>
@@ -346,7 +345,6 @@
 </section>
 <section class="chapter" id="ch-217">
 <h2>第217章 埋葬魏軍的風水寶地</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_217.html">原始页面</a></div>
 <p>永遠不要對包括隊友在內的任何人抱太大期望，因為很多時候都是期望越高失望越大的。</p>
 <p>相反，若把期待降低，每次意外就都會成為驚喜。</p>
 <p>張飛最理想的狀態自然是順利攻破街亭，在漢軍與魏軍決戰的關鍵時刻插進魏軍後背，給魏軍致命一擊。</p>
@@ -398,7 +396,6 @@
 </section>
 <section class="chapter" id="ch-218">
 <h2>第218章 萬事俱備，只等天黑</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_218.html">原始页面</a></div>
 <p>趙雲重新站回原位。</p>
 <p>諸葛亮繼續說道：“諸位請看，咱們目前對魏軍有兩大優勢，首先是三將軍進入隴山道，將上萬魏軍引去街亭防守，此舉分走了魏軍兩成兵力，讓咱們的壓力大大降低。”</p>
 <p>“其次冀縣到街亭一百八十里，而且沿途道路崎嶇很難通行，這就等於是將冀縣魏軍和街亭魏軍一分為二，給了咱們逐個擊破的機會。”</p>
@@ -443,7 +440,6 @@
 </section>
 <section class="chapter" id="ch-219">
 <h2>第219章 決戰開始</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_219.html">原始页面</a></div>
 <p>諸葛亮解釋道：“獅子搏兔尚用全力，咱們面對的又是張郃司馬懿率領的魏軍精銳，肯定是要全力以赴的。”</p>
 <p>“至於隴西郡的游楚，臣以為不用太擔心，首先游楚若是參戰無非兩個選擇，要麼攻打鹵城斷我們後路，要麼北上加入戰團，鹵城有陳式將軍鎮守完全不用擔心。”</p>
 <p>“其次游楚在狄道，離天水接近五百里，咱們天黑就開打了，等游楚趕來估計都打完了。”</p>
@@ -490,7 +486,6 @@
 </section>
 <section class="chapter" id="ch-220">
 <h2>第220章 都不是傻子</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_220.html">原始页面</a></div>
 <p>時間緊迫趙雲不敢耽擱，跟姜維簡單了解了下附近地形便帶著白毦兵悄悄向魏軍哨所摸去。</p>
 <p>哨所魏兵像得到了命令，都後半夜了依然沒有休息，全都堅守崗位嚴陣以待。</p>
 <p>但這麼點人對趙雲率領的白毦兵可造不成威脅，趙雲僅用半刻鐘便輕鬆拿下哨所，自身幾乎零傷亡。</p>
@@ -545,7 +540,8 @@
 <p>趙雲對諸葛亮有著迷一樣的自信，聞言笑道：“放心吧，軍師若連這點伎倆都看不穿就不配做軍師了，咱們做好自己的事，不用管其他，對了王將軍，你來之前軍師有沒有其他交代？”</p>
 <p>王平猛拍腦門罵道：“瞧我這記性，臨行前軍師托我給您帶了一個錦囊，說遇到變故的時候可以打開。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-211">第211章 劉備初見姜維</a></li><li><a href="#ch-212">第212章 趙雲收姜維為徒</a></li><li><a href="#ch-213">第213章 馬超出山，重掌兵權</a></li><li><a href="#ch-214">第214章 諸葛亮掌控一切</a></li><li><a href="#ch-215">第215章 司馬懿要拚命？</a></li><li><a href="#ch-216">第216章 諸葛亮準備提前進攻</a></li><li><a href="#ch-217">第217章 埋葬魏軍的風水寶地</a></li><li><a href="#ch-218">第218章 萬事俱備，只等天黑</a></li><li><a href="#ch-219">第219章 決戰開始</a></li><li><a href="#ch-220">第220章 都不是傻子</a></li></ul></aside>
+  </div>
 </body>
 </html>

@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 871–880 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-087-0861-0870.html">上一页</a> · <a href="../index.html">目录</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-871">第871章 傳國玉璽的魅力</a></li><li><a href="#ch-872">第872章 劉備心裡憋屈</a></li><li><a href="#ch-873">第873章 曹叡入京覲見</a></li><li><a href="#ch-874">第874章 劉協是個好演員</a></li><li><a href="#ch-875">第875章 曠世醫書</a></li><li><a href="#ch-876">第876章 劉備回鄉</a></li><li><a href="#ch-877">第877章 未來五年，全員躺平</a></li><li><a href="#ch-878">第878章 六十年一揮間</a></li><li><a href="#ch-879">第879章 連鎖反應</a></li><li><a href="#ch-880">第880章 新的時代</a></li></ul>
 <section class="chapter" id="ch-871">
 <h2>第871章 傳國玉璽的魅力</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_871.html">原始页面</a></div>
 <p>第871章 傳國玉璽的魅力</p>
 <p>隨著劉備宣字出口，文武百官齊齊轉身望向殿門。</p>
 <p>在所有人的注視下，齊王曹植抱著裝有傳國玉璽的木盒，帶著徐庶劉駿走進大殿，來到台階三步外的位置站定，然後屈膝跪地，將木盒雙手舉過頭頂高聲喊道：“外臣大魏齊王曹植奉大魏皇帝陛下之命，特向大漢皇帝陛下獻上傳國玉璽，請求大漢皇帝冊封。”</p>
@@ -81,7 +88,6 @@
 </section>
 <section class="chapter" id="ch-872">
 <h2>第872章 劉備心裡憋屈</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_872.html">原始页面</a></div>
 <p>曹叡投降了，接受劉備冊封了，剩下的就是交接的事了。</p>
 <p>但交接可不是件容易的事，畢竟這次交接的是整個中原，是冀幽青並兗豫徐七州之地，各地衙門的尋常交接都要忙好幾天，更別說七州數十郡上千萬軍民了。</p>
 <p>所以三年既是劉備給曹叡的出發時間，也是給自己的準備時間，三年時間能完成這場和平交接都算快的。</p>
@@ -131,11 +137,9 @@
 <p>劉備言不由衷的說道：“挺好，有事干就好。”</p>
 <p>提起這事劉備心裡特別的憋屈，當年曹純率領虎豹騎將他打的跟孫子似的連老婆孩子都丟了，現在他非但沒法報仇，還得替曹純養兒子，這叫什麼事你說。</p>
 <p>還有天理嗎，還有王法嗎，太特么欺負人了！</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-873">
 <h2>第873章 曹叡入京覲見</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_873.html">原始页面</a></div>
 <p>第873章 曹叡入京覲見</p>
 <p>在得到劉備與關羽的保證之後，曹彰興高采烈的跟著曹植曹休夏侯尚回鄴城了。</p>
 <p>因為遷往新州有接近半年的冰封期，所以曹魏這邊根本不敢耽擱，曹植快馬加鞭趕回鄴城彙報。</p>
@@ -181,7 +185,6 @@
 </section>
 <section class="chapter" id="ch-874">
 <h2>第874章 劉協是個好演員</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_874.html">原始页面</a></div>
 <p>第874章 劉協是個好演員</p>
 <p>隨著曹叡入京，漢魏雙方順利完成溝通，許多事情終於提上日程。</p>
 <p>首先是關羽接收洛陽，關羽率領兩萬大軍從藍田出發，經武關道趕往南四關跟負責四關防線的沈翊會合，再北上接收洛陽城，經過南陽的時候還順手將南陽太守程禮帶了過去。</p>
@@ -206,7 +209,6 @@
 <p>因為劉協知道孫權既是國公位極人臣，又是劉備的潛在對手，對劉備的忠心為零，換句話說孫權是絕對不會頂著罵名為劉備干臟活的。</p>
 <p>很多時候，從領導的用人上就能看出領導的態度，劉協被老丈人曹操調教了幾十年，這點政治覺悟還是有的，所以不用擔心什麼，安心走流程就好。</p>
 <p>孫權同樣只想走流程，聞言苦口婆心的勸道：“山陽公切勿如此，陛下聖旨不可違抗，還是請山陽公儘快啟程入京吧。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>劉協果斷拒絕道：“天子有德者居之，臣才淺德薄不敢竊居大位，請陛下為天下蒼生計繼續主掌社稷神器，還天下百姓以太平。”</p>
 <p>孫權繼續勸道：“山陽公言重了，陛下是真心邀請山陽公回京複位，還請山陽公儘快啟程，莫要為難老臣。”</p>
 <p>劉協提高聲音吼道：“此事臣絕不敢奉詔，齊國公若再相逼，臣唯有以死明志了。”</p>
@@ -235,7 +237,6 @@
 </section>
 <section class="chapter" id="ch-875">
 <h2>第875章 曠世醫書</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_875.html">原始页面</a></div>
 <p>第875章 曠世醫書</p>
 <p>解決了與劉備之間的君臣關係問題，劉協夫妻再次回到了曾經居住過的洛陽城。</p>
 <p>這次迎接他的是關羽，得知劉協到來，關羽率領洛陽所有官員出城十里相迎，對劉協夫妻依舊行人臣之禮。</p>
@@ -278,7 +279,6 @@
 </section>
 <section class="chapter" id="ch-876">
 <h2>第876章 劉備回鄉</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_876.html">原始页面</a></div>
 <p>曹叡接受劉備冊封之後，漢魏便正式達成了和平交接的協議，並且開始快速向前推進。</p>
 <p>協議這種東西能否順利執行下去主要看兩點，首先要看協議雙方的實力是否平衡，實力相當的時候誰都不敢輕易毀諾，但若天秤失衡，協議對實力強的那方就是想撕就撕的手紙了。</p>
 <p>現在漢魏雙方的實力明顯是失衡的，既然失衡，實力弱的曹叡自然就不敢輕易違背，給劉備出兵的口實。</p>
@@ -336,7 +336,6 @@
 </section>
 <section class="chapter" id="ch-877">
 <h2>第877章 未來五年，全員躺平</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_877.html">原始页面</a></div>
 <p>不管什麼時候，孩子做出成績后首先找到的就是跟父母炫耀，讓父母為自己感到驕傲。</p>
 <p>劉備依然也一樣，可惜他成長的太慢了，發家的也太晚了，等做出成績的時候父母早就不在了，現在連他都已垂垂老矣，更別說父母了。</p>
 <p>想到小時候父親早逝，母親帶著他織席販履相依為命的日子，劉備忍不住老淚縱橫，雖有千言萬語，喉嚨卻像被堵住了似的一句話也說不出來。</p>
@@ -374,7 +373,6 @@
 </section>
 <section class="chapter" id="ch-878">
 <h2>第878章 六十年一揮間</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_878.html">原始页面</a></div>
 <p>第878章 六十年一揮間</p>
 <p>“繁華落盡歲月老，回首山河已半生，時間真的好不經用，不知不覺大漢便已統一六十餘年了。”</p>
 <p>朐縣（連雲港）通往長安的火車上，已經八十有三，老態龍鐘的關興趴在窗前望著窗外的金色麥田滿臉感嘆。</p>
@@ -411,7 +409,6 @@
 </section>
 <section class="chapter" id="ch-879">
 <h2>第879章 連鎖反應</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_879.html">原始页面</a></div>
 <p>時間是最無情的東西，六十年時間足以改變許多事，尤其是對外無強敵內無矛盾，皇權又高度集中，所有人勁往一處使的龐大帝國來說。</p>
 <p>六十年來在關興的強勢執政下，邊境異族被遷入內陸打散定居，中原漢人被遷往邊境戍邊，導致邊境各地的漢族比例全都超過百分之九十五，再加上沿著邊境分封的那些諸侯國不斷增加人口，等於是在大漢邊境築起了一堵諸侯圍牆。</p>
 <p>且這堵諸侯圍牆還在不斷的向外擴張，既然擴張就勢必要擠壓域外蠻夷的生存空間，長此以往漢人越來越多，蠻夷越來越少，遲早有一天，安息帝國與羅馬帝國的百姓都得被擠到海里餵魚去。</p>
@@ -460,7 +457,6 @@
 </section>
 <section class="chapter" id="ch-880">
 <h2>第880章 新的時代</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_880.html">原始页面</a></div>
 <p>時間是個很神奇的東西，往前走的時候覺得很慢，往回看時卻發現幾十年好像一瞬間。</p>
 <p>關興坐在窗前回望自己一生，忍不住唏噓道：“這繁華世間真是讓人留戀吶，可惜沒機會了。”</p>
 <p>劉禪跟著附和道：“誰說不是呢，安國，你說我若像這些年流行的話本小說那樣，一覺醒來發現自己穿越成了秦二世，能玩過楚霸王和我老祖宗不？”</p>
@@ -507,7 +503,8 @@
 <p>歲月不饒人，他也已經五十七了，真沒多少時間了。</p>
 <p>（全書完）</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-871">第871章 傳國玉璽的魅力</a></li><li><a href="#ch-872">第872章 劉備心裡憋屈</a></li><li><a href="#ch-873">第873章 曹叡入京覲見</a></li><li><a href="#ch-874">第874章 劉協是個好演員</a></li><li><a href="#ch-875">第875章 曠世醫書</a></li><li><a href="#ch-876">第876章 劉備回鄉</a></li><li><a href="#ch-877">第877章 未來五年，全員躺平</a></li><li><a href="#ch-878">第878章 六十年一揮間</a></li><li><a href="#ch-879">第879章 連鎖反應</a></li><li><a href="#ch-880">第880章 新的時代</a></li></ul></aside>
+  </div>
 </body>
 </html>

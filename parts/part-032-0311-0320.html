@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 311–320 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-031-0301-0310.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-033-0321-0330.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-311">第311章 一切盡在掌控中</a></li><li><a href="#ch-312">第312章 賀齊的目標</a></li><li><a href="#ch-313">第313章 你們被包圍了，舉手投降吧</a></li><li><a href="#ch-314">第314章 相互甩鍋，死道友不死貧道</a></li><li><a href="#ch-315">第315章 賀齊將軍，您被包圍了</a></li><li><a href="#ch-316">第316章 鄰居屯糧我屯槍</a></li><li><a href="#ch-317">第317章 賀齊，該你交代問題了</a></li><li><a href="#ch-318">第318章 賀齊要投降，駱統盯上鍊鋼廠</a></li><li><a href="#ch-319">第319章 駱統施展美人計</a></li><li><a href="#ch-320">第320章 副廠長：誰家美女跑我屋裡了？</a></li></ul>
 <section class="chapter" id="ch-311">
 <h2>第311章 一切盡在掌控中</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_311.html">原始页面</a></div>
 <p>做賊的都心虛，尤其是在壞事被撞破的時候。</p>
 <p>全風被王飛的話嚇的臉色慘白，雙腿更是抖如篩糠差點失禁。</p>
 <p>自己才剛出莊園啊，遠在百里之外的謝太守就收到消息並派人過來了？</p>
@@ -78,7 +85,6 @@
 </section>
 <section class="chapter" id="ch-312">
 <h2>第312章 賀齊的目標</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_312.html">原始页面</a></div>
 <p>為避免賀齊起疑，謝沖沒敢扣留名單原件，而是提筆謄抄了一份便讓全風將原件給賀齊送了過去。</p>
 <p>全風走後，謝沖拿著謄抄的名單興奮的笑出了豬叫聲。</p>
 <p>讀過書的都知道“事機不密，反受其累”的道理，結果虞邵可好，事還沒幹先弄份名單，這是嫌死的不夠快嗎？</p>
@@ -125,7 +131,6 @@
 </section>
 <section class="chapter" id="ch-313">
 <h2>第313章 你們被包圍了，舉手投降吧</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_313.html">原始页面</a></div>
 <p>離開太守府餘興立刻去尋找退伍的同袍戰友，不用出城城裡就有。</p>
 <p>山陰錢唐兩縣地盤太大，他不可能親自跑去挨個通知，只能找到城內戰友之後讓其化身信使前去聯絡其他人，聯絡到的人再化身信使，一傳十十傳百，不管是誰，只要接到消息立刻尋找能聯繫到的人，然後組團一起走。</p>
 <p>大家相互傳話根本不怕有人去給賀齊報信，更不怕某人被賀齊收買，理由很簡單，首先賀齊不知道漢軍退伍的消息不會注意到他們，其次退伍漢軍分的太散，賀齊就算想收買短時間內也不知道找誰。</p>
@@ -170,11 +175,9 @@
 <p>虞邵嘆息道：“願賭服輸老夫無話可說，但老夫想知道我怎麼輸的？”</p>
 <p>謝沖笑道：“這你怕就得問賀齊了，他剛進入餘杭我就知道了，後面你們的一舉一動都在本太守的掌控之中，算算時間，抓捕賀齊的人差不多也已經行動了，相信你們很快就能見面了。”</p>
 <p>“哦對了，有件事忘了告訴你們，大末那邊剛剛傳來捷報，說關將軍已經斬殺韓當徐盛，俘虜上萬吳軍，你們指望陸大都督收復會稽的期待怕是要落空嘍！”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-314">
 <h2>第314章 相互甩鍋，死道友不死貧道</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_314.html">原始页面</a></div>
 <p>什麼，韓當徐盛都戰死了？</p>
 <p>謝沖的話宛如晴天霹靂，驚的虞邵全尚等人全都愣在原地呆若木雞。</p>
 <p>愣了足有半刻鐘虞邵才驚呼道：“不可能，這不可能，韓老將軍可是隨文台公討伐過董卓的人，怎麼可能死於關興那個黃口小兒之手？”</p>
@@ -202,7 +205,6 @@
 <p>“本太守不接受你們任何條件，是投降還是繼續死戰給句痛快話。”</p>
 <p>話音剛落全尚便迫不及待的扔掉兵器跪地笑道：“我投降，謝太守，我叔全琮已經降漢了，咱現在是自己人，您高抬貴手大人大量……”</p>
 <p>你特么跪的也太絲滑了吧？</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>眾同黨紛紛向他投去鄙視的目光，卻沒出言呵斥而是選擇了跟隨，扔掉兵器跪倒在地。</p>
 <p>都這樣了還掙扎個啥，乖乖投降或許還能多活幾天，若是繼續頑抗怕就要血濺當場了。</p>
 <p>好死不如賴活著，能活誰又願意去死呢？</p>
@@ -232,7 +234,6 @@
 </section>
 <section class="chapter" id="ch-315">
 <h2>第315章 賀齊將軍，您被包圍了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_315.html">原始页面</a></div>
 <p>昨天接到謝沖命令之後，山陰錢唐兩縣的退伍漢軍紛紛趕往全家莊，在余剛王飛的引導下在全家莊東北方向十裡外的樹林集結。</p>
 <p>目前林中聚集的漢軍超過八百人，地位最高的是三位曲長，見時間差不多了，余剛來到三位曲長面前笑道：“幾位曲長，現在都快子時了馬上行動了，該選一位統領了，你們誰當？”</p>
 <p>三人立刻摩拳擦掌，相互敵視起來，這可是抓捕山陰賀氏家主，東吳安東將軍，山陰侯賀齊的行動，這一連串頭銜足以證明賀齊的身家，誰負責主導誰的功勞就最大。</p>
@@ -283,7 +284,6 @@
 </section>
 <section class="chapter" id="ch-316">
 <h2>第316章 鄰居屯糧我屯槍</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_316.html">原始页面</a></div>
 <p>比起辛苦造神，以凡人之軀屠神弒神，將神靈拉下神壇反而更讓人有成就感。</p>
 <p>牛肅現在就是這樣，看著近在咫尺的賀齊，揚起的嘴角壓都壓不住。</p>
 <p>要知道站在他面前的可是賀齊本人，是既有士族背景又有大漢官職，還有山陰侯爵位的真正權貴。</p>
@@ -308,7 +308,6 @@
 <p>在太守謝沖的運籌帷幄之下，昨晚的士族暴動並未產生太大影響，天亮之後城中迅速恢復了平靜。</p>
 <p>謝沖將名單上的士族成員全部送進特意打造的牢房之後便開始逐一審訊，主要詢問士族藏匿的財富。</p>
 <p>這麼做除想獲得士族隱匿財富之外還想徹底斬斷士族的財路。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>不管什麼時候，辦事都是要花錢的，士族想造反就得準備武器糧草乃至軍餉，沒有這些東西，誰特么跟你去干玩命的活啊？</p>
 <p>不管士族還是百姓，沒錢到哪都寸步難行。</p>
 <p>所以只要斷掉士族的財路，士族自然就沒能力再作亂了。</p>
@@ -336,7 +335,6 @@
 </section>
 <section class="chapter" id="ch-317">
 <h2>第317章 賀齊，該你交代問題了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_317.html">原始页面</a></div>
 <p>程禮答道：“是這樣的，當日您下令命糧倉布防的時候我剛好在諸暨，便順勢接過了糧倉的指揮權，結果昨晚糧倉真遭遇了襲擊，甚至糧倉內部也出現了叛徒。”</p>
 <p>謝沖臉色微變連忙問道：“情況如何，有沒有損失？”</p>
 <p>程禮搖頭道：“還好你提醒的早，我按照您的吩咐命守軍以什為單位集體行動，但有個曲長蠱惑了一屯士兵，準備在糧倉外部遭遇襲擊的時候從內部起兵，與敵軍裡應外合攻破糧倉院門，好在這位曲長麾下有名士兵不願同流合污，公然違反禁令被擒，然後便被帶到我面前檢舉了那位曲長。”</p>
@@ -395,7 +393,6 @@
 </section>
 <section class="chapter" id="ch-318">
 <h2>第318章 賀齊要投降，駱統盯上鍊鋼廠</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_318.html">原始页面</a></div>
 <p>進入太守府之後謝沖非但沒有為難賀齊，反而大擺筵席為他接風洗塵，甚至將虞邵全尚等人都請到席上給他助興。</p>
 <p>這群人再怎麼說也是跟賀齊戰鬥過的戰友，怎麼著也得讓人家見上一面互訴一下衷腸不是。</p>
 <p>等人到齊，謝沖敬了他們一杯便順勢站起，找了個人有三急的蹩腳借口拉著程禮離去。</p>
@@ -442,11 +439,9 @@
 <p>兩人在太守府門前告別，扯了幾句閑淡程禮上馬離開，剛剛出發的程禮還不知道，在他趕路的時候烏傷鍊鋼廠正發生著一件大事。</p>
 <p>因為另一位被陸遜派來執行秘密任務的建忠中郎將駱統經過多日跋涉，終於回到了自己的烏傷老家，準備綁架或者策反鍊鋼廠工匠，將其帶回江陵建立東吳自己的鍊鋼廠。</p>
 <p>此刻駱統正站在鍊鋼廠西南方向的山上，看著廠內那幾根比樓還高比水缸還粗的煙囪中冒出的滾滾濃煙問道：“誠叔，你那邊準備的怎麼樣了，美人找到了嗎，鍊鋼廠工匠的名單和背景都摸清了嗎？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-319">
 <h2>第319章 駱統施展美人計</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_319.html">原始页面</a></div>
 <p>駱統回來已經好幾天了，但是一直沒敢露面，而是藏在暗中為行動做準備。</p>
 <p>這次任務可不容易，想要完成得走好幾道程序，首先得聯繫族人或者本地其他士族，沒有士族配合，他一個光桿將軍屁都幹不了。</p>
 <p>但金衢盆地的士族已被關興折騰散架了，族人要麼被送去挖礦了，要麼轉入地下東躲西藏玩潛伏了，真心不好找。</p>
@@ -488,7 +483,6 @@
 </section>
 <section class="chapter" id="ch-320">
 <h2>第320章 副廠長：誰家美女跑我屋裡了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_320.html">原始页面</a></div>
 <p>副廠長王斌可不是寒門庶民，而是琅琊王氏的嫡系族人，妥妥的士族出身，祖上是秦滅六國的大將軍王翦。</p>
 <p>三十年前黃巾暴亂，琅琊郡內戰火連天，王斌的父親受到黃巾衝擊與族人失散，被逼無奈帶著王斌南渡避亂，藉此躲過黃巾亂兵的同時也躲過了曹操兩屠徐州。</p>
 <p>王斌出身琅琊王氏，按理來說以他的家世在江東就算做不了大官，做個縣令還是綽綽有餘的，但為何會屈居在縣尉紀傑麾下做這麼多年小吏呢？</p>
@@ -537,9 +531,9 @@
 <p>還有，你來之前不知道換下鞋子嗎，哪個跑了數百里的難民會穿著新鞋？</p>
 <p>王斌心中瘋狂吐槽，嘴上卻安慰道：“好了好了你別哭啊，那我等你喝完粥睡著再走吧。”</p>
 <p>“大哥你真好。”瑤瑤激動的拉著王斌坐到床邊，回到案前重新端起粥碗。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-311">第311章 一切盡在掌控中</a></li><li><a href="#ch-312">第312章 賀齊的目標</a></li><li><a href="#ch-313">第313章 你們被包圍了，舉手投降吧</a></li><li><a href="#ch-314">第314章 相互甩鍋，死道友不死貧道</a></li><li><a href="#ch-315">第315章 賀齊將軍，您被包圍了</a></li><li><a href="#ch-316">第316章 鄰居屯糧我屯槍</a></li><li><a href="#ch-317">第317章 賀齊，該你交代問題了</a></li><li><a href="#ch-318">第318章 賀齊要投降，駱統盯上鍊鋼廠</a></li><li><a href="#ch-319">第319章 駱統施展美人計</a></li><li><a href="#ch-320">第320章 副廠長：誰家美女跑我屋裡了？</a></li></ul></aside>
+  </div>
 </body>
 </html>

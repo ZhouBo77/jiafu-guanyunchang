@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 811–820 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-081-0801-0810.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-083-0821-0830.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-811">第811章 曹叡入京</a></li><li><a href="#ch-812">第812章 扶不上牆的曹植</a></li><li><a href="#ch-813">第813章 積極上進的曹叡</a></li><li><a href="#ch-814">第814章 劉備的不甘</a></li><li><a href="#ch-815">第815章 聲東擊西</a></li><li><a href="#ch-816">第816章 與曹叡交易</a></li><li><a href="#ch-817">第817章 對南陽士族的處置</a></li><li><a href="#ch-818">第818章 諸葛亮生擒夏侯尚</a></li><li><a href="#ch-819">第819章 全部打包發配</a></li><li><a href="#ch-820">第820章 魏延又發瘋了</a></li></ul>
 <section class="chapter" id="ch-811">
 <h2>第811章 曹叡入京</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_811.html">原始页面</a></div>
 <p>劉備焦躁的等了七天，第八天早晨便迫不及待的率領十五萬剛經歷過大戰，幾乎人人帶傷的大軍殺向洛陽。</p>
 <p>除這十五萬大軍之外，南四關那還有沈翊的三四萬大軍，加起來勉強湊夠二十萬人。</p>
 <p>兵力雖然不如新宛之戰的多，但比起眼下的魏軍也算綽綽有餘了。</p>
@@ -74,11 +81,9 @@
 <p>“另外雍州刺史滿寵滿使君和并州刺史梁習梁使郡手中還有不少兵馬，若是趕來從城外策應的話必能阻擋劉備。”</p>
 <p>“更重要的是前線剛剛遭遇慘敗人心浮動，殿下又尚未登基地位不穩，這種情況下唯有守住洛陽才能重振軍心，穩固殿下之位啊。”</p>
 <p>“臣淺薄之見請殿下明斷！”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-812">
 <h2>第812章 扶不上牆的曹植</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_812.html">原始页面</a></div>
 <p>聽完鄧艾的講述，曹叡忍不住蹙起了眉頭。</p>
 <p>鄧艾有句話打動了他，現在前線慘敗人心浮動，自己又尚未登基地位不穩，若是遷都鄴城極有可能失盡人心導致全線崩盤。</p>
 <p>太子和滿朝文武都跑了我們還堅守個屁啊，趕快投了得了。</p>
@@ -130,7 +135,6 @@
 </section>
 <section class="chapter" id="ch-813">
 <h2>第813章 積極上進的曹叡</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_813.html">原始页面</a></div>
 <p>曹叡是真想抽這個不爭氣的玩意，大魏都快亡國了還在酗酒，你還是不是曹家宗室啊？</p>
 <p>更可氣的是剛一見面就問候我母親，你特么還是我親叔嗎？</p>
 <p>雖然你跟我父母之間的那點破事天下皆知，但那都過去多少年了，老子都長大成人你還咬著不放呢？</p>
@@ -151,7 +155,6 @@
 <p>鄧艾答道：“殿下放心，接到南四關淪陷的消息之後，臣便派兵前往北邙山伐木採石，也是在那時鐘太傅下令從附近調來一批糧草，目前城內的糧草夠全城軍民使用三個月。”</p>
 <p>當日南四關淪陷的消息傳回洛陽引起了不小的騷動，但鍾繇華歆賈詡等曹魏重臣都是從戰亂年代過來的，並不會被這點變故給嚇住，因此冷靜之後便積極籌備，準備死守洛陽靜等曹丕回援，誰料物資準備好了曹丕卻沒回來，如此一來這批物資自然而然就便宜曹叡了。</p>
 <p>曹叡興奮道：“如此就太好了，劉備的糧草可未必堅持得了三個月。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>鄧艾卻蹙眉道：“不過有件事比較棘手，就是關興曾向中原撒了三千暗諜，這些暗諜肯定有不少混進洛陽且站穩了腳跟，校事府雖逮了幾人卻沒拿下口供，所以城內有多少暗諜，藏在什麼地方從事什麼職業都不得而知，臣怕守城之際這群人……”</p>
 <p>曹叡思忖道：“偽漢暗諜的事孤也聽說了，將這麼大批人留在城中確實是個隱患，而且咱們也沒有時間分辯，既然如此就效仿關羽守建業之事，將三年內進入洛陽城的百姓全部遷出去。”</p>
 <p>“只要是近三年進入洛陽的人，不管什麼身份什麼背景什麼職業，通通禮送出城，這群人在城內能飛天遁地，到了城外可就掀不起什麼大浪了，你說呢？”</p>
@@ -176,7 +179,6 @@
 </section>
 <section class="chapter" id="ch-814">
 <h2>第814章 劉備的不甘</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_814.html">原始页面</a></div>
 <p>南陽可是光武帝劉秀的祖籍，是大漢的帝鄉，當年光武帝都拿南陽沒辦法，劉備又能把南陽怎麼樣呢？</p>
 <p>曹叡問道：“你的意思是劉備在南陽的土改不會成功？”</p>
 <p>毌丘儉搖頭道：“以劉備的決心和諸葛亮關興的能力，土改一定會成功，但需要時間，劉備若等南陽土改完成之後再攻打洛陽的話可能真的有點難辦，但若劉備心急，想在土改的同時攻打洛陽，怕就有些不自量力了。”</p>
@@ -225,7 +227,6 @@
 </section>
 <section class="chapter" id="ch-815">
 <h2>第815章 聲東擊西</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_815.html">原始页面</a></div>
 <p>劉備是真不想回去，辛苦征戰數十年，終於打敗魏軍主力打進洛陽盆地，結果連洛陽城門都沒看到呢就讓我回去？</p>
 <p>那我不是白來了嗎？</p>
 <p>更重要的是若真回去，下次回來不知要等到什麼時候，他都這把年紀了哪裡等得起？</p>
@@ -273,7 +274,6 @@
 </section>
 <section class="chapter" id="ch-816">
 <h2>第816章 與曹叡交易</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_816.html">原始页面</a></div>
 <p>攻城戰很快便打了七天，整整七天曹叡都沒下過城牆，而是在城牆上四處奔走，指揮大軍的同時支援各處，甚至親手砍死過三名漢軍。</p>
 <p>在他的帶領下，卞太後跟郭皇后也走出深宮，為城上將士送飯縫衣，盡最大可能的支援城牆。</p>
 <p>城上守軍見皇帝親臨前線，太皇太后和皇太后親自送飯，不由的士氣大增。</p>
@@ -320,11 +320,9 @@
 <p>曹叡查驗無誤之後同意漢軍收屍，漢軍抬著擔架迅速上前，將受傷同袍和陣亡戰友的遺體陸續運回後方。</p>
 <p>這活一直忙到天黑才結束，但因關興還沒回來，劉備並未立即撤退，而是等到第二天下午，關興歸來之後才走，走之前派人將曹丕的遺體還了回去。</p>
 <p>城牆之上，看著灰溜溜離去的漢軍，洛陽城牆上爆發出了驚天的歡呼聲，曹叡卻在將士們的歡呼聲中雙腿發軟無奈倒地，他這七天加起來睡了不到五個時辰，真有些撐不住了。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-817">
 <h2>第817章 對南陽士族的處置</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_817.html">原始页面</a></div>
 <p>劉備撤軍了，曹魏的洛陽保衛戰打贏了。</p>
 <p>隨著洛陽保衛戰獲勝，曹叡的威望瞬間攀至頂峰，連鍾繇華歆等老臣都對曹叡心悅誠服，開始拿他當真正的大魏天子看待了。</p>
 <p>要知道曹叡這次打敗的可是劉備，而且是在魏軍主力全軍覆沒，後方人心浮動的情況下打敗的，這個含金量可就太高了。</p>
@@ -368,7 +366,6 @@
 </section>
 <section class="chapter" id="ch-818">
 <h2>第818章 諸葛亮生擒夏侯尚</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_818.html">原始页面</a></div>
 <p>時間回到劉備出征之前。</p>
 <p>送劉備出征之後，諸葛亮便積極投入工作，開始聯繫江陵調撥糧草，同時協助程禮土改。</p>
 <p>結果程禮帶人在田間丈量土地沒幾天就遭到了士族的襲擊，若非老頭子腿腳利索跑的快，當天估計就被埋在地里做肥料了。</p>
@@ -414,7 +411,6 @@
 </section>
 <section class="chapter" id="ch-819">
 <h2>第819章 全部打包發配</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_819.html">原始页面</a></div>
 <p>攻打洛陽失利，無奈退回宛城的劉備開始清理內部穩定南陽。</p>
 <p>在劉備的堅決打擊下，散落在南陽各地的士族成員被陸續押到宛城新野以及襄陽統一監管。</p>
 <p>這次打擊是全方位的，士族的嫡系旁系，嫡出庶出，正房偏房甚至遠房旁支全被抓捕，只要是跟士族一個姓的全都沒逃掉，甚至連剛剛潛入南陽準備搞事的何宴都被巡邏兵抓住押到南陽了。</p>
@@ -470,7 +466,6 @@
 </section>
 <section class="chapter" id="ch-820">
 <h2>第820章 魏延又發瘋了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_820.html">原始页面</a></div>
 <p>諸葛亮對劉備翹二郎腿的行為視而不見直奔主題。</p>
 <p>劉備這種草莽出身的皇帝沒那麼多破規矩，向來都是怎麼舒服怎麼來的，他早就見怪不怪了。</p>
 <p>劉備收起桌上雙腿起身問道：“文長怎麼了，準備奇襲關中了？”</p>
@@ -520,7 +515,8 @@
 <p>之所以派張嶷執行這次任務，是因為張嶷此前穿越秦嶺襲擊過伊闕關，比其他人更熟悉秦嶺地形。</p>
 <p>至於廖化，備好兵馬耐心等待，只要武關城頭戰火一起，立馬率軍殺向武關支援關興。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-811">第811章 曹叡入京</a></li><li><a href="#ch-812">第812章 扶不上牆的曹植</a></li><li><a href="#ch-813">第813章 積極上進的曹叡</a></li><li><a href="#ch-814">第814章 劉備的不甘</a></li><li><a href="#ch-815">第815章 聲東擊西</a></li><li><a href="#ch-816">第816章 與曹叡交易</a></li><li><a href="#ch-817">第817章 對南陽士族的處置</a></li><li><a href="#ch-818">第818章 諸葛亮生擒夏侯尚</a></li><li><a href="#ch-819">第819章 全部打包發配</a></li><li><a href="#ch-820">第820章 魏延又發瘋了</a></li></ul></aside>
+  </div>
 </body>
 </html>

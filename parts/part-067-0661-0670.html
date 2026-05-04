@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 661–670 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-066-0651-0660.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-068-0671-0680.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-661">第661章 兩頭下注</a></li><li><a href="#ch-662">第662章 首鼠兩端的陳家</a></li><li><a href="#ch-663">第663章 千金買馬骨</a></li><li><a href="#ch-664">第664章 吃力不討好</a></li><li><a href="#ch-665">第665章 陳家想封侯？</a></li><li><a href="#ch-666">第666章 風險對沖</a></li><li><a href="#ch-667">第667章 徐州士族齊恨駱統</a></li><li><a href="#ch-668">第668章 上有政策下有對策</a></li><li><a href="#ch-669">第669章 興國稻收割了</a></li><li><a href="#ch-670">第670章 陳瑜覲見劉備</a></li></ul>
 <section class="chapter" id="ch-661">
 <h2>第661章 兩頭下注</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_661.html">原始页面</a></div>
 <p>樓船是江東的特產，陳瑜可沒有這種高級貨，只能率領數十艘小船艱難返回。</p>
 <p>而且為防止魏軍水師巡查，交易的距離離海岸線非常遠，陳瑜航行許久直到天亮才上岸。</p>
 <p>又在陸地上行駛兩天，直到第三天中午才返回徐州治所下邳城。</p>
@@ -73,7 +80,6 @@
 </section>
 <section class="chapter" id="ch-662">
 <h2>第662章 首鼠兩端的陳家</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_662.html">原始页面</a></div>
 <p>聽到皮丹語氣中的堅定，陳瑜心頭一沉，忍不住暗嘆劉備這招真毒。</p>
 <p>劉備明顯是想推行科舉制，徹底推翻此前士族相護的察舉制，卻沒直接推行，而是先用小說宣傳科舉，讓那些空有志向卻沒背景的寒門生出科舉的心思，成為科舉的支持和擁護者，再與這些擁護者聯手共圖大計。</p>
 <p>如此一來士族的處境就尷尬了，要知道官場上的上傳下達都是逐級遞進的，皇帝通知士族，士族通知寒門，寒門再通知底層百姓，層層傳遞保證國策順利推進。</p>
@@ -96,7 +102,6 @@
 <p>陳瑜卻笑道：“我一商人向偽漢朝廷派姦細幹什麼，要派也是往競爭對手那裡派啊，哪有往敵國中樞派姦細的道理？”</p>
 <p>“派你過去就是想單純的下步閑棋，你去了就在偽漢安心做官，其他的不用管，將來劉皇叔若北伐失敗，此舉就當是我對你在陳家效力的報答，但若劉皇叔北伐成功，請你看在今日舉薦的份上幫幫陳家，如何？”</p>
 <p>原來如此，何著你是想兩頭下注。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>但這對皮丹只有好處沒有壞處，皮丹沒有拒絕的理由，聞言立刻後退半步躬身拜道：“皮丹謝公子提攜，公子放心，將來劉皇叔若真北伐成功，皮丹定會報答今日恩情。”</p>
 <p>陳瑜扶起他繼續說道：“但以你的出身，直接進入江陵為官的可能性怕是不大，我可以先帶你去見張昭的次子，我表叔張休，讓張休帶你去建業將你舉薦給偽漢揚州刺史王甫，你先在王甫那干如何？”</p>
 <p>給刺史當門客也是有做官機會的，畢竟大漢沒有科舉不看編製，只要上位者讓你當官你就能當。</p>
@@ -121,7 +126,6 @@
 </section>
 <section class="chapter" id="ch-663">
 <h2>第663章 千金買馬骨</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_663.html">原始页面</a></div>
 <p>張休帶著陳瑜送來的貨款滿載而歸連夜返回。</p>
 <p>回程路上身邊多了一人正是皮丹，皮丹是帶著老婆孩子一起來的明顯沒打算再回去，路上張休跟皮丹聊了幾句，發現此人談吐優雅舉止有度，是個可造之才便決定推薦給王甫。</p>
 <p>雖然他答應了陳瑜但也不能隨便舉薦，要知道這個年代的舉薦人是有連帶責任的，若真舉薦個歪瓜裂棗過去，自己可是要跟著吃瓜落的，所以舉薦這事得慎之又慎。</p>
@@ -168,7 +172,6 @@
 </section>
 <section class="chapter" id="ch-664">
 <h2>第664章 吃力不討好</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_664.html">原始页面</a></div>
 <p>身為雖無宰相之名卻有宰相之實的曹魏文官第一人，鍾繇清楚的知道科舉制意味著什麼。</p>
 <p>科舉不但會刨他們士族的根，還會讓中原寒門集體反水，將他利用《臨時稅法》構築的凝聚力沖個稀巴爛，讓曹魏徹底陷入內亂。</p>
 <p>畢竟《臨時稅法》只是通過金錢上的讓渡讓寒門暫時依附在士族之下，避免寒門跟士族和朝廷對著干，但區區金錢又怎能與仕途相比。</p>
@@ -188,7 +191,6 @@
 <p>江南卻沒這個顧慮，木頭砍下來扔河裡自己就游到目的地了，根本不用費太大力氣。</p>
 <p>因此在造船業這一塊，中原是拍馬也趕不上江南的，想跟偽漢比航運根本不可能。</p>
 <p>王朗說道：“那就組建偵緝隊沿著海岸線巡查，發現有偽漢過來的貨物上岸直接扣押，收拾不了偽漢就收拾跟偽漢接觸的士族或者商人，陳郎中。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>陳肅連忙拜道：“王大夫有何吩咐？”</p>
 <p>王朗目前官拜御史大夫，盯著陳肅問道：“陳郎中，你堂兄陳瑜是如何得到這些書籍的？”</p>
 <p>“這個……”陳肅不知道咋回答了，總不能實話實說吧。</p>
@@ -211,7 +213,6 @@
 </section>
 <section class="chapter" id="ch-665">
 <h2>第665章 陳家想封侯？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_665.html">原始页面</a></div>
 <p>在鍾繇看來科舉之事可分為三個階段，若傳播不廣就無需理會任其自生自滅，若傳播甚廣就全力鎮壓，若到了徹底泛濫無法鎮壓的時候，就得想其他辦法解決。</p>
 <p>曹丕明白他的意思，開門見山道：“太傅所謂的最壞打算無非就是《白蛇傳》徹底傳播開來，中原寒門集體請求推行科舉，真到了那一步朝廷該如何應對，總不能真的開設科舉吧？”</p>
 <p>鍾繇拜道：“請恕老臣愚鈍，暫時還沒想好。”</p>
@@ -251,7 +252,6 @@
 </section>
 <section class="chapter" id="ch-666">
 <h2>第666章 風險對沖</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_666.html">原始页面</a></div>
 <p>提起糜家，叔侄三人都沉默了！</p>
 <p>他們陳家當年跟糜家同為徐州大族，且他們陳家比糜家的出身更高，憑藉官宦身份將商賈出身的糜家壓的死死的，可現在呢？</p>
 <p>糜竺被偽漢封為世襲越國公不說，連糜芳那個二五仔都成了世襲侯爵。</p>
@@ -299,7 +299,6 @@
 </section>
 <section class="chapter" id="ch-667">
 <h2>第667章 徐州士族齊恨駱統</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_667.html">原始页面</a></div>
 <p>反覆橫跳是件極度危險，非常考驗操作的事情，因為這畢竟是在曹魏的地盤上，若被校事府發現，陳家肯定會被連根拔起的。</p>
 <p>但世家大族之所以成為世家大族，就是因為他們在事關家族存亡的重大決策上有孤注一擲敢於豪賭的膽量。</p>
 <p>所以陳皮在與陳肅商量之後便展開了行動，首先要做的就是如何讓陳瑜合理假死。</p>
@@ -338,7 +337,6 @@
 </section>
 <section class="chapter" id="ch-668">
 <h2>第668章 上有政策下有對策</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_668.html">原始页面</a></div>
 <p>張休是真的有些綳不住了，江東到徐州的距離並不近，從江東帶趟貨不容易，現在好不容易過來了卻讓他將貨物再帶回去，那多虧啊。</p>
 <p>陳瑜攤手道：“沒辦法，除非你能將貨物直接送到下邳送進陳家倉庫，否則我們陳家是不敢再接這批貨物的。”</p>
 <p>張休無語道：“直接送進陳家倉庫，你這不是耍無賴嗎？”</p>
@@ -385,7 +383,6 @@
 </section>
 <section class="chapter" id="ch-669">
 <h2>第669章 興國稻收割了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_669.html">原始页面</a></div>
 <p>經過多日航行，陳瑜終於跟著張休回到江東海域踏上江東土地。</p>
 <p>但他現在畢竟是個死人，因此並未去見王甫和已被王甫提拔重用的皮丹，而是拿著張休的舉薦信直奔江陵。</p>
 <p>又經過數日跋涉終於趕到江陵城，進城之後瞬間被城內場景所震驚，城門通往城內的街道寬的能並排四五輛四馬大車，不但寬闊而且乾淨，甚至連空氣都透著幾分清新。</p>
@@ -435,7 +432,6 @@
 </section>
 <section class="chapter" id="ch-670">
 <h2>第670章 陳瑜覲見劉備</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_670.html">原始页面</a></div>
 <p>林瑜？</p>
 <p>糜竺想了半天也沒想起林瑜是誰，確定不認識這個人后疲憊的揮手道：“找個理由打發了吧，今天不想見客。”</p>
 <p>他現在可是當朝國公兼掌管全國財政的戶部尚書，每天過來拜訪的人數不勝數，不可能每個都認識，也不可能每個都要見。</p>
@@ -484,9 +480,9 @@
 <p>關興拜道：“稟陛下，臣以為陳瑜公子舟車勞頓，此刻應該早點休息養好身體。”</p>
 <p>接下來的事是咱們內部會議，陳瑜這個外人不方便聽。</p>
 <p>劉備笑道：“安國所言有理，是朕疏忽了，陳瑜賢侄，你先下去休息吧，阿斗興國，帶陳瑜公子去東宮休息片刻。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-661">第661章 兩頭下注</a></li><li><a href="#ch-662">第662章 首鼠兩端的陳家</a></li><li><a href="#ch-663">第663章 千金買馬骨</a></li><li><a href="#ch-664">第664章 吃力不討好</a></li><li><a href="#ch-665">第665章 陳家想封侯？</a></li><li><a href="#ch-666">第666章 風險對沖</a></li><li><a href="#ch-667">第667章 徐州士族齊恨駱統</a></li><li><a href="#ch-668">第668章 上有政策下有對策</a></li><li><a href="#ch-669">第669章 興國稻收割了</a></li><li><a href="#ch-670">第670章 陳瑜覲見劉備</a></li></ul></aside>
+  </div>
 </body>
 </html>

@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 181–190 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-018-0171-0180.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-020-0191-0200.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-181">第181章 劉備屯兵五丈原</a></li><li><a href="#ch-182">第182章 諸葛亮出祁山</a></li><li><a href="#ch-183">第183章 閉上你的烏鴉嘴</a></li><li><a href="#ch-184">第184章 天水姜伯約</a></li><li><a href="#ch-185">第185章 張苞VS姜維</a></li><li><a href="#ch-186">第186章 關平計取鹵城</a></li><li><a href="#ch-187">第187章 諸葛亮要玩陰的？</a></li><li><a href="#ch-188">第188章 有棗沒棗，打一竿子再說</a></li><li><a href="#ch-189">第189章 關平半路遇曹真</a></li><li><a href="#ch-190">第190章 關平戰曹真</a></li></ul>
 <section class="chapter" id="ch-181">
 <h2>第181章 劉備屯兵五丈原</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_181.html">原始页面</a></div>
 <p>從奉命支援關中的那刻起，張郃的前程便與關中的安危深度綁定，所以關中的防禦肯定是要過問的。</p>
 <p>張郃可不想打到最後隴西沒丟關中丟了，那特么不是尷尬了嗎？</p>
 <p>張既解釋道：“將軍放心，劉備若真佯攻關中，走的無非就是陳倉道和褒斜道，只要守好陳倉和眉縣，蜀軍就過不來。”</p>
@@ -82,11 +89,9 @@
 <p>西縣屬天水郡，有個別名叫做鹵城。</p>
 <p>曹真點頭道：“末將明白。”</p>
 <p>張郃說道：“西縣守軍不多，我怕守不住，你立刻派信使六百里加急，通知天水太守馬遵向西縣增兵，然後率領五千大軍為先鋒，以最快的速度趕往西縣支援，我隨後就到。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-182">
 <h2>第182章 諸葛亮出祁山</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_182.html">原始页面</a></div>
 <p>劉備的厲害張郃從在袁紹手下打工的時候就開始領教了，因此面對大耳賊，他是絲毫都不敢怠慢。</p>
 <p>就算隴西蜀軍不是劉備親自率領，諸葛亮關平的組合也足以讓他提心弔膽全力以赴的。</p>
 <p>所以張郃根本不敢休息，恨不得現在就插上翅膀飛去隴西。</p>
@@ -113,7 +118,6 @@
 <p>眾所周知，再長的道路也有起點和終點，祁山道的起點是陽平關，終點就是鹵城。</p>
 <p>拿下鹵城，大軍便能從容休整，甚至能從鹵城周圍獲得補給。</p>
 <p>若拿不下，就像後世被困在高速路上一樣，要吃沒吃要住沒住。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關平點頭道：“將軍的意思是咱們應該派支先鋒拿下鹵城？”</p>
 <p>為方便諸葛亮統兵，劉備在臨行前特意加封諸葛亮為左將軍，關平為征西將軍。</p>
 <p>左將軍屬於四方將軍，更重要的是劉備曾經擔任過左將軍。</p>
@@ -143,7 +147,6 @@
 </section>
 <section class="chapter" id="ch-183">
 <h2>第183章 閉上你的烏鴉嘴</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_183.html">原始页面</a></div>
 <p>關平原本的計劃是用最快的速度走出祁山，搶在魏軍反應過來之前發動夜襲，一舉拿下鹵城。</p>
 <p>但張苞送回的消息卻讓他喜憂參半，喜的是魏軍援軍尚未趕來，他們成功搶在了魏軍之前。</p>
 <p>憂的是城內守軍有了防範，已經全城戒嚴，斷了他們深夜襲城的念頭，這種情況下還執意夜襲的話，就真像張苞說的，跟送死沒什麼區別了。</p>
@@ -199,7 +202,6 @@
 </section>
 <section class="chapter" id="ch-184">
 <h2>第184章 天水姜伯約</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_184.html">原始页面</a></div>
 <p>關平張苞在山上淋雨的同時，一支打著馬字旗號的魏軍正在十幾裡外艱難前行，領軍的正是天水太守馬遵。</p>
 <p>接到蜀軍兵出祁山的消息，馬遵不敢怠慢立刻整軍趕來支援，原以為天黑就能趕到鹵城，誰料天公不作美，走到半路下起了暴雨。</p>
 <p>馬遵看著被雨水弄的泥濘不堪的路面罵道：“該死的老天爺，你這是故意跟我作對嗎？”</p>
@@ -249,11 +251,9 @@
 <p>關平見此臉色大變，顧不得再跑果斷倒地，跟張苞一樣順著山坡滑了下去，其他將士有樣學樣，紛紛坐起了滑梯。</p>
 <p>但遠水解不了近渴，張苞的危局還得自己來，面對突然刺來的多桿長槍無法起身格擋，只能迅速翻身艱難躲避。</p>
 <p>好不容易躲過士兵襲擊，沒等鬆口氣一名銀甲小將又朝他衝來，挺槍直刺的同時大聲喊道：“小子記住，殺你的人是天水姜伯約。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-185">
 <h2>第185章 張苞VS姜維</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_185.html">原始页面</a></div>
 <p>突遭襲擊的時候，姜維的第一反應是鹵城淪陷了，否則蜀軍怎麼會殺到這裡？</p>
 <p>可是蜀軍已經殺到面前，他們都自身難保了，哪還顧得上鹵城淪沒淪陷？</p>
 <p>姜維迅速調整情緒準備布陣阻擊，誰料沒等行動就見一個二百五蜀軍從山坡滑下，直接滑進了他的陣中。</p>
@@ -282,7 +282,6 @@
 <p>關平卻沒這顧慮，神擋殺神佛擋殺佛，遇到阻擋莽過去就是了，很快便殺到馬遵面前跟馬遵的親兵戰在一起。</p>
 <p>親兵雖然精銳卻也不是關平的對手，況且關平身邊還有比馬遵親兵更精銳的白毦兵呢。</p>
 <p>幾個會合之後，關平成功殺到正抓住右腿艱難往出拔的馬遵面前，不等馬遵開口投降，手中長刀便橫掃而過，馬遵的頭顱頓時飛起，被關平輕鬆挑在了刀尖上。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>不遠處的上官子脩見狀，怕關平也給自己一刀，急忙跪在泥濘里舉起雙手喊道：“我投降。”</p>
 <p>關平沒搭理他，而是命白毦兵砍斷旗杆，舉著馬遵頭顱大聲喊道：“馬遵已死，爾等速速投降。”</p>
 <p>另一邊……</p>
@@ -313,7 +312,6 @@
 </section>
 <section class="chapter" id="ch-186">
 <h2>第186章 關平計取鹵城</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_186.html">原始页面</a></div>
 <p>得知打敗他們的蜀軍將領是關羽的兒子，姜維的眼中瞬間少了幾分敵意多了几絲崇拜。</p>
 <p>大漢地大物博人口眾多，每年都會誕生一些惹人注目的明星，這兩年最耀眼的明星就是關羽父子。</p>
 <p>關羽先在襄樊水淹七軍威震華夏，又在敗走麥城之際神龍擺尾，一躍成了江東之主。</p>
@@ -371,7 +369,6 @@
 </section>
 <section class="chapter" id="ch-187">
 <h2>第187章 諸葛亮要玩陰的？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_187.html">原始页面</a></div>
 <p>韓德被突如其來的變故打懵了，看著身穿魏軍服飾卻朝自己殺來的漢軍原地愣神，甚至連兒子的呼喊都沒聽清。</p>
 <p>關平卻不管那麼多，命令白毦兵直接發起衝鋒，八百白毦兵呼啦一聲全朝韓德圍了過去。</p>
 <p>韓德被喊殺聲驚醒，扭頭髮現身邊只有幾十號人，而且個個睡眼惺忪明顯還沒徹底清醒，這特么怎麼打？</p>
@@ -430,7 +427,6 @@
 </section>
 <section class="chapter" id="ch-188">
 <h2>第188章 有棗沒棗，打一竿子再說</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_188.html">原始页面</a></div>
 <p>漢軍戰旗被撤下，韓字大旗重新豎起。</p>
 <p>諸葛亮看著飄揚的韓字戰旗，滿意的跟關平進城去了縣衙。</p>
 <p>走進縣衙大廳，諸葛亮看著牆上的天水郡地圖說道：“張郃就算沒收到鹵城淪陷的消息也不可能將所有大軍全部派來鹵城，五千到八千撐死了。”</p>
@@ -455,7 +451,6 @@
 <p>“另外還有一點不容忽視，就是接連經歷漢中襄樊兩場大敗的魏軍對咱們極為重視，重視就會謹慎甚至求穩，沒有萬全把握怕是不會輕敵冒進了。”</p>
 <p>漢中之戰曹操敗的很慘，丟了漢中不說還折了夏侯淵。</p>
 <p>襄樊之戰關羽雖敗，但沒敗給魏軍，而是敗給了盟友背刺和隊友背叛，對魏軍來說關羽依舊屬於勝利方。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>從這點上來看，諸葛亮說的魏軍經歷漢中襄樊兩場大敗的話沒毛病。</p>
 <p>諸葛亮繼續道：“所以我擔心魏軍先鋒趕到冀縣之後就不走了，而是窩在冀縣等待張郃主力。”</p>
 <p>“畢竟在魏軍先鋒看來，太守馬遵已經帶兵支援鹵城了，以鹵城的城防和馬遵的兵力，再不濟也能堅守十天半月，完全沒必要冒險不是。”</p>
@@ -483,7 +478,6 @@
 </section>
 <section class="chapter" id="ch-189">
 <h2>第189章 關平半路遇曹真</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_189.html">原始页面</a></div>
 <p>魏軍這邊。</p>
 <p>曹真率領五千精騎擔任先鋒，經過數日狂奔終於衝出街亭趕往冀縣。</p>
 <p>眼看就要趕到冀縣城下，突然天降暴雨，將疲憊不堪的騎兵淋成了落湯雞。</p>
@@ -537,7 +531,6 @@
 </section>
 <section class="chapter" id="ch-190">
 <h2>第190章 關平戰曹真</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_190.html">原始页面</a></div>
 <p>戰爭是將領能力的試金石，只要打起來就能淘汰一大批不合格的將軍。</p>
 <p>換句話說，能在戰爭中生存下來的將領都不是蠢貨，關平不是，曹真也不是，關平會派斥候探查前方道路，曹真同樣也會。</p>
 <p>曹真率領騎兵狂奔，眼看離上邽不足二十里，斥候突然返回說道：“將軍，前方發現了蜀軍斥候。”</p>
@@ -594,9 +587,9 @@
 <p>此地離上邽不足二十里，他們在此跟曹真對峙了好幾個時辰，這麼長的時間這麼大的動靜，上邽城不可能不知道。</p>
 <p>事實證明關平猜對了，上邽縣令得知曹真敗退又見蜀軍打來，果斷打開城門將張苞請了進去。</p>
 <p>關平隨後進入，在城內休整的同時派出信使向諸葛亮彙報情況。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-181">第181章 劉備屯兵五丈原</a></li><li><a href="#ch-182">第182章 諸葛亮出祁山</a></li><li><a href="#ch-183">第183章 閉上你的烏鴉嘴</a></li><li><a href="#ch-184">第184章 天水姜伯約</a></li><li><a href="#ch-185">第185章 張苞VS姜維</a></li><li><a href="#ch-186">第186章 關平計取鹵城</a></li><li><a href="#ch-187">第187章 諸葛亮要玩陰的？</a></li><li><a href="#ch-188">第188章 有棗沒棗，打一竿子再說</a></li><li><a href="#ch-189">第189章 關平半路遇曹真</a></li><li><a href="#ch-190">第190章 關平戰曹真</a></li></ul></aside>
+  </div>
 </body>
 </html>

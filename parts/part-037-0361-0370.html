@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 361–370 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-036-0351-0360.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-038-0371-0380.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-361">第361章 我叫諸葛瑾，謹慎的謹</a></li><li><a href="#ch-362">第362章 寧桓借刀除彭綺</a></li><li><a href="#ch-363">第363章 扇陰風，點鬼火</a></li><li><a href="#ch-364">第364章 彭綺被殺</a></li><li><a href="#ch-365">第365章 諸葛瑾的反應</a></li><li><a href="#ch-366">第366章 東吳盡出狠人</a></li><li><a href="#ch-367">第367章 都是不走尋常路的</a></li><li><a href="#ch-368">第368章 吳軍：我們降漢不降匪</a></li><li><a href="#ch-369">第369章 山越戰力真拉胯</a></li><li><a href="#ch-370">第370章 橫的怕不要命的</a></li></ul>
 <section class="chapter" id="ch-361">
 <h2>第361章 我叫諸葛瑾，謹慎的謹</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_361.html">原始页面</a></div>
 <p>兵貴神速，戰場上時間就是生命，比敵人早到一分鐘都可能取得先機從而獲得戰役的勝利，反之就可能導致失敗，身死道消。</p>
 <p>因此關興不敢耽擱，離開大營之後率軍疾速前進，同時撒出大量斥候探查諸葛瑾的情況，想對付諸葛瑾得先清楚諸葛瑾在什麼位置不是。</p>
 <p>“快點快點再快點，腳步放輕盡量不要發出聲音，我知道大夥都很累，但這是咱們收拾諸葛瑾的最好機會，錯過了可就沒了，所以大夥加把勁再撐撐，等擒住諸葛瑾我親自給大夥燉肉吃。”</p>
@@ -73,7 +80,6 @@
 </section>
 <section class="chapter" id="ch-362">
 <h2>第362章 寧桓借刀除彭綺</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_362.html">原始页面</a></div>
 <p>不管你能力多大本事多強，只要被人盯上，你在對方眼中基本就變成透明的了。</p>
 <p>不怕賊偷，就怕賊惦記啊。</p>
 <p>寧桓可是斥候營長，最擅長的就是打探消息，在營中修築工事並防止彭綺造反的同時撒出了整整二百名斥候打探諸葛瑾的行蹤。</p>
@@ -121,11 +127,9 @@
 <p>寧桓猛的捂住李同的嘴急忙說道：“我啥也沒說。”</p>
 <p>李同重重點頭又掰開他的手掌說道：“我啥也沒聽見，啥也不知道。”</p>
 <p>兩人相視一笑轉身離開。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-363">
 <h2>第363章 扇陰風，點鬼火</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_363.html">原始页面</a></div>
 <p>簡單準備之後寧桓率軍離開大營，兵分三路向諸葛瑾追了上去。</p>
 <p>他這一走營內便只剩下了數千吳軍降兵和千餘漢軍傷兵外加彭綺的數百親兵了。</p>
 <p>李同趁著安撫降兵的功夫偷偷打量彭綺營帳，思索著怎麼完成寧桓交代的任務。</p>
@@ -175,7 +179,6 @@
 </section>
 <section class="chapter" id="ch-364">
 <h2>第364章 彭綺被殺</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_364.html">原始页面</a></div>
 <p>被囚禁起來的蕭丹親兵足有上百人，但陳陽只有一把匕首，不可能瞬間將所有同伴都救出，只能採用這種添油戰術。</p>
 <p>但他也知道時間緊迫，不敢真等所有人到齊之後再行動，聚集了三十多人便果斷向彭綺所在的帳篷發起了進攻。</p>
 <p>彭綺的帳篷很好找，因為他住的是潘璋的帥帳，帳前插著一桿漢軍大旗迎風飄揚，旗幟就是最好的路標。</p>
@@ -224,7 +227,6 @@
 </section>
 <section class="chapter" id="ch-365">
 <h2>第365章 諸葛瑾的反應</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_365.html">原始页面</a></div>
 <p>經過數個時辰的奔波，關興終於率軍趕到此行的目的地汪江村，觀察發現周圍地勢平坦無河無林，根本沒有合適的伏擊地點，索性放棄埋伏當道紮營，準備跟諸葛瑾硬拼。</p>
 <p>他篤定以諸葛瑾的謹慎，趕到潘璋營前發現不對肯定會立刻撤退，自己就在這堵著他，不相信他不回來。</p>
 <p>可惜這次關興預料錯了，紮營沒多久斥候便匆匆回來彙報道：“將軍不好了，諸葛瑾好像意識到了危險，在離潘璋大營還有二十里的時候突然掉頭向南逃了。”</p>
@@ -261,7 +263,6 @@
 </section>
 <section class="chapter" id="ch-366">
 <h2>第366章 東吳盡出狠人</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_366.html">原始页面</a></div>
 <p>戰場之上瞬息萬變，優劣勝敗時刻都在轉換，因此越是危險的時候越要冷靜，佔據優勢別放鬆，處於劣勢也彆氣餒。</p>
 <p>諸葛瑾就很冷靜，仔細思考過後驚訝發現關興直撲余汗的行為與當日徐盛穿插玉山的舉動格外相似。</p>
 <p>如此一來自己就變成了當日被徐盛堵在後方的漢軍主將沈翊，完全可以跟當日的沈翊一樣先滅掉支援關興的匪軍，再掉過頭來收拾關興。</p>
@@ -307,7 +308,6 @@
 </section>
 <section class="chapter" id="ch-367">
 <h2>第367章 都是不走尋常路的</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_367.html">原始页面</a></div>
 <p>想到留贊的光輝事迹，關興收起輕視之心凝眉思索道：“如果我是留贊，在知道諸葛瑾提前返回，余汗安全的情況下肯定不會再走弓背路了對吧？”</p>
 <p>“而且他應該能猜到寧桓匪軍會三面合圍意圖全殲自己，再加上跑到他前頭的咱們，繼續走弓背路非但吃力不討好反而有被圍殲的風險，因此必然會想辦法破局的。”</p>
 <p>“對付咱們這種多路合圍戰術的最好辦法就是集中力量破其一點，選中其中一路往死里打，老鄧，你覺得留贊會選擇哪部？”</p>
@@ -329,7 +329,6 @@
 <p>與諸葛瑾分開沒多久，留贊就收到斥候傳回的消息，說有支匪軍約五千人正在官道上奔行，領兵的是匪軍四當家畢逵，同時在他們的正後方和右後方都發現了匪軍蹤跡，但距離尚遠，速度夠快的話絕對能在兩路匪軍趕到合圍之前擊潰畢逵。</p>
 <p>所以留贊選擇在路邊埋伏，邊等待畢逵經過邊喝水休息，他們從余汗趕來百餘里，這會比漢軍還累，不休息真的不行了。</p>
 <p>酉時左右斥候返回，來到留贊身邊說道：“校尉，畢逵離咱們只剩七八里了，而且這個畢逵太過自大，沒有陣型率軍狂奔不說連斥候都沒派，急的像要上趕著投胎。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>留贊冷笑道：“正常，他們山越匪軍可沒有官兵的軍紀，散漫些能理解，寧桓到哪了，關興有消息了嗎？”</p>
 <p>戰場上最常見的事就是抓舌頭套情報，漢軍可以抓捕吳軍斥候，吳軍自然也可以抓漢軍斥候。</p>
 <p>因此留贊早就從抓捕的舌頭口中得知了匪軍的部署，畢逵在北，寧桓在中，尤沖在南，尤沖離自己還遠暫時不用管，眼下最應該提防的就是跟在自己屁股後面的寧桓。</p>
@@ -355,7 +354,6 @@
 </section>
 <section class="chapter" id="ch-368">
 <h2>第368章 吳軍：我們降漢不降匪</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_368.html">原始页面</a></div>
 <p>看著因惑敵失敗而迅速聚集並朝自己衝來的數百吳軍，寧桓臉色瞬間變的凝重起來，當機立斷道：“突擊隊跟我沖，其他人兩翼包抄，防止吳軍逃脫。”</p>
 <p>眼前吳軍兵力雖少戰力卻非同小可，僅數百人就敢朝數十倍於己的匪軍發動進攻，明顯是準備玩命。</p>
 <p>而且兵少有兵少的優勢，在孤注一擲的情況下完全有可能組成尖錐陣型殺穿敵陣。</p>
@@ -401,11 +399,9 @@
 <p>兩支大軍沿著官道相互衝鋒，衝到一百五十米以內時留贊果斷舉弓拉弦，身後弓箭手有樣學樣，在奔跑途中挽弓搭箭，然後對準天空幾乎同時鬆手，數千箭矢立刻飛上天空，劃出優美的拋物線向畢逵匪軍迎頭打去。</p>
 <p>射出箭矢的吳軍看都沒看便扔掉弓箭繼續衝鋒，準備在箭矢落地的同時殺到匪軍面前，此舉多少有點後世熱武器戰爭中步炮協同的味道，別說匪軍，就算漢軍來了也未必扛得住。</p>
 <p>果不其然，畢逵匪軍瞬間就被打懵。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-369">
 <h2>第369章 山越戰力真拉胯</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_369.html">原始页面</a></div>
 <p>從能量守恆定律來看，一個人的優點越是突出短板就越明顯，武力值越高就越依賴暴力，從而忽略了其他問題。</p>
 <p>做為匪軍中的武力擔當，畢逵就是這種四肢發達頭腦裝草的貨，見吳軍朝自己殺來，想都沒想便向吳軍發起了反衝鋒，絲毫沒考慮過麾下匪軍的戰力跟吳軍是不是一個層次。</p>
 <p>結果顯而易見，沒等衝到吳軍近前就見吳軍紛紛彎起了弓，然後……</p>
@@ -456,7 +452,6 @@
 </section>
 <section class="chapter" id="ch-370">
 <h2>第370章 橫的怕不要命的</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_370.html">原始页面</a></div>
 <p>關興依舊率軍在官道上悲催行軍，不過這次沒敢撒腿狂奔，而是勻速前進保存體力，爭取在遇到吳軍時還有作戰的餘力。</p>
 <p>奔跑了不知多久，迎面突然跑來一隊斥候遠遠喊道：“將軍，留贊已經擊潰畢逵向北逃了，寧桓營長正在追擊，請您掉頭向北爭取將留贊截住。”</p>
 <p>關興聞言大聲喊道：“都聽到了吧，進入稻田向西北方向追擊，務必要追上留贊將其永遠留在此地。”</p>
@@ -499,7 +494,8 @@
 <p>事實證明“橫的怕不要命的”是句真理，漢軍見勝局已定自然不願跟吳軍換命，惜命之下短時間內竟真被吳軍攔在了原地。</p>
 <p>關興見此只掙扎了片刻便決定不管親兵向北追去，親兵跟吳軍旗鼓相當暫時死不了，但若因救援親兵而放跑留贊的話可就虧大了。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-361">第361章 我叫諸葛瑾，謹慎的謹</a></li><li><a href="#ch-362">第362章 寧桓借刀除彭綺</a></li><li><a href="#ch-363">第363章 扇陰風，點鬼火</a></li><li><a href="#ch-364">第364章 彭綺被殺</a></li><li><a href="#ch-365">第365章 諸葛瑾的反應</a></li><li><a href="#ch-366">第366章 東吳盡出狠人</a></li><li><a href="#ch-367">第367章 都是不走尋常路的</a></li><li><a href="#ch-368">第368章 吳軍：我們降漢不降匪</a></li><li><a href="#ch-369">第369章 山越戰力真拉胯</a></li><li><a href="#ch-370">第370章 橫的怕不要命的</a></li></ul></aside>
+  </div>
 </body>
 </html>

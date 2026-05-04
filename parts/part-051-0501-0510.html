@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 501–510 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-050-0491-0500.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-052-0511-0520.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-501">第501章 這次老子打明牌</a></li><li><a href="#ch-502">第502章 別亂髮誓，洛水髒了</a></li><li><a href="#ch-503">第503章 曹操出武關</a></li><li><a href="#ch-504">第504章 曹操交代後事</a></li><li><a href="#ch-505">第505章 曹操接觸新農具</a></li><li><a href="#ch-506">第506章 曹操想跟劉備再戰一場</a></li><li><a href="#ch-507">第507章 下戰書</a></li><li><a href="#ch-508">第508章 最血腥的會戰</a></li><li><a href="#ch-509">第509章 當陽大會戰（一）</a></li><li><a href="#ch-510">第510章 當陽大會戰（二）</a></li></ul>
 <section class="chapter" id="ch-501">
 <h2>第501章 這次老子打明牌</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_501.html">原始页面</a></div>
 <p>在城外寒暄了半個時辰，將包括剛從江北逃回的所有關羽麾下將領都安撫一遍，確定沒有怠慢任何人後，劉備才帶著所有人往回走。</p>
 <p>路上大夥說說笑笑，氣氛表現的格外融洽，其中表現最活躍的就是夏銅。</p>
 <p>夏銅經過二次發育之後整個人跟磕了葯似的，數十斤的重甲也掩蓋不了他那旺盛的精力，剛一脫離大人視線就跑到關興面前激動說道：“將軍，跟你從建業分開之後我好像又長高了，不信你看。”</p>
@@ -88,7 +95,6 @@
 </section>
 <section class="chapter" id="ch-502">
 <h2>第502章 別亂髮誓，洛水髒了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_502.html">原始页面</a></div>
 <p>關興雖只說了短短几句話，但蘊含的信息量卻比司馬遷整本《史記》還大，撐的諸葛亮腦袋都快爆了。</p>
 <p>諸葛亮又跟中了定身法似的愣了半刻鐘，這才拍打著疼痛的腦袋說道：“你用秦二世舉例子就說明大漢的結局跟秦二世差不多，雲長在麥城沒逃出去，大王也沒再奪回荊州，最後滅亡了對吧？”</p>
 <p>關興點頭。</p>
@@ -115,7 +121,6 @@
 <p>說完躺下翻身背對著諸葛亮，不等諸葛亮反應就傳出了刺耳的鼾聲。</p>
 <p>入睡哪有那麼快，這明顯是在裝睡。</p>
 <p>但諸葛亮也知道永遠無法叫醒裝睡的人，只好嘆息著起身離去。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>不管男女，最難忍受的都是對方說話只說一半，尤其說的還是自己感興趣的話題的時候。</p>
 <p>回到帳篷的諸葛亮失眠了，滿腦子都是關興未說完的事情，都是未來一千八百年的浩瀚史書，翻來覆去的根本睡不著。</p>
 <p>他後悔去找關興攤牌了，這牌攤的，把關興的焦慮解決了卻把自己整抑鬱了，得不償失啊。</p>
@@ -142,11 +147,9 @@
 <p>關羽不願放棄衝出帳篷繼續追，邊追邊喊道：“逆子你給我站住，今天你不說清楚我打死你。”</p>
 <p>此刻軍營中很多人都已起床，住在關興附近的張苞姜維等人聽到關興呼救本能的趕去支援，看到關羽之後竟全都默契的擰動腳後跟，原地轉身以最快的速度逃回了帳篷。</p>
 <p>老子打兒子天經地義，他們可不想傻不愣登的跑過去被關羽一起揍。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-503">
 <h2>第503章 曹操出武關</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_503.html">原始页面</a></div>
 <p>能量是守恆的，有人得到就會有人失去，有人歡喜就會有人傷悲。</p>
 <p>劉備接連獲勝煥發了第二春，宿敵曹操卻被逼的拖著病體拚命。</p>
 <p>收到曹仁書信之後，曹操當機立斷放棄攻打漢中，帶著張郃徐晃郭淮，曹真司馬懿等親信趕往藍田進入嶢關，沿著武關道直奔襄樊前線。</p>
@@ -199,7 +202,6 @@
 </section>
 <section class="chapter" id="ch-504">
 <h2>第504章 曹操交代後事</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_504.html">原始页面</a></div>
 <p>提起女婿劉協，曹操眼中難得的露出一絲忌憚。</p>
 <p>這個女婿可不是聽話的傀儡，而是有著強大政治手腕以及隱忍能力的老劉家正統繼承人。</p>
 <p>憑良心說，曹操自己坐到劉協那個位置都沒把握翻盤，但劉協這些年卻多次弄的他曹操手忙腳亂，讓曹操不得不忌憚。</p>
@@ -239,7 +241,6 @@
 </section>
 <section class="chapter" id="ch-505">
 <h2>第505章 曹操接觸新農具</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_505.html">原始页面</a></div>
 <p>曹操知道堅固堡壘最容易從內部攻破的道理，也知道自家兒子什麼德性，不指望曹丕良心發現突然改變，只希望這小子做事帶點腦子，別在劉備這個外部強敵尚未解決的情況下就朝自己兄弟下手。</p>
 <p>換句話說就是曹操希望曹丕可以壞但不要菜，可以謀害兄弟穩固地位，但要審時度勢權衡利弊，熬死劉備之後再說，不要還沒解決劉備就迫不及待的朝自家兄弟揮刀，那樣只會讓劉備快樂。</p>
 <p>雖然兒子不靠譜，但曹操知道自己時日無多，不得不為曹丕鋪路，所以交談結束之後並未讓曹丕回京，而是讓其跟著大軍行動，安撫軍中將領，以便自己死後能快速接管兵權。</p>
@@ -258,7 +259,6 @@
 <p>曹仁將鐵鍬雙手奉上，曹操拿在手中觀察片刻，用手試探著鍬刃說道：“好東西啊，農夫有了這東西怕連耕牛都不用了吧？”</p>
 <p>曹仁說道：“不止鐵鍬，還有钁頭，三叉钁頭，寬窄鋤頭曲轅犁以及挑稻草用的鐵叉等，種類非常齊全。”</p>
 <p>說著從箱中取出一把钁頭，雙手掄起對著地面狠狠砸下，钁刃跟地面剛一接觸便挖出一個半尺大小的坑，翻地效果甚至比鐵鍬還要好，看的曹操再次火熱。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>曹仁將幾口箱子中的所有東西全部取出，跟後世警察清點收繳的作案工具似的有序擺開，逐一介紹道：“鋤頭是除草用的，寬的有半尺寬，窄的只有小孩巴掌寬，寬鋤頭除大草，窄鋤頭除稻田縫隙里的小草，三叉钁頭同樣是挖地用的，因為有三個叉，挖地速度比普通钁頭還快。”</p>
 <p>“那玩意叫十字鎬，一邊是尖錐可以破開石頭以及堅硬的凍土，一邊是平的，可以等尖錐破開之後迅速挖掘，可以用來開礦。”</p>
 <p>“還有各種鋸條，短鋸單手握住輕鬆就能鋸斷手臂粗的木頭，長鋸用木框固定住再派兩人合力拉扯，不到半個時辰就能鋸斷兩人合抱粗的巨木。”</p>
@@ -281,7 +281,6 @@
 </section>
 <section class="chapter" id="ch-506">
 <h2>第506章 曹操想跟劉備再戰一場</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_506.html">原始页面</a></div>
 <p>劉曄繼續道：“大王應該清楚手中無劍和有劍不用的區別，也就是說敵人有的咱們也必須得有，沒有遲早吃大虧，所以必須將關興的鍊鋼技術弄到手，不擇手段不惜代價。”</p>
 <p>曹操眼前一亮，想到中原百姓人手一把新式農具日夜勞作的美好場景，滿臉火熱的問曹仁道：“子孝，鍊鋼技術呢，可曾帶回來？”</p>
 <p>曹仁苦笑道：“我讓張京試過了，連綁架婦人的招都用上了，可惜都失敗了，該死的關興對鍊鋼廠的防範太嚴了。”</p>
@@ -329,7 +328,6 @@
 </section>
 <section class="chapter" id="ch-507">
 <h2>第507章 下戰書</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_507.html">原始页面</a></div>
 <p>戰爭是場豁出性命的豪賭，一旦上場就只會出現三種情況，要麼打敗對手，吞掉對手的地盤人口，兵馬糧草，踩著對手的屍體發展壯大，要麼兩敗俱傷，各自回家舔舐傷口，要麼被對手吞掉，變成對手成長的養料。</p>
 <p>曹操自然想達成第一種結果，卻也知道打敗劉備的可能性微乎其微，所以準備退而求其次拼個兩敗俱傷，然後各自回家比拼回血能力。</p>
 <p>也就是說可以跟劉備拼個兩敗俱傷甚至同歸於盡，但不能被劉備徹底吞掉，將麾下數十萬魏軍變成劉備的俘虜。</p>
@@ -370,7 +368,6 @@
 </section>
 <section class="chapter" id="ch-508">
 <h2>第508章 最血腥的會戰</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_508.html">原始页面</a></div>
 <p>軍事是政治的延續，所謂政治就是要團結大多數人。</p>
 <p>怎麼團結大多數人呢，很簡單，就是讓更多的人認可你。</p>
 <p>但怎樣才能讓更多的人認可你呢？</p>
@@ -425,7 +422,6 @@
 </section>
 <section class="chapter" id="ch-509">
 <h2>第509章 當陽大會戰（一）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_509.html">原始页面</a></div>
 <p>兩軍交戰士氣為先，任何時候士氣都是至關重要，甚至起決定性因素的。</p>
 <p>而要提高士氣最好的辦法就是主將帶頭衝鋒，就算無法帶頭衝鋒也得親自擂鼓給將士們助威，再不濟也要站到顯眼的位置，讓將士們看到主將與他們同在。</p>
 <p>征戰數十年的曹操明白這個道理，但他的身體已經不允許他帶頭衝鋒或者擂鼓助威了，那怎麼辦呢？</p>
@@ -468,7 +464,6 @@
 </section>
 <section class="chapter" id="ch-510">
 <h2>第510章 當陽大會戰（二）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_510.html">原始页面</a></div>
 <p>在徐晃的命令下，魏軍紛紛將戰車推倒，踩著戰車跳進漢軍陣地展開貼身肉搏。</p>
 <p>壕溝鹿角長槍確實能起到阻敵作用，但若敵軍不計傷亡的話其實也擋不了多久，真能將敵軍全部擋在壕溝之外的話，敵軍還會傻到拚命衝鋒嗎？</p>
 <p>隨著魏軍衝進陣中，擊殺數千魏軍的壕溝鹿角也算完成了使命。</p>
@@ -517,7 +512,8 @@
 <p>重羽營負重太大無法持久，所以劉備只給了他們半個時辰，半個時辰之後必須退回休息，恢復體力之後再戰。</p>
 <p>等了一天早就等得心焦的夏銅接到命令頓時來勁，在輔兵的幫助下穿好重甲，帶著八百重甲戰士宛如全速狂奔的半掛一樣朝魏軍撞去，孟駿率領大軍連忙跟隨，保護夏銅的後方和左右兩翼。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-501">第501章 這次老子打明牌</a></li><li><a href="#ch-502">第502章 別亂髮誓，洛水髒了</a></li><li><a href="#ch-503">第503章 曹操出武關</a></li><li><a href="#ch-504">第504章 曹操交代後事</a></li><li><a href="#ch-505">第505章 曹操接觸新農具</a></li><li><a href="#ch-506">第506章 曹操想跟劉備再戰一場</a></li><li><a href="#ch-507">第507章 下戰書</a></li><li><a href="#ch-508">第508章 最血腥的會戰</a></li><li><a href="#ch-509">第509章 當陽大會戰（一）</a></li><li><a href="#ch-510">第510章 當陽大會戰（二）</a></li></ul></aside>
+  </div>
 </body>
 </html>

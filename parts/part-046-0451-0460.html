@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 451–460 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-045-0441-0450.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-047-0461-0470.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-451">第451章 周泰之死</a></li><li><a href="#ch-452">第452章 魏軍入江陵</a></li><li><a href="#ch-453">第453章 關興及時出現</a></li><li><a href="#ch-454">第454章 關興射殺劉闡</a></li><li><a href="#ch-455">第455章 關羽在荊州的恐怖威望</a></li><li><a href="#ch-456">第456章 南漳河游泳大賽</a></li><li><a href="#ch-457">第457章 關興趕往江陵</a></li><li><a href="#ch-458">第458章 于禁的瘋狂</a></li><li><a href="#ch-459">第459章 關興孫權翁婿見面</a></li><li><a href="#ch-460">第460章 關興拒見糜芳傅士仁</a></li></ul>
 <section class="chapter" id="ch-451">
 <h2>第451章 周泰之死</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_451.html">原始页面</a></div>
 <p>最先趕到江陵的是周邵，他是從竟陵斜插過來的，到了城下率先看到的自然是北城與東城的城牆拐角。</p>
 <p>看到城牆拐角的周邵精神大振，不由再次加速並大聲吼道：“兄弟們，前方就是江陵城，咱們馬上就要回家了，再加把勁從北門進城面見主公。”</p>
 <p>說完正要招呼將士們全力趕往北門，誰料剛轉過身整個人便如遭雷擊愣在原地，甚至雙腿發軟差點癱倒在地，因為他看到了城牆上的場景。</p>
@@ -73,7 +80,6 @@
 </section>
 <section class="chapter" id="ch-452">
 <h2>第452章 魏軍入江陵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_452.html">原始页面</a></div>
 <p>當陽通往江陵的官道上，蔣濟率領大軍正在全速前進，他是騎著馬的，又走在大軍的最前方，坐在馬背上已經能遠遠看見江陵城的輪廓。</p>
 <p>遠遠望著熟悉的城牆蔣濟心裡很是感慨，滿臉激動的說道：“想不到我蔣子通還有再回江陵的一天，上次在江陵城裝孫子，又是請客又是送禮，又是說好話又是賠笑臉的，想想都憋屈，這次進城我一定要將上次失去的尊嚴全奪回來。”</p>
 <p>這話說的就有點耍無賴了，上次他可是帶著聖旨去江陵的，全程當大爺不說還把劉備的使者費禕給揍了，結果他還委屈上了。</p>
@@ -127,7 +133,6 @@
 </section>
 <section class="chapter" id="ch-453">
 <h2>第453章 關興及時出現</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_453.html">原始页面</a></div>
 <p>任何戰事都是拖的越久變數越多，變數是劣勢方最期待的東西，卻是優勢方最不想看見的東西。</p>
 <p>目前魏軍佔據著兵力優勢，又有荊州士族的鼎力支持，自然想要速戰速決，搶在吳軍援軍到來之前拿下江陵城。</p>
 <p>否則等孫權調動荊南四郡以及豫章駐軍，甚至等到關興的援軍，魏軍想再奪江陵怕就不那麼容易了。</p>
@@ -170,11 +175,9 @@
 <p>說完跳過擋路的石頭率先沖向敵軍，衝到近前之後抬起寶雕弓取出三支箭矢搭上弓弦，邊跑邊將弓弦拉滿，然後果斷鬆手射出。</p>
 <p>伴隨著刺破空氣的呼嘯聲，三名敵軍慘叫倒地，其他敵軍見後背遭遇襲擊頓時慌了神。</p>
 <p>關興卻不管那麼多，邊跑邊放箭邊厲聲喊道：“關興在此，爾等速速投降。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-454">
 <h2>第454章 關興射殺劉闡</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_454.html">原始页面</a></div>
 <p>關興前方的敵軍是劉闡的阻擊大軍，先前劉闡奉朱異之命率先趕往南門，然後趕鴨子似的將孫桓趕到了長江邊。</p>
 <p>甚至為防止孫桓坐船逃走，劉闡還派兵趕走了渡口駐軍，鑿毀了渡口船隻，但他急著圍堵孫桓沒有佔領渡口，從而導致關興順利登陸。</p>
 <p>此刻劉闡已與朱異合力將孫桓圍在了長江與沮漳河交匯的三角地帶進行最後的圍殲，劉闡甚至已經看到孫桓戰敗被俘，自己立功受封的美好場景，誰料還沒來得及高興就聽到了身後的慘叫聲。</p>
@@ -237,7 +240,6 @@
 </section>
 <section class="chapter" id="ch-455">
 <h2>第455章 關羽在荊州的恐怖威望</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_455.html">原始页面</a></div>
 <p>長江兩岸的地形可不平整，坑坑窪窪高低起伏不說還生長著許多茂盛的草木，這給雙方大軍衝鋒造成了很大的障礙。</p>
 <p>關興深一腳淺一腳的殺到朱異側翼，揮劍殺向離他最近的敵軍的同時大聲吼道：“荊州的老鄉們，我關安國又回來了，許久未見你們想我了沒？”</p>
 <p>與陌生的江東不同，荊州可是關家的大本營，關興在江陵生活過十幾年，整個荊襄九郡誰沒聽過他關二公子的名諱？</p>
@@ -285,7 +287,6 @@
 </section>
 <section class="chapter" id="ch-456">
 <h2>第456章 南漳河游泳大賽</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_456.html">原始页面</a></div>
 <p>見自己率領的大軍集體叛變朝自己殺來，而且士氣比跟自己作戰時還高，朱異整個人都不好了。</p>
 <p>他長這麼大還從未見過這麼多叛徒，你們是被關興灌迷魂湯了還是怎麼著？</p>
 <p>震驚過後的朱異意識到了危險，顧不得多想果斷留下二百親兵斷後，率領其餘親兵向北殺去。</p>
@@ -333,11 +334,9 @@
 <p>這話自然是對自己的親兵說的，但圍攻的漢吳聯軍也默契退後，將位置給關興朱異讓了出來。</p>
 <p>關朱二人捏著響指打量對方片刻同時朝對方沖了過去，結果剛一接觸朱異就被關興一個過肩摔甩飛好幾米。</p>
 <p>徒手格鬥關興才是專業的，朱異在他手裡跟小雞仔似的毫無還手之力，連續被甩十幾次后終於服氣認慫，見關興再次衝來連忙抬手阻止道：“停，我認輸……”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-457">
 <h2>第457章 關興趕往江陵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_457.html">原始页面</a></div>
 <p>看著越打越興奮，滿臉壞笑朝自己走來的關興，朱異是真的怕了。</p>
 <p>他原本還想揍關興一頓就放水認輸來著，誰料關興這麼牲口，各種刁鑽的擒拿手法輕鬆封死了自己所有的進攻招數，自己不管從哪個方向進攻都能被他找到破綻當場擒住然後用力甩出。</p>
 <p>面對關興狂風暴雨般的進攻，朱異連基本防禦和開口求饒都做不到更別說放水了，兩者壓根不是一個級別啊。</p>
@@ -385,7 +384,6 @@
 </section>
 <section class="chapter" id="ch-458">
 <h2>第458章 于禁的瘋狂</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_458.html">原始页面</a></div>
 <p>張昭是真對關興無語了，關興全殲陸遜才幾天，他們收到陸遜被全殲的消息也才幾天，關興就悄無聲息的摸到江陵城下了？</p>
 <p>從時間上推算的話，關興幾乎剛滅掉陸遜就率軍趕來江陵了，這癟犢子玩意來江陵幹什麼還用說嗎？</p>
 <p>用腳後跟想也知道是想複製建業舊事，悄無聲息的摸過來收拾他們啊。</p>
@@ -444,7 +442,6 @@
 </section>
 <section class="chapter" id="ch-459">
 <h2>第459章 關興孫權翁婿見面</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_459.html">原始页面</a></div>
 <p>關興率領的是臨時拼湊起來的雜牌兵，其中還有不少傷員，因此速度根本快不起來，磨磨蹭蹭晃悠到傍晚才趕到江陵城。</p>
 <p>趕到發現張昭正站在護城河邊迎接，張昭身邊還有一位老頭，竟是關興初入建業時，親自帶兵請出建業城的孫邵。</p>
 <p>孫邵原本打算保持中立，靜等張昭顧雍分出勝負然後誰贏跟誰走，誰料局勢變化太快，顧雍還沒來得及造反就被殺了，接著朱異聯合荊州士族反了，他的算盤自然就落空了，只好灰溜溜的跑來向孫權請罪了。</p>
@@ -495,7 +492,6 @@
 </section>
 <section class="chapter" id="ch-460">
 <h2>第460章 關興拒見糜芳傅士仁</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_460.html">原始页面</a></div>
 <p>兵馬未動，糧草先行。</p>
 <p>糧草永遠都是大戰期間不可或缺的一環，甚至是直接影響勝負的關鍵。</p>
 <p>孫權明白這個道理，所以朱異剛一造反他就開始搶劫士族瘋狂屯糧了，但士族不是那麼好搶的，而且在整體缺糧的情況下，你就算把荊州糧草全搶了又能搶多少呢？</p>
@@ -548,7 +544,8 @@
 <p>看來以後得離這小子遠點，免得刺客收拾他的時候誤傷自己。</p>
 <p>費禕被關興的反問弄的愣了片刻，很快明白過來尷尬擺手道：“小事小事，區區刺客……”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-451">第451章 周泰之死</a></li><li><a href="#ch-452">第452章 魏軍入江陵</a></li><li><a href="#ch-453">第453章 關興及時出現</a></li><li><a href="#ch-454">第454章 關興射殺劉闡</a></li><li><a href="#ch-455">第455章 關羽在荊州的恐怖威望</a></li><li><a href="#ch-456">第456章 南漳河游泳大賽</a></li><li><a href="#ch-457">第457章 關興趕往江陵</a></li><li><a href="#ch-458">第458章 于禁的瘋狂</a></li><li><a href="#ch-459">第459章 關興孫權翁婿見面</a></li><li><a href="#ch-460">第460章 關興拒見糜芳傅士仁</a></li></ul></aside>
+  </div>
 </body>
 </html>

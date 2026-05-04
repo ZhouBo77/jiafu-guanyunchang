@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 51–60 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-005-0041-0050.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-007-0061-0070.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-51">第51章 掃地僧般的存在</a></li><li><a href="#ch-52">第52章 你特么想白嫖？</a></li><li><a href="#ch-53">第53章 全靠同行襯托</a></li><li><a href="#ch-54">第54章 呂蒙真看得起我</a></li><li><a href="#ch-55">第55章 生子當如孫仲謀，合肥十萬送人頭</a></li><li><a href="#ch-56">第56章 張承要瘋了</a></li><li><a href="#ch-57">第57章 換個擅長的賽道</a></li><li><a href="#ch-58">第58章 關興去哪了？</a></li><li><a href="#ch-59">第59章 毛都不留給吳軍</a></li><li><a href="#ch-60">第60章 刀刀避開致命要害</a></li></ul>
 <section class="chapter" id="ch-51">
 <h2>第51章 掃地僧般的存在</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_51.html">原始页面</a></div>
 <p>這破山洞裡怎麼會有金鐵聲？</p>
 <p>關興帶著疑惑朝聲音傳來的方向趕去，很快便被石壁擋住去路。</p>
 <p>石壁上沒有石門，只有一個用木板擋著的，不足米許高的洞口。</p>
@@ -93,7 +100,6 @@
 </section>
 <section class="chapter" id="ch-52">
 <h2>第52章 你特么想白嫖？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_52.html">原始页面</a></div>
 <p>逃生通道的重要性不言而喻，關興急於知道通道內的情況，連鎧甲都沒脫便跳了下去。</p>
 <p>結果洞口太窄鎧甲又太臃腫，不幸被卡住了，卡住了。</p>
 <p>卡的太緊，關興試了幾次也沒掙脫出來，忍不住罵道：“該死的嚴震，洞口弄這麼窄，不怕關鍵時刻卡在中間上不去也下不來嗎，老孟看啥呢，把我拽出來啊。”</p>
@@ -155,7 +161,6 @@
 </section>
 <section class="chapter" id="ch-53">
 <h2>第53章 全靠同行襯托</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_53.html">原始页面</a></div>
 <p>新的一天又開始了。</p>
 <p>早晨東方剛泛起魚肚白，關興便帶著謝沖和錢運下鄉分地。</p>
 <p>下鄉途中路過馮鐵柱家中，順便進去做了個客，受到馮鐵柱的熱情招待。</p>
@@ -185,7 +190,6 @@
 <p>加上關興第一次分地沒什麼經驗，忙了整整四個時辰才將土地分配完畢。</p>
 <p>田間地頭上，關興拉著一位老農的手，指著腳下土地說道：“王叔，這片土地今後就是您家的了，誰敢明搶您跟我說，我替你收拾他。”</p>
 <p>王老頭激動的說道：“謝謝將軍，謝謝將軍，您真是我家的大恩人吶。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>說完衝到土地中間，趴在地上抓起捧土，放在鼻間聞了許久才放聲大哭道：“父親祖父，列祖列宗你們看見了嗎，咱老王家終於擁有自己的土地了，再也不用給人當佃戶了。”</p>
 <p>村民見他這樣，全都忍不住落下淚來，大漢百姓對土地的感情比親兒子都深，做夢都想擁有屬於自己的土地，現在夢想終於實現，誰能不激動？</p>
 <p>關興見村民全都沉浸在喜極而泣的興奮中，連忙招呼謝沖和錢運閃人。</p>
@@ -217,7 +221,6 @@
 </section>
 <section class="chapter" id="ch-54">
 <h2>第54章 呂蒙真看得起我</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_54.html">原始页面</a></div>
 <p>烏傷縣看著不大，實際管轄範圍卻一點不小，下轄十幾個鄉鎮，上百個農村，又是丘陵多山地帶，地廣人稀，想在短時間內逛遍整個縣域可不是件容易的事。</p>
 <p>關興腳不沾地忙碌整整十三天，也才分完三分之一的土地，還有三分之二的鄉鎮沒去呢。</p>
 <p>但他不敢再分下去了，算算時間，吳軍該到了。</p>
@@ -270,7 +273,6 @@
 </section>
 <section class="chapter" id="ch-55">
 <h2>第55章 生子當如孫仲謀，合肥十萬送人頭</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_55.html">原始页面</a></div>
 <p>烏傷城下，旌旗招展兵馬過萬。</p>
 <p>張承站在城外看著空蕩蕩的城牆，蹙眉問道：“什麼情況，城上怎麼連個放哨的都沒有，關興那個混蛋不會在城內埋伏咱們吧？”</p>
 <p>諸葛恪搖頭道：“不會，斥候回報說關興已經撤了，至於撤去哪裡，暫時還沒查到。”</p>
@@ -331,7 +333,6 @@
 </section>
 <section class="chapter" id="ch-56">
 <h2>第56章 張承要瘋了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_56.html">原始页面</a></div>
 <p>山谷空曠有迴音，加上漢軍鬼哭狼嚎，聲音嚴重跑調，倉促間根本聽不清。</p>
 <p>但這只是暫時的，漢軍很快便調整過來，將對吳軍的問候清晰的送進了張承耳中。</p>
 <p>“生子當如孫仲謀，合肥十萬送人頭，遇事不決問張昭，降了去逑。”</p>
@@ -393,7 +394,6 @@
 </section>
 <section class="chapter" id="ch-57">
 <h2>第57章 換個擅長的賽道</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_57.html">原始页面</a></div>
 <p>吳軍被精神攻擊刺激的徹底發狂，借著床弩的掩護在山腰開闢出十幾座平台，並搬來大量樹枝點燃放煙，準備給龜縮在溶洞的漢軍一點顏色看看。</p>
 <p>煙雖然隨風亂飄，不可能全部飄到溶洞中，但也不可能全都繞開溶洞啊，只要有十分之一吹進溶洞，就夠關興那個王八蛋受的。</p>
 <p>而且有床弩在，漢軍不敢四處亂跑，只能跟關興一樣趴在地上匍匐前進，這又為吳軍的行動提供了許多便利。</p>
@@ -451,7 +451,6 @@
 </section>
 <section class="chapter" id="ch-58">
 <h2>第58章 關興去哪了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_58.html">原始页面</a></div>
 <p>關興是主動撤退可不是倉皇逃命，自然不希望吳軍死死吊在屁股後面，好歹拉開點距離，爭取點迴旋空間不是。</p>
 <p>所以他不希望吳軍輕鬆進入石門，必須給對方找點麻煩才行。</p>
 <p>在他的命令下，謝沖親自帶人將磨成圓柱形的石頭推到門口，再翻過來豎著擺放頂住石門。</p>
@@ -510,7 +509,6 @@
 </section>
 <section class="chapter" id="ch-59">
 <h2>第59章 毛都不留給吳軍</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_59.html">原始页面</a></div>
 <p>離開溶洞的漢軍如龍歸大海，虎入山林，在山路上快速馳騁。</p>
 <p>關興走在隊伍的最前方，想著吳軍全力破門進入密道的場景，忍不住問道：“老謝老孟，你們說張承和諸葛恪發現咱們離開之後會是個什麼表情？”</p>
 <p>孟駿興奮笑道：“那肯定得氣瘋啊，張承是篤定下山無路，咱們待在山上無法逃走才又是收集石碳放煙，又是打造投石機，全力猛攻雞頭嶺的，結果姿勢擺好了咱們跑了，等於一拳打在空出，這不得鬱悶死他啊。”</p>
@@ -535,7 +533,6 @@
 <p>張承蹙眉道：“那就不能指望大末駐軍了，得全力追擊才行，這樣，你押運輜重後面過來，我率領主力全速追擊，爭取在漢軍攻破大末之前追上關興那個王八蛋，否則等關興攻破城池搶走糧草，咱們又要頭疼了。”</p>
 <p>他們糧草不多，後方暫時又指望不上，只能就近籌集，若被關興先一步搶走糧草，他們就真該哭了。</p>
 <p>因為關興籌集糧草的方式與他們略有差異，他們找士族借糧得看士族的心情，士族再心善也不可能將糧草都給他們，肯定要留一部分自用的。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興卻不同，這個王八蛋是直接生搶啊，逼急了別說糧食，連士族都得被滅門，被他禍害過的地方可是連根毛都不會給自己留下的。</p>
 <p>所以必須加快腳步，絕不能給關興禍害縣城的時間。</p>
 <p>諸葛恪點頭道：“那你小心些，別中了關興的埋伏。”</p>
@@ -559,11 +556,9 @@
 <p>隨著城外的喊殺聲響起，城內潛伏人員火速衝出殺向城門。</p>
 <p>小小縣城只有百餘守軍，哪擋得住漢軍內外夾擊，僅僅不到半刻鐘，城內漢軍便放下弔橋打開了城門。</p>
 <p>孟駿見此興奮吼道：“兄弟們，給我沖……”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-60">
 <h2>第60章 刀刀避開致命要害</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_60.html">原始页面</a></div>
 <p>隨著城破，城內守軍爽快投降。</p>
 <p>關興順利進入城門，大聲命令道：“紀傑，你率四營守住各處城門，防止士族出逃，其他人各領一隊攻打城內士族，記住只搶糧食不搶金銀，更不許殺人，違令者軍法從事。”</p>
 <p>他已將大末看成自家領地，自然不會殺的人頭滾滾，惹百姓嫌棄。</p>
@@ -621,9 +616,9 @@
 <p>張承揮刀砍斷繩索轉身就走，游勇爬起快速追去，邊追邊喊道：“將軍，等等我。”</p>
 <p>兩人離開大堂剛出縣衙，傳令兵便匆匆來報道：“將軍，漢軍朝谷水去了，目前正在渡江。”</p>
 <p>張承咬牙道：“追，絕不能讓他們順利過江。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-51">第51章 掃地僧般的存在</a></li><li><a href="#ch-52">第52章 你特么想白嫖？</a></li><li><a href="#ch-53">第53章 全靠同行襯托</a></li><li><a href="#ch-54">第54章 呂蒙真看得起我</a></li><li><a href="#ch-55">第55章 生子當如孫仲謀，合肥十萬送人頭</a></li><li><a href="#ch-56">第56章 張承要瘋了</a></li><li><a href="#ch-57">第57章 換個擅長的賽道</a></li><li><a href="#ch-58">第58章 關興去哪了？</a></li><li><a href="#ch-59">第59章 毛都不留給吳軍</a></li><li><a href="#ch-60">第60章 刀刀避開致命要害</a></li></ul></aside>
+  </div>
 </body>
 </html>

@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 801–810 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-080-0791-0800.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-082-0811-0820.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-801">第801章 立國之戰（終）</a></li><li><a href="#ch-802">第802章 曹丕這輩子</a></li><li><a href="#ch-803">第803章 集體圍觀</a></li><li><a href="#ch-804">第804章 馬超信使回來了</a></li><li><a href="#ch-805">第805章 馬超封王</a></li><li><a href="#ch-806">第806章 姜維吃癟，曹真遁走</a></li><li><a href="#ch-807">第807章 曹叡不服</a></li><li><a href="#ch-808">第808章 張郃投降</a></li><li><a href="#ch-809">第809章 識時務的曹彰</a></li><li><a href="#ch-810">第810章 戰前會議</a></li></ul>
 <section class="chapter" id="ch-801">
 <h2>第801章 立國之戰（終）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_801.html">原始页面</a></div>
 <p>趙雲老當益壯戰力無雙，廝殺的時候還能眼觀六路耳聽八方，所以早在張飛被許褚盯上的時候便改變方向朝兩人移動。</p>
 <p>見關興衝上救援張飛的時候，趙雲同樣緊張的加快了速度，因為這些老將都知道關興對大漢意味著什麼，寧可自己死也不想關興死，這種情況下許褚竟想打殺關興，簡直是捅馬蜂窩了。</p>
 <p>所以趙雲迅速趕來，並在張飛關興正面牽制許褚的時候果斷出手收了人頭。</p>
@@ -82,7 +89,6 @@
 </section>
 <section class="chapter" id="ch-802">
 <h2>第802章 曹丕這輩子</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_802.html">原始页面</a></div>
 <p>說實話，剛收到曹丕被圍的消息時劉備也懵了，曹丕竟然沒有逃？</p>
 <p>以前怎麼沒看出來這小子這麼剛，骨頭比他爹還硬。</p>
 <p>這要換成曹操，估計早跑了！</p>
@@ -136,7 +142,6 @@
 </section>
 <section class="chapter" id="ch-803">
 <h2>第803章 集體圍觀</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_803.html">原始页面</a></div>
 <p>漢軍指揮台上。</p>
 <p>遠遠看到沈翊出現，心早已提到嗓子眼的諸葛亮心中狂喜雙腿一軟，差點癱倒在地。</p>
 <p>此戰他雖未上陣殺敵卻始終站在高處觀察戰場，心也跟著戰局不斷的狂跳，可謂是緊張到了極點。</p>
@@ -190,11 +195,9 @@
 <p>“什麼？”張郃如遭重擊眼前陣陣發黑，猛的推開正在包紮傷口的程禮艱難起身向前衝去並厲聲吼道：“陛下……”</p>
 <p>沖的太急腳下一個踉蹌又摔一跤，嚇的程禮連忙提醒道：“張將軍冷靜，你傷很重別亂動。”</p>
 <p>張郃充耳不聞，爬起來繼續前進，程禮還待再說，劉備卻出言阻止道：“讓他去看看吧，子龍，你帶張郃過去，別引起其他士兵的誤會，也別讓他再受傷害。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-804">
 <h2>第804章 馬超信使回來了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_804.html">原始页面</a></div>
 <p>曹丕與曹仁的身份太過尊崇，尊崇到連劉備都不敢太過褻瀆，所以便派人就近從宛城抬了兩口棺材臨時安置。</p>
 <p>在趙雲的帶領下，張郃跌跌撞撞的趕到棺材旁，掀開棺蓋看著曹丕那張因中毒而發青的臉龐，不由的老淚縱橫道：“陛下，老臣救駕來遲，致使陛下……老臣罪該萬死啊……”</p>
 <p>張郃是真的痛心，他雖是袁紹舊將，追隨曹家的時間卻更長，毫不誇張的說，他的官職爵位乃至名望都是曹操給的，若非曹操，他怎麼可能變成名滿天下的大將張郃？</p>
@@ -218,7 +221,6 @@
 <p>張苞眼疾手快火速衝上，在他落地的瞬間抓住他的衣領，避免了後腦勺著地的風險。</p>
 <p>張苞小心將曹彰放好，邊搜刮他身上的武器邊說道：“快去找程董二位神醫，一定要把這小子給救活啊。”</p>
 <p>董奉很快趕到，仔細檢查一番說道：“他的鎧甲夠厚沒有致命傷，只是失血有點多不嚴重，給我騰個位置。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>張苞依言照做，然後留下三名軍醫給董奉打下手，自己則火速趕去找劉備彙報。</p>
 <p>曹彰的身份太高，還特么是活的，自己可處理不了，必須上報。</p>
 <p>張苞走到半路發現諸葛亮也帶隊朝劉備那邊趕，火速追上彙報情況，諸葛亮得知大喜，誇獎張苞一番加快腳步趕到劉備身邊彙報詳情。</p>
@@ -243,11 +245,9 @@
 <p>感慨之際，一個聲音突然吼道：“你們是什麼人？”</p>
 <p>蒯齊嚇的一個激靈連忙抬頭，見自己已被數百把弓箭瞄準，嚇的連忙行禮拜道：“下官蒯齊，奉馬超將軍之命覲見陛下。”</p>
 <p>對面為首的將領聞言頓時驚呼道：“誰……你說誰……”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-805">
 <h2>第805章 馬超封王</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_805.html">原始页面</a></div>
 <p>攔住蒯齊去路的將領不是別人竟是沙摩柯，沙摩柯震驚的問道：“你說你奉誰的命令？”</p>
 <p>神威天將軍的大名誰人不知？</p>
 <p>沙摩柯雖是蠻夷卻在涼州待了一年有餘，對馬超之名早就如雷貫耳了。</p>
@@ -303,7 +303,6 @@
 </section>
 <section class="chapter" id="ch-806">
 <h2>第806章 姜維吃癟，曹真遁走</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_806.html">原始页面</a></div>
 <p>天黑了。</p>
 <p>鏖戰數日的漢魏兩軍終於可以安心睡了，因此除被留下值夜警戒的沈翊之外，其他人幾乎沾床就睡，且是耳刮子抽都抽不醒的那種。</p>
 <p>也就是說沈翊若是臨陣倒戈，能毫不費力的將在場所有人都給屠了。</p>
@@ -357,7 +356,6 @@
 </section>
 <section class="chapter" id="ch-807">
 <h2>第807章 曹叡不服</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_807.html">原始页面</a></div>
 <p>在曹真逃進昆陽的同一時間，鄴城通往洛陽的官道上，一支千餘人的騎兵正在策馬狂奔，領頭的竟是大魏太子曹叡，身後跟著他的文學掾毌丘儉。</p>
 <p>“駕駕駕……”曹叡猛抽馬鞭道：“快點再快點，必須以最快的速度趕到洛陽。”</p>
 <p>毌丘儉卻提醒道：“殿下你要不要再考慮考慮，無詔入京可是大罪，回頭陛下若是怪罪……”</p>
@@ -408,11 +406,9 @@
 <p>很快張飛趕到，看到張飛的慘狀劉備本能發笑，此刻的張飛渾身纏滿繃帶，腋窩下夾著拐杖，走路一瘸一拐的看著格外滑稽。</p>
 <p>劉備也沒好哪去，兄弟倆一瘸一拐的相互攙扶著趕去張郃住處。</p>
 <p>張郃所住帳篷周圍布滿漢軍，兩人揮退士兵走進帳篷，發現張郃還在昏迷，果斷搬來椅子坐在床邊看著張郃睡覺等他蘇醒。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-808">
 <h2>第808章 張郃投降</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_808.html">原始页面</a></div>
 <p>劉備對張郃是非常重視的，也是真心想收為己用的，所以剛蘇醒便親自過來勸降了。</p>
 <p>如此重視張郃的原因很簡單，首先張郃人品不錯，比打了敗仗就甩鍋下屬的徐晃強多了，若非他甩鍋，王平也不會降漢呢！</p>
 <p>其次劉備跟張郃都在袁紹手底下混過，且兩人關係不錯，屬於舊相識老朋友，現在劉備發達了，老朋友卻沒剩幾個了，張郃死了的話他向誰炫耀去？</p>
@@ -459,7 +455,6 @@
 </section>
 <section class="chapter" id="ch-809">
 <h2>第809章 識時務的曹彰</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_809.html">原始页面</a></div>
 <p>關於漢室匡扶之後對曹丕的定性問題，劉備曾跟諸葛亮深入商議過，商議的結果就是必須承認曹家父子的帝位，將曹家父子高高的供起來。</p>
 <p>如此做的原因很簡單，首先就是劉備帝位合法性的問題，不承認曹丕的帝位就等於沒有曹丕稱帝這檔子事，沒有這檔子事的話，那大漢目前的皇帝還是劉協。</p>
 <p>天無二日，地無二主，大漢卻在同一時間出現一南一北兩個皇帝，這不是鬧嗎？</p>
@@ -506,11 +501,9 @@
 <p>關羽交代完畢起身離去，曹彰掙扎片刻對著他的背影弱弱喊道：“雲長叔，我能不能去給我哥上炷香？”</p>
 <p>他跟曹丕關係雖然不咋滴，但再怎麼說那也是他的親哥哥，現在陰陽兩隔，還有什麼放不下的？</p>
 <p>關羽頭也不回的說道：“可以，待會我讓關平陪你去。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-810">
 <h2>第810章 戰前會議</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_810.html">原始页面</a></div>
 <p>安排好張郃與曹彰，劉備召集眾將大帳議事。</p>
 <p>議的自然是接下來的戰事，魏軍主力被全殲了，通往洛陽的道路也暢通了，自然要一鼓作氣，發兵洛陽收復故都了。</p>
 <p>想到收復洛陽的場景，劉備激動的熱血沸騰，恨不得插上翅膀瞬間飛到洛陽城。</p>
@@ -561,7 +554,8 @@
 <p>“喏……”眾將行禮告退，回營各自準備。</p>
 <p>劉備則走出帥帳望向洛陽，滿臉火熱的喃喃自語道：“大漢故都，朕馬上就要回來了，等著我！”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-801">第801章 立國之戰（終）</a></li><li><a href="#ch-802">第802章 曹丕這輩子</a></li><li><a href="#ch-803">第803章 集體圍觀</a></li><li><a href="#ch-804">第804章 馬超信使回來了</a></li><li><a href="#ch-805">第805章 馬超封王</a></li><li><a href="#ch-806">第806章 姜維吃癟，曹真遁走</a></li><li><a href="#ch-807">第807章 曹叡不服</a></li><li><a href="#ch-808">第808章 張郃投降</a></li><li><a href="#ch-809">第809章 識時務的曹彰</a></li><li><a href="#ch-810">第810章 戰前會議</a></li></ul></aside>
+  </div>
 </body>
 </html>

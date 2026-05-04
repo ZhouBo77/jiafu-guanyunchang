@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 731–740 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-073-0721-0730.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-075-0741-0750.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-731">第731章 曹丕你個人渣</a></li><li><a href="#ch-732">第732章 劫囚車孫狼中計</a></li><li><a href="#ch-733">第733章 狡詐的孫狼</a></li><li><a href="#ch-734">第734章 看你顧哪頭？</a></li><li><a href="#ch-735">第735章 遍地開花，全反了</a></li><li><a href="#ch-736">第736章 深夜奇襲，救出孫狼</a></li><li><a href="#ch-737">第737章 進攻是最好的防守</a></li><li><a href="#ch-738">第738章 都打明牌了</a></li><li><a href="#ch-739">第739章 李狗剩再救孫狼</a></li><li><a href="#ch-740">第740章 孫狼又逃了？</a></li></ul>
 <section class="chapter" id="ch-731">
 <h2>第731章 曹丕你個人渣</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_731.html">原始页面</a></div>
 <p>侄子和侄孫百日這麼大的事情劉備肯定是要到場的。</p>
 <p>此刻劉備正在湖邊涼亭中跟關羽張飛諸葛亮等人聊天，見關興過來立刻招手道：“安國快來，今天可是你兒子的百日宴，你作為父親竟然不出面，這可不合適。”</p>
 <p>關興小跑到亭中，朝眾人行禮之後湊到劉備耳邊說道：“陛下，江北密報，借步說話。”</p>
@@ -80,7 +87,6 @@
 </section>
 <section class="chapter" id="ch-732">
 <h2>第732章 劫囚車孫狼中計</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_732.html">原始页面</a></div>
 <p>事情永遠都是在矛盾中發展的，一方想消停，另一方就會逼著你前進。</p>
 <p>敵後諜戰也是一樣，大漢暗諜想長期潛伏，安心發展群眾基礎，田豫高柔等豫州官員自然不同意。</p>
 <p>因此厚葬吳祁之後，田豫向曹丕申請，調來校事府功曹顧鎮相助。</p>
@@ -129,11 +135,9 @@
 <p>胡家兄弟原本是被關在慎陽縣衙大牢的，但縣衙牢房你也知道，就用一層磚隨意堆砌的，且年久失修質量奇差，隨便一撞就能將牆壁撞個大洞……</p>
 <p>田豫辛苦抓捕的胡家兄弟就這麼水靈靈的逃了，鬱悶的田豫只想撞牆。</p>
 <p>但現在不是鬱悶的時候，好不容易才將孫狼引出來，必須加緊追過去將其死死纏住，然後聚而殲之……</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-733">
 <h2>第733章 狡詐的孫狼</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_733.html">原始页面</a></div>
 <p>“快快快，逃進確山就安全了！”</p>
 <p>一片剛被收割只剩麥茬的麥田裡，孫狼不斷呼喊，催促兄弟們加快速度。</p>
 <p>田豫率領的肯定是騎兵，他們都是步兵速度本就不如騎兵，再不拚命的話真可能被追上的。</p>
@@ -180,11 +184,9 @@
 <p>還是那句話，好不容易才將孫狼給調出來，這次說什麼也不能讓孫狼脫離自己的視線。</p>
 <p>大軍緩慢穿過麥田，進入荒野之後田豫沒敢再全速追擊，而是派斥候沿著孫狼逃走的方向仔細探查，確定沒有陷阱之後才繼續前進。</p>
 <p>如此一來騎兵的速度優勢就等於是廢了，等田豫趕到確山時孫狼早就進山了。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-734">
 <h2>第734章 看你顧哪頭？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_734.html">原始页面</a></div>
 <p>藉助各種遲滯速度的竹籤陷阱，孫狼成功遲滯住田豫的追擊速度，順利逃進了確山。</p>
 <p>確山是桐柏山和伏牛山交匯的余脈，地勢不高山勢不險，只能暫時擋住騎兵衝擊，無法擺脫長久圍困。</p>
 <p>因此進入確山之後孫狼沒敢逗留，略做休息便繼續出發，直奔桐柏山而去。</p>
@@ -232,11 +234,9 @@
 <p>“什麼？”</p>
 <p>田豫高柔驚的同時站起，沒等回過神來又一隊傳令兵倉促趕來。</p>
 <p>“將軍不好了，召陵縣城被漢軍攻破……”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-735">
 <h2>第735章 遍地開花，全反了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_735.html">原始页面</a></div>
 <p>“什麼，召陵也淪陷了？”</p>
 <p>西華淪陷的消息宛如一記重鎚，震的田豫暈暈乎乎的，沒等回神又收到了召陵淪陷的消息。</p>
 <p>這就相當於剛挨一記重鎚還沒緩過神呢又挨一錘，換誰都得懵。</p>
@@ -285,7 +285,6 @@
 </section>
 <section class="chapter" id="ch-736">
 <h2>第736章 深夜奇襲，救出孫狼</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_736.html">原始页面</a></div>
 <p>許都通往平輿的官道上，李狗剩正帶著近二十輛車，超過三百人護送的龐大車隊快速前進。</p>
 <p>但他們這次的目的地不是平輿而是確山，任務目標是營救孫狼。</p>
 <p>路上一名二十六七的青年問道：“狗剩哥，聽說圍困孫狼哥的魏軍有五六千人，咱們這點人能把人救出來嗎？”</p>
@@ -334,7 +333,6 @@
 </section>
 <section class="chapter" id="ch-737">
 <h2>第737章 進攻是最好的防守</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_737.html">原始页面</a></div>
 <p>包圍與突圍是有區別的，包圍需要呈圓形布置兵力，將敵兵徹底圍困防止其逃脫，這對兵力的要求非常大，需要三到五倍的兵力才能達到一倍兵力的效果。</p>
 <p>突圍卻不同，只要選擇一個點進行突破就成，因此兵力可以更好的集中，發揮出鐵釘釘木板的效果。</p>
 <p>李狗剩以自身為箭頭，率領部眾組成矢鋒陣型從裡面突破，孫狼以同樣的方式從外圍進攻，兵力分散的魏軍根本扛不住他倆的內外夾擊，導致兩人很快殺穿魏軍順利會合。</p>
@@ -384,7 +382,6 @@
 </section>
 <section class="chapter" id="ch-738">
 <h2>第738章 都打明牌了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_738.html">原始页面</a></div>
 <p>隨著時間推移，各地叛軍陸續趕來上蔡，很快上蔡的兵力就達到了驚人的一萬五千人，只剩數千人未到了。</p>
 <p>這個數字將埋伏在五十裡外的田豫嚇了一跳，不敢再拖下去了，連忙喊來校事府密諜詢問情況。</p>
 <p>密諜答道：“稟將軍，城內防守非常嚴密，守城士兵三班倒輪流值夜，甚至還養了幾條大黑狗叫個不停，根本沒有晚上襲城的條件。”</p>
@@ -437,7 +434,6 @@
 </section>
 <section class="chapter" id="ch-739">
 <h2>第739章 李狗剩再救孫狼</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_739.html">原始页面</a></div>
 <p>發現田豫既不進攻也不離去，而是如狗皮膏藥般死死貼著自己，孫狼就知道麻煩大了。</p>
 <p>但也沒辦法，不把田豫清理掉，而是直接去打平輿的話，田豫肯定會在路上截擊或者在他攻城的時候突襲，所以想要安穩攻打平輿或者其他城池攻城掠地，只能先解決田豫這個隱患。</p>
 <p>可惜田豫太過雞賊提前做了防備，這就讓孫狼陷入了兩難境地。</p>
@@ -487,7 +483,6 @@
 </section>
 <section class="chapter" id="ch-740">
 <h2>第740章 孫狼又逃了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_740.html">原始页面</a></div>
 <p>人是鐵飯是鋼，一頓不吃餓的慌，大軍也是要吃飯的，不吃飯虛的連刀都提不起來，還怎麼打仗？</p>
 <p>所以雙方大軍發現誰也奈何不了誰之後便默契的選擇了乾飯。</p>
 <p>但過江的李寬卻沒這個福分，而是餓著肚子發動群眾砍伐樹木收集木料，並快速運往河邊開始架橋。</p>
@@ -535,7 +530,8 @@
 <p>夏侯充也不是傻子，想通原由破口罵道：“該死的里李庚，妄我這麼信任他，我這就回許都收拾他去。”</p>
 <p>說著就要上馬離開，田豫卻拉住馬韁勸道：“李庚只是個暗諜破壞力不大，當務之急還是得解決孫狼，孫狼麾下可是有兩萬人吶，而且看他撤退的方向八成是江夏或者南陽，那裡可是魏漢前線，有漢軍駐紮的，孫狼若與漢軍邊軍裡應外合的話，後果不堪設想啊。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-731">第731章 曹丕你個人渣</a></li><li><a href="#ch-732">第732章 劫囚車孫狼中計</a></li><li><a href="#ch-733">第733章 狡詐的孫狼</a></li><li><a href="#ch-734">第734章 看你顧哪頭？</a></li><li><a href="#ch-735">第735章 遍地開花，全反了</a></li><li><a href="#ch-736">第736章 深夜奇襲，救出孫狼</a></li><li><a href="#ch-737">第737章 進攻是最好的防守</a></li><li><a href="#ch-738">第738章 都打明牌了</a></li><li><a href="#ch-739">第739章 李狗剩再救孫狼</a></li><li><a href="#ch-740">第740章 孫狼又逃了？</a></li></ul></aside>
+  </div>
 </body>
 </html>

@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 121–130 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-012-0111-0120.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-014-0131-0140.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-121">第121章 隊長我服了，求求你別走了</a></li><li><a href="#ch-122">第122章 四個俘虜湊一塊</a></li><li><a href="#ch-123">第123章 我是打鐵的，不是鐵打的</a></li><li><a href="#ch-124">第124章 讓關二爺端茶遞水？</a></li><li><a href="#ch-125">第125章 劉備的信使終於來了</a></li><li><a href="#ch-126">第126章 諸葛亮給關羽的建議</a></li><li><a href="#ch-127">第127章 後顧之憂盡去也</a></li><li><a href="#ch-128">第128章 呂蒙吐血了</a></li><li><a href="#ch-129">第129章 呂蒙朝自己人揮屠刀</a></li><li><a href="#ch-130">第130章 最怕好友飛黃騰達</a></li></ul>
 <section class="chapter" id="ch-121">
 <h2>第121章 隊長我服了，求求你別走了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_121.html">原始页面</a></div>
 <p>關興知道這次張昭呂蒙大概率不會再付贖金，畢竟要價太高了。</p>
 <p>而且羊毛不能老逮著一隻羊薅，否則遲早會把羊薅急眼的。</p>
 <p>但他還是決定找張昭呂蒙要贖金，不是真想要錢，而是想藉機噁心他倆，順帶打擊張承四人。</p>
@@ -89,7 +96,6 @@
 </section>
 <section class="chapter" id="ch-122">
 <h2>第122章 四個俘虜湊一塊</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_122.html">原始页面</a></div>
 <p>駐守大末的沈翊接到關興命令立刻趕來烏傷開會，與之同來的還有打敗全琮時抓捕的上萬俘虜，其中就包括周循全琮諸葛恪三位高級俘虜。</p>
 <p>關興收到消息親自出城迎接，跟三人閑扯幾句就將他們扔去了張承所在的院子里。</p>
 <p>他是來接沈翊的又不是來接這三位手下敗將的，自然不會對三人太過客氣。</p>
@@ -146,7 +152,6 @@
 </section>
 <section class="chapter" id="ch-123">
 <h2>第123章 我是打鐵的，不是鐵打的</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_123.html">原始页面</a></div>
 <p>大漢生產力底下，衣食住行所需物品就沒有不缺的，尤其是布，已經缺到了令人髮指的地步。</p>
 <p>就拿金衢盆地來說吧，很多家庭共用一套衣服，全家就那一件，誰出門誰穿。</p>
 <p>衣服都是如此，鞋子就更別說了，百姓穿的基本都是草鞋，很多人甚至連草鞋都沒有，只能光腳行走，這在後世你敢想象？</p>
@@ -202,7 +207,6 @@
 </section>
 <section class="chapter" id="ch-124">
 <h2>第124章 讓關二爺端茶遞水？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_124.html">原始页面</a></div>
 <p>建業城內，將軍幕府。</p>
 <p>近期諸事順遂，關羽心情大好，晚上回來難得的洗了個澡，舒舒服服的躺在了床上。</p>
 <p>閉上眼睛醞釀半個時辰，悲催的發現失眠了，不知為何他明明不想思考，那些糟心事卻不斷往腦海里冒。</p>
@@ -260,7 +264,6 @@
 </section>
 <section class="chapter" id="ch-125">
 <h2>第125章 劉備的信使終於來了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_125.html">原始页面</a></div>
 <p>江東士族跟孫權的關係並不好，對孫權的忠心也不高，之所以支持張昭，是因為比起孫權，他們更不待見關羽劉備。</p>
 <p>確切的說是孫權給士族的特權太多，若讓關羽入駐江東，這些特權肯定會被取消。</p>
 <p>所以他們才願意出兵出糧全力支持張昭呂蒙，但支持的前提是你得打勝仗，讓士族看到勝利的希望啊。</p>
@@ -312,11 +315,9 @@
 <p>說白了就是先斬後奏。</p>
 <p>鄧芝繼續說道：“大王讓我告訴君侯，他同意掉頭北伐，但不同意您死守建業，希望君侯引來魏軍之後立刻突圍退往交州。”</p>
 <p>“大王已經派使者前往交州與士燮談判了，只要君侯退到交州，士燮不會為難你。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-126">
 <h2>第126章 諸葛亮給關羽的建議</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_126.html">原始页面</a></div>
 <p>劉備可不是為了江山放棄兄弟的無義之人，不可能真將關羽扔在建業不管不問，接受關羽建議掉頭北伐的同時也在積極為關羽謀取退路。</p>
 <p>但關羽目前的處境太過危險，前後左右都被堵的嚴嚴實實不說，魏軍南下之後還會更加危險，劉備又鞭長莫及，能動用的手段實在有限。</p>
 <p>劉備與諸葛亮商議半天，覺得最好的辦法就是引來魏軍之後立刻南撤。</p>
@@ -364,7 +365,6 @@
 </section>
 <section class="chapter" id="ch-127">
 <h2>第127章 後顧之憂盡去也</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_127.html">原始页面</a></div>
 <p>鄧芝整個人都懵了，我聽見了啥？</p>
 <p>關興竟然全殲五萬南征吳軍，生擒吳軍主將？</p>
 <p>還特么兩次？</p>
@@ -414,7 +414,6 @@
 </section>
 <section class="chapter" id="ch-128">
 <h2>第128章 呂蒙吐血了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_128.html">原始页面</a></div>
 <p>城外吳軍大營。</p>
 <p>早晨天剛亮，張昭便再次趕到帥帳與呂蒙會合，兩人四目相對，彼此都看到了對方沉重的黑眼圈。</p>
 <p>目前帳中只有他們兩人，沒有必要故作淡定去鼓舞軍心，張昭癱坐在支踵上嘆道：“周循諸葛恪再次被俘，全琮也已被俘，三路大軍已去其二，只剩張承一路怕是獨木難支啊，老夫實在沒想到，這個該死的關安國竟比他爹還難對付。”</p>
@@ -465,7 +464,6 @@
 </section>
 <section class="chapter" id="ch-129">
 <h2>第129章 呂蒙朝自己人揮屠刀</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_129.html">原始页面</a></div>
 <p>人離鄉賤，能在本地混下去的沒幾個願意去外地發展。</p>
 <p>普通百姓都是如此，更別說家大業大的士族了。</p>
 <p>士族最大的財富是良田和莊園，這些不動產是無法帶走的，讓他們撤往荊州就意味著財富歸零，一切從頭開始，換你你願意嗎？</p>
@@ -524,7 +522,6 @@
 </section>
 <section class="chapter" id="ch-130">
 <h2>第130章 最怕好友飛黃騰達</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_130.html">原始页面</a></div>
 <p>得知張祗造反，士族將領的臉上滿是羨慕與遺憾。</p>
 <p>他們的家業都在江東，不可能拋家舍業誓死追隨碧眼賊，孫權獲勝他們自然會跟在身後搖旗吶喊歌功頌德，但若孫權戰敗，他們則會毫不猶豫的落井下石。</p>
 <p>所以關羽剛奪走建業，在場大多數人便萌生了打開濡須口，恭請魏王入駐江東，藉此獲取首功的想法。</p>
@@ -578,7 +575,8 @@
 <p>“派使者去跟關羽說聲，告訴他咱們願用吳郡換退路，咱們不阻止他攻打吳郡，他也別阻止咱們撤退。”</p>
 <p>“吳郡乃是江東士族的老巢，各大士族莊園的存糧加起來可不止百萬石，月余時間足夠關羽將吳郡糧草運來建業了。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-121">第121章 隊長我服了，求求你別走了</a></li><li><a href="#ch-122">第122章 四個俘虜湊一塊</a></li><li><a href="#ch-123">第123章 我是打鐵的，不是鐵打的</a></li><li><a href="#ch-124">第124章 讓關二爺端茶遞水？</a></li><li><a href="#ch-125">第125章 劉備的信使終於來了</a></li><li><a href="#ch-126">第126章 諸葛亮給關羽的建議</a></li><li><a href="#ch-127">第127章 後顧之憂盡去也</a></li><li><a href="#ch-128">第128章 呂蒙吐血了</a></li><li><a href="#ch-129">第129章 呂蒙朝自己人揮屠刀</a></li><li><a href="#ch-130">第130章 最怕好友飛黃騰達</a></li></ul></aside>
+  </div>
 </body>
 </html>

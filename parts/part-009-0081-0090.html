@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 81–90 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-008-0071-0080.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-010-0091-0100.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-81">第81章 關羽這個兒子太可怕</a></li><li><a href="#ch-82">第82章 關羽不上當</a></li><li><a href="#ch-83">第83章 江東反骨仔</a></li><li><a href="#ch-84">第84章 張昭竟然釣魚執法？</a></li><li><a href="#ch-85">第85章 烏傷鍊鋼廠</a></li><li><a href="#ch-86">第86章 孫紹，你才是吳侯世子</a></li><li><a href="#ch-87">第87章 被關興染上惡習</a></li><li><a href="#ch-88">第88章 張承再次領兵</a></li><li><a href="#ch-89">第89章 漢軍集體扮演張承</a></li><li><a href="#ch-90">第90章 你有張良計，我有過牆梯</a></li></ul>
 <section class="chapter" id="ch-81">
 <h2>第81章 關羽這個兒子太可怕</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_81.html">原始页面</a></div>
 <p>出了這樣的事，呂蒙張昭都沒心思再戰了。</p>
 <p>攻城將士雖然不知道張承戰敗的消息，但隨著時間推移，他倆的情緒肯定會影響到身邊人，再打下去確實沒啥意義。</p>
 <p>呂蒙嘆息一聲下令收兵，隨著鑼聲響起，攻城吳軍潮水般退了回去。</p>
@@ -89,7 +96,6 @@
 </section>
 <section class="chapter" id="ch-82">
 <h2>第82章 關羽不上當</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_82.html">原始页面</a></div>
 <p>夜襲吳軍？</p>
 <p>關羽眼前一亮興奮說道：“這主意好啊，吳軍攻城月余卻沒取得絲毫進展，士氣已經大不如前。”</p>
 <p>“現在又收到張承戰敗的消息，軍心肯定更加浮動，這種時候發動夜襲不但能一舉功成，甚至可能逼的吳軍徹底崩潰，打出類似張遼逍遙津的戰績。”</p>
@@ -143,7 +149,6 @@
 </section>
 <section class="chapter" id="ch-83">
 <h2>第83章 江東反骨仔</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_83.html">原始页面</a></div>
 <p>吳軍大營。</p>
 <p>呂蒙苦守一夜也沒等來漢軍，天亮找到張昭打著哈欠罵道：“該死的關羽竟然沒有夜襲，這個紅臉賊啥時候這麼穩了，不像他啊。”</p>
 <p>“軍師，你是不是沒把消息送到關羽耳中啊？”</p>
@@ -199,11 +204,9 @@
 <p>顧徽笑道：“如此甚好。”</p>
 <p>說完提筆寫上自己大名，拿起絹帛正要吹乾，突然帳簾掀開，張昭帶著兩名親兵不請自來。</p>
 <p>顧徽心一顫手一抖，書信啪的一聲掉到了桌案上。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-84">
 <h2>第84章 張昭竟然釣魚執法？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_84.html">原始页面</a></div>
 <p>顧徽被張昭嚇的臉色慘變雙腿猛顫，腦袋跟磚拍了似的，暈暈乎乎的只剩一個念頭。</p>
 <p>他怎麼會來？</p>
 <p>怎麼會在這個時候來？</p>
@@ -266,7 +269,6 @@
 </section>
 <section class="chapter" id="ch-85">
 <h2>第85章 烏傷鍊鋼廠</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_85.html">原始页面</a></div>
 <p>烏傷。</p>
 <p>城南三十里處有座莊園，是前任縣令朱宏修的別院，本是朱宏養外室的地方，現在卻有了新的名字，叫做烏傷鍊鋼廠。</p>
 <p>鍊鋼廠前院中央矗立著一座半丈高的巨型火爐，兩名青年正握著鐵鍬往裡面加煤，還有兩名青年用力拉動風箱，將爐火燒的那叫一個旺。</p>
@@ -324,7 +326,6 @@
 </section>
 <section class="chapter" id="ch-86">
 <h2>第86章 孫紹，你才是吳侯世子</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_86.html">原始页面</a></div>
 <p>戰爭年代糧比金貴，沒錢可以，沒糧那是萬萬不行滴。</p>
 <p>因此得知東吳過來贖人，關興立馬放下手頭工作返回烏傷，帶著三個肉票趕去諸暨接收贖金。</p>
 <p>肉票諸葛恪對他馬上出發的舉動表示強烈不滿，這麼大的事竟不提前通知，說走就走合適嗎？</p>
@@ -391,7 +392,6 @@
 </section>
 <section class="chapter" id="ch-87">
 <h2>第87章 被關興染上惡習</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_87.html">原始页面</a></div>
 <p>江東雖然富庶，但隨著建業淪陷，官倉里的存糧全便宜了關羽那個王八蛋，加上吳軍四面開戰，東吳已是王小二過年，快活不下去了。</p>
 <p>換句話說，地主家也沒餘糧了，自然是要精打細算，能省則省的。</p>
 <p>況且關興拿到糧食就會掉頭打他們吳軍，糧草給的越多吳軍挨的揍就越多，這種情況下自然是能賴就賴的。</p>
@@ -455,7 +455,6 @@
 </section>
 <section class="chapter" id="ch-88">
 <h2>第88章 張承再次領兵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_88.html">原始页面</a></div>
 <p>終於回到隊伍，張承打開木箱，看著裡面擺放整齊的竹筒，有種明知是蒼蠅，卻不得不吞的噁心感。</p>
 <p>他知道關興送茶沒安好心，卻沒法拒絕。</p>
 <p>品嘗過茶的美味之後再讓他回去喝生水，真心喝不下去。</p>
@@ -512,7 +511,6 @@
 </section>
 <section class="chapter" id="ch-89">
 <h2>第89章 漢軍集體扮演張承</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_89.html">原始页面</a></div>
 <p>時間回到交接當天。</p>
 <p>剛將張承送出城，關興便迫不及待的關閉城門，趕回縣衙查看此次收穫。</p>
 <p>小縣城沒有大糧倉，糧食只能暫時存放在縣衙的空房中，結果依舊放不下，最後連審案用的大堂都佔了。</p>
@@ -564,11 +562,9 @@
 <p>見沒人回答，關興繼續說道：“你們剛才說的這些我非常認同，吳軍攻不下建業城肯定會先抽調兵力收拾咱們，所以我猜，張承這次南下的兵力不會少於五萬。”</p>
 <p>“而且有了上次教訓，這次他絕對不會再輕敵冒進，肯定會穩紮穩打步步推進。”</p>
 <p>“再加上山越這個變數，咱們最危險的時刻馬上就要來了，諸位，你們都準備好了嗎？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-90">
 <h2>第90章 你有張良計，我有過牆梯</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_90.html">原始页面</a></div>
 <p>面對關興的詢問，眾人心情沉重的堪比上墳。</p>
 <p>若張承真像他們剛才說的那樣，數路大軍同時撲來圍追堵截，他們所依賴的機動性就會瞬間喪失殆盡，逃無可逃。</p>
 <p>這是專為他們漢軍設計的天羅地網啊，在兵力戰力都不如人家的情況下，讓他們拿什麼打？</p>
@@ -619,9 +615,9 @@
 <p>被陸遜暴揍之後潘臨也學了乖，不敢再像以前那樣肆無忌憚的劫掠，這些年下山劫掠的次數明顯減少，始終維持在一個既讓吳軍頭疼，又不至於吳軍派兵征討的臨界點。</p>
 <p>畢竟吳軍征討一次也挺費勁的，消耗大量糧草卻只取得極小戰果，明顯是筆虧本買賣嘛！</p>
 <p>關興揉著眉心思索片刻，突然靈光一閃連忙問道：“吳軍向來都有抓山越為兵的先例，那麼問題來了，咱們俘虜了上萬吳軍，其中有沒有山越出身，或者乾脆就是潘臨麾下出來的？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-81">第81章 關羽這個兒子太可怕</a></li><li><a href="#ch-82">第82章 關羽不上當</a></li><li><a href="#ch-83">第83章 江東反骨仔</a></li><li><a href="#ch-84">第84章 張昭竟然釣魚執法？</a></li><li><a href="#ch-85">第85章 烏傷鍊鋼廠</a></li><li><a href="#ch-86">第86章 孫紹，你才是吳侯世子</a></li><li><a href="#ch-87">第87章 被關興染上惡習</a></li><li><a href="#ch-88">第88章 張承再次領兵</a></li><li><a href="#ch-89">第89章 漢軍集體扮演張承</a></li><li><a href="#ch-90">第90章 你有張良計，我有過牆梯</a></li></ul></aside>
+  </div>
 </body>
 </html>

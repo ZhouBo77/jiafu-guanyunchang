@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 381–390 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-038-0371-0380.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-040-0391-0400.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-381">第381章 第四代天師</a></li><li><a href="#ch-382">第382章 陸遜的末日（一）</a></li><li><a href="#ch-383">第383章 陸遜的末日（二）</a></li><li><a href="#ch-384">第384章 陸遜的末日（三）</a></li><li><a href="#ch-385">第385章 陸遜的末日（四）</a></li><li><a href="#ch-386">第386章 陸遜的末日（五）</a></li><li><a href="#ch-387">第387章 陸遜的末日（六）</a></li><li><a href="#ch-388">第388章 陸遜的末日（七）</a></li><li><a href="#ch-389">第389章 陸遜的末日（八）</a></li><li><a href="#ch-390">第390章 陸遜的末日（九）</a></li></ul>
 <section class="chapter" id="ch-381">
 <h2>第381章 第四代天師</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_381.html">原始页面</a></div>
 <p>安撫完諸葛瑾，關興立刻命留贊將藏在城外的糧草全部運回。</p>
 <p>那可是數萬大軍十幾天的糧草，藏在溶洞里受潮了怎麼辦，所以必須運回城中晾曬再裝倉，保證糧草能夠正常使用。</p>
 <p>隨後關興又以諸葛瑾和留贊的名義下令將城外哨卡屯寨的吳軍全部召回，這些哨卡屯寨他還要用不可能就此放棄，但也不會再讓吳軍據守，肯定要換上自己人不是。</p>
@@ -80,7 +87,6 @@
 </section>
 <section class="chapter" id="ch-382">
 <h2>第382章 陸遜的末日（一）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_382.html">原始页面</a></div>
 <p>關興雖不通道卻也知道龍虎山天師道意味著什麼，自然不會在這種事情上卡張盛。</p>
 <p>非但不會，還會因能為天師道盡份心力而感到欣慰，而且有了這份交情，日後求張盛辦事也方便不是。</p>
 <p>但他實在沒時間跟張盛磨嘰，因此交代完寧桓之後便火速離去。</p>
@@ -103,7 +109,6 @@
 <p>寧桓笑道：“能不能當都是你了，關將軍信任你才對你委以重任，你可不能辜負他啊，至於不識字就更無所謂了，現在開始學習也不晚嘛，從今往後你每天早晨跟著將士們一起唱歌寫詞，兩個月後估計就能書寫簡單公文了。”</p>
 <p>“啊……”李同聞言瞬間露出痛苦表情，他都多大年紀了，現在讀書識字不是要他命嗎？</p>
 <p>寧桓卻不管那麼多，交代完李同又去找韋虎和尤沖麾下的匪軍，韋虎是鐵匠要負責建造鍊鋼廠，尤沖手下的匪軍則熟悉臨汝周邊地形情況，應該清楚臨汝境內的煤礦和鐵礦所在。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>之後數日，寧桓快速適應太守身份並因此忙碌起來，李同司馬也悲催的加入到了學習行列，起初他對讀書識字有著很強的抵觸心理，但當看到跟自己一樣大字不識，卻只比自己早投降幾天的什長寫出了十幾個字之後當場破防了。</p>
 <p>咱倆可是一個鍋里攪食的，而且我是曲長你只是個小什長，結果幾天沒見你偷偷進步了這麼多，讓老子怎麼活？</p>
 <p>受到刺激的李同非但不再抵觸，反而積極加入學習行列融入學習環境，藉助關興提供的平台快速成長起來。</p>
@@ -127,11 +132,9 @@
 <p>還有就是陸遜得知自己攻破余汗殺向大末之後極有可能狗急跳牆，使點出其不意的陰招，比如派周魴上演苦肉計。</p>
 <p>歷史上石亭之戰時陸遜周魴就是這麼玩曹休的，幾乎全殲曹休十萬大軍不說，還利用此戰為孫權爭取到了稱帝資格。</p>
 <p>關興既然知道他倆有這手段肯定是要提前防範的，他可不想重蹈曹休的覆轍，所以嚴令沈翊安心苟著，千萬別玩花活。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-383">
 <h2>第383章 陸遜的末日（二）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_383.html">原始页面</a></div>
 <p>大末，吳軍大營。</p>
 <p>陸遜手中握著諸葛瑾送來的書信，愁的頭髮都白了許多。</p>
 <p>剛剛他們再次猛攻漢軍防線失利被迫退回營地，結果剛回營就收到了諸葛瑾的書信，信中寫的正是潘璋戰敗，連前去救援的留贊都全軍覆沒的噩耗。</p>
@@ -173,7 +176,6 @@
 </section>
 <section class="chapter" id="ch-384">
 <h2>第384章 陸遜的末日（三）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_384.html">原始页面</a></div>
 <p>多準備幾套計劃？</p>
 <p>這話聽的帳中將領再次陷入沉默，就目前這十面埋伏的情況，再多的計劃都像是垂死掙扎，有毛用啊？</p>
 <p>況且就算從黃婺山地順利撤退又能怎樣呢？</p>
@@ -224,7 +226,6 @@
 </section>
 <section class="chapter" id="ch-385">
 <h2>第385章 陸遜的末日（四）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_385.html">原始页面</a></div>
 <p>城上三人同時愣住，面面相覷滿臉錯愕。</p>
 <p>他們才剛接到關興不接受敵將投降的命令敵將就來了？</p>
 <p>這也太巧了吧，還是陸遜已經無計可施，病急亂投醫了？</p>
@@ -249,7 +250,6 @@
 <p>周魴還想再說，郝羽卻不給他這個機會，用眼神示意李狗剩將其帶走，李狗剩也不含糊，帶人架起周魴就要離開。</p>
 <p>周魴急了，邊被拖著往前走邊努力回頭朝郝羽喊道：“將軍明鑒，我是來投降的，我有重要軍情向沈翊將軍彙報，請讓我見沈將軍一面，好歹給我一個說話的機會啊。”</p>
 <p>來之前周魴想到了所有可能發生的變故和沈翊可能提出的所有刁鑽問題，卻唯獨沒想到該死的沈翊連面都不跟他見，這是對待來使的態度嗎？</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>問題是不見面的話他的計劃還怎麼執行啊，再高明的計謀也需要溝通來施展，需要跟張儀一樣用三寸不爛之舌說服對方，對方拒絕溝通的話，你嘴皮子再利索有個屁用啊？</p>
 <p>所以周魴急了，奮力掙扎著想要脫離掌控跑上城樓面見沈翊求一個溝通機會，只要能獲得溝通的機會，讓他給沈翊跪下都行。</p>
 <p>郝羽卻揶揄笑道：“你的投降我們接受了，但你所謂的重要軍情就算了，我們不需要。”</p>
@@ -278,7 +278,6 @@
 </section>
 <section class="chapter" id="ch-386">
 <h2>第386章 陸遜的末日（五）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_386.html">原始页面</a></div>
 <p>看著周魴失魂落魄的樣子，郝羽於心不忍的問道：“將軍你說他圖啥啊，就算利用自殘的手段將咱們引進埋伏圈讓陸遜占點便宜又能改變什麼呢？”</p>
 <p>此戰陸遜在戰略已經方面輸的一敗塗地，在戰術上就算取得幾場勝利也改變不了最終戰局，所以郝羽實在理解不了周魴的自殘行為。</p>
 <p>圖啥啊？</p>
@@ -321,7 +320,6 @@
 </section>
 <section class="chapter" id="ch-387">
 <h2>第387章 陸遜的末日（六）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_387.html">原始页面</a></div>
 <p>關興率軍在走廊中穩步推進，幾天之後順利趕到了當日圍殲徐盛的進山路口。</p>
 <p>到了這裡關興心底生出一絲複雜情緒，命大軍先走自己站在路口向山中張望，同時用自我催眠的方式不斷提醒自己，九十九步都走完了就剩最後一哆嗦了，一定要小心小心再小心，千萬不能跟徐盛一樣陰溝裡翻船。</p>
 <p>站在路口緬懷了下過去，關興收拾心情正要繼續前進，轉身的瞬間發現對面山中突然竄出幾道身影，領頭的竟是吳越，連忙停下等待。</p>
@@ -362,11 +360,9 @@
 <p>留贊：“……”</p>
 <p>他終於知道關興為什麼連戰連捷了，十七八歲的年紀比七老八十的人還苟，讓敵人怎麼下口？</p>
 <p>陸遜對上他算是倒八輩子血霉了。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-388">
 <h2>第388章 陸遜的末日（七）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_388.html">原始页面</a></div>
 <p>接到關興命令，鄧宏點齊兵馬撒腿狂奔，甚至跑的比斥候還快。</p>
 <p>他不像關興那麼謹小慎微不怕中埋伏，身後有關興呢他怕啥，就算真中了埋伏關興也會將他救出來的。</p>
 <p>抱著這樣的想法，鄧宏衝鋒起來簡直無所顧忌，誰料緊趕慢趕還是慢了一步，在離玉山城只剩十里左右的地方遇到了正在挖設陷阱的吳軍，而且吳軍貌似也是剛到，陷阱只挖了百餘米寬，剛好挖出弓箭射程。</p>
@@ -408,7 +404,6 @@
 </section>
 <section class="chapter" id="ch-389">
 <h2>第389章 陸遜的末日（八）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_389.html">原始页面</a></div>
 <p>戰場之上時間就是生命，尤其是在決戰的緊要關頭，哪怕一瞬也可能決定戰爭的勝負。</p>
 <p>尤其是當時間不在自己這邊的時候，做任何事都必須爭分奪秒。</p>
 <p>為爭取到足夠的時間，丁奉不得已命呂據率領千人阻擊關興，自己則退回玉山構築第二道防線，用空間換時間，也就是說目前在關興面前埋頭挖坑的只有呂據率領的千人。</p>
@@ -455,7 +450,6 @@
 </section>
 <section class="chapter" id="ch-390">
 <h2>第390章 陸遜的末日（九）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_390.html">原始页面</a></div>
 <p>聽到鄧宏的勸降，呂據臊的恨不得找個地縫鑽進去。</p>
 <p>主要是鄧宏說話太氣人了，什麼叫又被俘了，你不知道又這個字具有雙重殺傷力嗎？</p>
 <p>呂據氣的拚命掙扎，卻怎麼也掙不脫鄧宏的鎖喉腿，最後索性兩眼一閉暈死過去來個眼不見為凈。</p>
@@ -498,7 +492,8 @@
 <p>陸遜說道：“是啊，所以決戰的時候必須放火燒糧破釜沉舟，斷掉將士的希望才能讓將士們拚命。”</p>
 <p>“另外士廞這個人不可信了，所以我讓他帶著數十名親兵背著繩索錘鑿翻越武夷山脈聯繫呂岱去了，聯繫上呂岱的話就讓呂岱原路返回立即撤退，聯繫不上就只能聽天由命了。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-381">第381章 第四代天師</a></li><li><a href="#ch-382">第382章 陸遜的末日（一）</a></li><li><a href="#ch-383">第383章 陸遜的末日（二）</a></li><li><a href="#ch-384">第384章 陸遜的末日（三）</a></li><li><a href="#ch-385">第385章 陸遜的末日（四）</a></li><li><a href="#ch-386">第386章 陸遜的末日（五）</a></li><li><a href="#ch-387">第387章 陸遜的末日（六）</a></li><li><a href="#ch-388">第388章 陸遜的末日（七）</a></li><li><a href="#ch-389">第389章 陸遜的末日（八）</a></li><li><a href="#ch-390">第390章 陸遜的末日（九）</a></li></ul></aside>
+  </div>
 </body>
 </html>

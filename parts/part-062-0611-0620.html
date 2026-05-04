@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 611–620 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-061-0601-0610.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-063-0621-0630.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-611">第611章 抓到條大魚</a></li><li><a href="#ch-612">第612章 就是故意整你</a></li><li><a href="#ch-613">第613章 把自己搭進去了</a></li><li><a href="#ch-614">第614章 關興成實驗小白鼠了？</a></li><li><a href="#ch-615">第615章 拜相父</a></li><li><a href="#ch-616">第616章 朝堂爭論</a></li><li><a href="#ch-617">第617章 關興要撂挑子</a></li><li><a href="#ch-618">第618章 值得解剖的特殊體質</a></li><li><a href="#ch-619">第619章 糜芳糜威叔侄見面</a></li><li><a href="#ch-620">第620章 二叔，借點錢</a></li></ul>
 <section class="chapter" id="ch-611">
 <h2>第611章 抓到條大魚</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_611.html">原始页面</a></div>
 <p>刑警做事有自己的標準流程，關興現在雖已不做警察，但基本的手藝並未落下，接到任務之後立刻展開了全城搜查。</p>
 <p>首先他命人印刷懸賞通告，只要沒抓到刺客就一直印，爭取早日將懸賞通告貼滿大街小巷。</p>
 <p>提起這個關興忍不住暗嘆自己真有先見之明，提前搞定了活字印刷術，先前為印學校的宣傳手冊，他專門弄出了活字印刷，誰知道這麼快就又用上了。</p>
@@ -75,7 +82,6 @@
 </section>
 <section class="chapter" id="ch-612">
 <h2>第612章 就是故意整你</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_612.html">原始页面</a></div>
 <p>搜捕的命令發出之後關興也沒閑著，而是親自趕到縣衙坐鎮指揮，統一調度各方並處理突髮狀況，同時為防止冤枉好人，關興親自審理抓捕過來的犯人，確定沒有問題之後立刻放人，誰料審訊之後驚喜不斷。</p>
 <p>短短數個時辰，巡邏隊便抓捕了兩千多名來歷不明之人，審訊發現只有六成是因心理素質太差，看見官兵本能打哆嗦而被誤抓的，剩下四成都是各郡縣通緝的逃犯，有在本地得罪人跑到江陵逃難的，有犯罪潛逃的，有殺人被通緝的，甚至還有下山搶劫百姓，回山卻因分贓不均內訌失敗的山賊土匪，以及在曹魏犯下上述事件，混不下去逃過來的，各種罪犯應有盡有，犯的罪行更是五花八門，多的能編寫一本《大漢犯罪手冊》。</p>
 <p>當然也有在本地蒙冤卻求告無門，跑來江陵躲避追殺的受害者。</p>
@@ -122,7 +128,6 @@
 </section>
 <section class="chapter" id="ch-613">
 <h2>第613章 把自己搭進去了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_613.html">原始页面</a></div>
 <p>知道在劫難逃的張京開始放飛自我，一口火鍋一口啤酒，吃的那叫一個滿嘴流油，邊吃還邊說道：“神策侯的伙食是真好啊，有這手藝幹嘛不開家火鍋店呢？”</p>
 <p>他在江陵待這麼久了還是第一次吃火鍋，比起美味的火鍋，以前吃的都是什麼啊。</p>
 <p>該死的關興，有這手藝竟不開設店鋪惠及百姓，反而捏在手裡吃獨食，你是人嗎你。</p>
@@ -173,7 +178,6 @@
 </section>
 <section class="chapter" id="ch-614">
 <h2>第614章 關興成實驗小白鼠了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_614.html">原始页面</a></div>
 <p>抓捕張京對劉備來說只是件微不足道的小事，校事府名聲雖然響亮，但再響亮也只是個干臟活的諜報部門，影響不了大局。</p>
 <p>但關興不同，這可是自己的命根子，是自己揮師北伐的最大倚仗，用他跟張京一換一怎麼都覺得虧。</p>
 <p>“是這樣的……”</p>
@@ -222,7 +226,6 @@
 </section>
 <section class="chapter" id="ch-615">
 <h2>第615章 拜相父</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_615.html">原始页面</a></div>
 <p>百官走進帳篷分列左右，幾乎剛剛站穩劉備便從后帳走了出來，身後還跟著臊眉耷眼的劉禪。</p>
 <p>隨後劉備坐定，百官行禮。</p>
 <p>然後關興率先出列拜道：“稟陛下，臣幸不辱命，已將刺殺太子殿下的刺客與其幕後主使一網打盡，如何處置還請陛下示下。”</p>
@@ -266,11 +269,9 @@
 <p>劉備是不可能杜絕劉禪與關興往來的，在他心裡關興才是最適合劉禪的老師，要知道關興可是有著超越他們兩千年的見識，這些見識劉禪就算只學一成也足以改變世界。</p>
 <p>所以想讓劉禪和關興分開想都甭想，頂多以後盯緊點，別讓關興做的太過就好。</p>
 <p>袁徽見劉備態度堅決便沒再繼續，反而話鋒一轉再次拜道：“陛下英明，但是陛下，神策侯建校之事臣以為不合適。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-616">
 <h2>第616章 朝堂爭論</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_616.html">原始页面</a></div>
 <p>儒家縱橫天下靠什麼？</p>
 <p>還用問嗎，自然是對教育的解釋權了，漢武帝獨尊儒術之後，學術界便從百家爭鳴進入到了儒家獨尊的時代，天下學子皆出儒門，連皇帝也不例外。</p>
 <p>數百年來，學術界一直都是他們儒家的固有領地，無人敢染指，但是今天，該死的關安國竟公然開設學院，還在學院設立數學院，醫學院，工學院等亂七八糟的學科，他想幹什麼？</p>
@@ -290,7 +291,6 @@
 <p>“補手續的事咱先不提，老夫且問你，你設立數學院，醫學院，雜學院這些亂七八糟的學院是幾個意思？”</p>
 <p>關興反問道：“什麼叫亂七八糟的學院，這幾家學院又怎麼著你了？”</p>
 <p>“你說呢？”袁徽繼續質問道：“早在三百年前孝武皇帝（漢武帝）便公開下旨罷黜百家獨尊儒術，至此儒家便成了大漢的唯一學派，你倒好，公然違抗孝武皇帝旨意，建立數學醫學雜學等學院想幹什麼，想推翻獨尊儒術的傳統，重新恢復百家爭鳴的格局嗎？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興聞言鬱悶的直欲撞牆，怎麼把這茬給忘了。</p>
 <p>漢武帝確實下旨罷黜百家獨尊儒術來著，但那只是出於政治需要，是為了統一思想喊的口號，喊完之後就束之高閣再沒用過。</p>
 <p>漢武帝嘴上喊著獨尊儒術，實際上用的還是法家那套，可謂是說一套做一套的典型。</p>
@@ -310,11 +310,9 @@
 <p>這種明明無言以對，卻要擺出一副上位者聆聽下位者的傲慢姿態的德行看的關興無名火起，恨不得一拳砸過去。</p>
 <p>關興強忍著揍人的衝動說道：“再說了我做這事是為我自己嗎，我還不是為了大傢伙嘛！”</p>
 <p>“就拿醫學來說吧，程禮程侍郎跟董奉董神醫最近針對產婦生產做實驗，成功將胎兒出生率提高數成的事大家都知道了吧，這樣的成果在場諸位誰敢說自己不需要，誰敢說自己家以後都不生孩子，或者說生孩子不會遇到任何危險，站出一個來我瞧瞧。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-617">
 <h2>第617章 關興要撂挑子</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_617.html">原始页面</a></div>
 <p>此話一出全場沉默不說，許多人還都下意識的扭頭避開了關興質問的目光。</p>
 <p>這話他們沒法接，理由很簡單，受限於低下的醫療水平和認知水平，殿中官員的家族中幾乎全都出現過胎死腹中，一屍兩命以及嬰兒夭折之類的痛心事。</p>
 <p>殿中官員都是如此，民間吃不起飯看不起病的可憐百姓就更別說了。</p>
@@ -356,11 +354,9 @@
 <p>有些事只有上手才知道有多難辦，工廠只有動工才知道有多難建，對這群士族出身的官員來說，建廠最難的不是資金而是工人，他們現在是拿著錢也找不到人幹活，只能跑到關興的工廠里去挖牆角。</p>
 <p>但關興的牆角就那麼大，就算挖塌了也填補不了各大士族的工匠缺口啊，為此那些備案建廠的士族最近愁的頭都快白了。</p>
 <p>這種情況下，神策侯願意自掏腰包建工學院為大家培養工匠，他們鼓勵都來不及呢，哪敢打擊神策侯的積極性啊，否則這小子真拿著建校的錢去吃喝嫖賭了他們咋辦啊，自掏腰包建校嗎，那多費錢啊？</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-618">
 <h2>第618章 值得解剖的特殊體質</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_618.html">原始页面</a></div>
 <p>仗義多為屠狗輩，負心皆是讀書人。</p>
 <p>士大夫們向來都是滿口仁義道德，一肚子男盜女娼，嘴上全是公理，心裡全是生意的主，見能從神策侯身上撈好處自然趨之若鶩。</p>
 <p>不止如此，通過此事他們還驚訝發現神策侯有幾分克己奉公，為朝廷利益犧牲自己利益的理想主義精神，這還有啥說的，必須將神策侯捧在手心裡，將他的剩餘價值榨乾凈不可。</p>
@@ -410,7 +406,6 @@
 </section>
 <section class="chapter" id="ch-619">
 <h2>第619章 糜芳糜威叔侄見面</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_619.html">原始页面</a></div>
 <p>快過年了，戰亂多年終於迎來統一穩定的江陵百姓紛紛走上街頭置辦年貨，為這座大漢臨都增添了濃郁的年味。</p>
 <p>江南各地的官員都在忙著過年，遠在交州的呂岱可就沒這麼幸運了，還在悲催的帶兵平叛。</p>
 <p>呂岱在孫權投降之前就是交州刺史，對交州的地形地勢以及勢力分佈全都了如指掌，不止如此，先前還奉孫權之命率領大軍從海路北上討伐關興，導致他手裡也不缺兵。</p>
@@ -454,7 +449,6 @@
 </section>
 <section class="chapter" id="ch-620">
 <h2>第620章 二叔，借點錢</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_620.html">原始页面</a></div>
 <p>糜威被糜芳問的愣在原地，略一思忖便明白了糜芳的意思，連忙解釋道：“事情是這樣的，我奉太子殿下之命來交州建廠，地買好了房建好了人也招好了就等開工了，結果士徽將軍起兵了。”</p>
 <p>“起兵之後得知我在交州，便殺來工廠準備拿我做人質跟朝廷談判，到了工廠發現我會製糖就將我扣下想讓我幫他製糖賺錢，然後我就跟著他一路退入扶南來到林邑。”</p>
 <p>“二叔，侄兒這幾個月真的太難了，見到你真的太好了。”</p>
@@ -503,7 +497,8 @@
 <p>呂岱生擒范師蔓后沒做停留，繼續率軍南下堵截士徽後路，他的首要目標是士徽而非范師蔓，不抓住士徽是不會收兵的。</p>
 <p>但此時糜芳已經俘虜士徽率軍北上，與呂岱雙向奔赴之下自然而然就相遇了。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-611">第611章 抓到條大魚</a></li><li><a href="#ch-612">第612章 就是故意整你</a></li><li><a href="#ch-613">第613章 把自己搭進去了</a></li><li><a href="#ch-614">第614章 關興成實驗小白鼠了？</a></li><li><a href="#ch-615">第615章 拜相父</a></li><li><a href="#ch-616">第616章 朝堂爭論</a></li><li><a href="#ch-617">第617章 關興要撂挑子</a></li><li><a href="#ch-618">第618章 值得解剖的特殊體質</a></li><li><a href="#ch-619">第619章 糜芳糜威叔侄見面</a></li><li><a href="#ch-620">第620章 二叔，借點錢</a></li></ul></aside>
+  </div>
 </body>
 </html>

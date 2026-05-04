@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 531–540 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-053-0521-0530.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-055-0541-0550.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-531">第531章 劉備氣瘋了</a></li><li><a href="#ch-532">第532章 南北朝的糟心事</a></li><li><a href="#ch-533">第533章 劉關張諸葛全被氣著</a></li><li><a href="#ch-534">第534章 老劉家對土地的執念</a></li><li><a href="#ch-535">第535章 玄武門繼承製</a></li><li><a href="#ch-536">第536章 這一家子奇葩</a></li><li><a href="#ch-537">第537章 天子，兵強馬壯者王之</a></li><li><a href="#ch-538">第538章 占城稻</a></li><li><a href="#ch-539">第539章 劉備收到曹操死訊</a></li><li><a href="#ch-540">第540章 劉備瘋了？</a></li></ul>
 <section class="chapter" id="ch-531">
 <h2>第531章 劉備氣瘋了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_531.html">原始页面</a></div>
 <p>司馬家又是違背洛水之誓，又是當街殺害天子，所作所為必然會將社會道德水準拉到有史以來的最低點。</p>
 <p>加上司馬家竊國篡位得國不正，國祚能長才有鬼了。</p>
 <p>關興說道：“確實不長，跟秦朝一樣算是二世而亡，晉武帝司馬炎在位的時候還算穩定，但他兒子司馬衷是個傻子啊，不是罵人而是司馬衷在智力方面確實存在缺陷，智商遠低於普通人的正常水平，別說治國，自理都成問題。”</p>
@@ -71,7 +78,6 @@
 </section>
 <section class="chapter" id="ch-532">
 <h2>第532章 南北朝的糟心事</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_532.html">原始页面</a></div>
 <p>聽到收復兩京，劉備充血的眼中露出了前所未有的精芒。</p>
 <p>兩京可是他的執念，他做夢都想收回來。</p>
 <p>而且兩京的政治屬性太高，收復兩京跟統一天下沒區別了，剩下的就可以稱為平叛了。</p>
@@ -105,11 +111,9 @@
 <p>“然後先是王僧辯獨攬大權，最後陳霸先又殺了王僧辯搶過權力，又全殲北齊來犯的十萬大軍建立南陳，宋齊梁陳，南朝最後一個朝代誕生了。”</p>
 <p>“說回北邊，前面說過六鎮之亂誕生了高歡宇文泰兩位雄主，高歡是死在宇文泰前面的，高歡去世沒多久侯景之亂就爆發了，宇文泰抓住機會攻陷巴蜀，甚至拿下荊州部分地區，徹底奠定了帝業。”</p>
 <p>“儘管如此，高歡後代建立的北齊在綜合實力上依然是三國最強，人口兵馬糧草都全面碾壓宇文泰後人建立的北周，但高歡的後人跟劉裕的後人一樣，都特么一群精神病，有痴迷女裝喜歡果奔的，有讓妃子脫光了躺在桌上玉體橫陳讓臣子們集體欣賞的，還有明明已經攻上城牆，卻讓士兵先退下來，等愛妃過來觀看破城美景，結果給了守軍反撲機會，讓守軍順利堵住缺口的，所作所為別說聽過，正常人你想都想不到，北齊也因此被稱為禽獸王朝。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-533">
 <h2>第533章 劉關張諸葛全被氣著</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_533.html">原始页面</a></div>
 <p>劉關張諸葛四人又肝疼了，南北朝這群帝王到底是什麼變的，一個個怎麼連傻子司馬衷都不如？</p>
 <p>司馬衷最起碼沒幹什麼壞事，你再看看南北朝這群貨，有一個正常的沒？</p>
 <p>可憐的百姓造了什麼孽啊，攤上這麼一幫畜牲？</p>
@@ -149,11 +153,9 @@
 <p>高句麗怎麼跟司馬懿摻和在一起了？</p>
 <p>關興說道：“曹叡在位期間派司馬懿討伐遼東滅了公孫家，本來沒什麼，但司馬懿這個腦殘不知抽什麼風，滅掉公孫家之後竟將遼東漢人全部遷回關內，將整個遼東都扔給了高句麗，讓被公孫氏摁在地上摩擦的高句麗徹底解放。”</p>
 <p>“咱們大漢從武帝那會就開始移民實邊，藉此穩定邊境並逐步將邊境化為內陸，司馬懿可好，不移民實邊也就罷了，還把關外百姓又移回來了，導致大漢在遼東的數百年努力毀於一旦，我若是高句麗國王，說啥也得給司馬大善人磕一個。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-534">
 <h2>第534章 老劉家對土地的執念</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_534.html">原始页面</a></div>
 <p>關興講了半天又繞回到了司馬懿這個起點，氣的劉關張諸葛四人恨不得現在就衝去洛陽將司馬懿大卸八塊，將司馬家斬草除根。</p>
 <p>司馬家害的中原經歷三百年大亂世不說，還不斷挖漢人的牆角，遷走漢人將大好河山拱手讓給異族人，簡直可恨。</p>
 <p>該死的司馬懿，你跟漢人有仇是怎麼著，怎麼可著勁的禍禍自家人？</p>
@@ -195,7 +197,6 @@
 </section>
 <section class="chapter" id="ch-535">
 <h2>第535章 玄武門繼承製</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_535.html">原始页面</a></div>
 <p>劉關張諸葛四人聽的心潮澎湃呼吸急促，心情激動的心跳都開始加速。</p>
 <p>李世民二十歲竟打出了如此戰績，這是妥妥的霍去病在世啊。</p>
 <p>關興說道：“李世民收復晉陽凱旋迴朝，威望瞬間高過了父親李淵，李淵不高興了，做出一系列軍事調整的同時對李世民明升暗降，將李世民徹底架空。”</p>
@@ -241,7 +242,6 @@
 </section>
 <section class="chapter" id="ch-536">
 <h2>第536章 這一家子奇葩</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_536.html">原始页面</a></div>
 <p>劉關張諸葛再次被震驚到了，甚至比聽到南北朝那幫擬人生物還震驚。</p>
 <p>女流之輩登基稱帝，這事太扯淡了，你以為現在還是母系社會呢？</p>
 <p>劉備四人不反對女人掌權，因為兩漢四百年出現的實權太后太多了，呂后，竇太后，章德太后，鄧太后，哪個不是不輸男兒的女中豪傑？</p>
@@ -281,7 +281,6 @@
 </section>
 <section class="chapter" id="ch-537">
 <h2>第537章 天子，兵強馬壯者王之</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_537.html">原始页面</a></div>
 <p>叛軍首領第二年就死了，叛軍卻依舊打了八年還沒完全被平定，這得多大的毅力多大的仇恨，河北百姓咋就這麼執著呢？</p>
 <p>關興說道：“此事說來就話長了，關中跟河北從北周北齊那會就有積怨，大唐立國之後，唐高祖李淵又不顧反對殺了深受河北百姓擁戴的夏王竇建德，從這起就積下怨恨了。”</p>
 <p>“之後大唐皇室以及擁護大唐的關隴貴族擔心河北造反，對河北的賦稅是最重的，加上士族當道，寒門進階無望，各種積怨在安史之亂中爆發了，由此開啟了長達八年的安史之亂。”</p>
@@ -318,11 +317,9 @@
 <p>劉關張諸葛集體牙疼。</p>
 <p>五代十國的武將跟司馬家一樣將自己的信譽敗壞完了，導致君王不敢信任重用了，但君王統一天下又需要武將賣命，這不是左腦攻擊右腦，大腦攻擊小腦嗎？</p>
 <p>這也太矛盾了，這位宋太祖趙匡胤太難了。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-538">
 <h2>第538章 占城稻</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_538.html">原始页面</a></div>
 <p>關興繼續道：“趙匡胤就在這種左腦攻擊右腦的矛盾中艱難前進，登基第二年就通過杯酒釋兵權的方式和平卸掉武將兵權，讓他們回鄉養老。”</p>
 <p>“隨後繼續沿用郭威柴榮的懷柔政策休養生息為統一天下做準備，開啟了統一之路，但趙匡胤的統一之路比李世民難的多，因為江南十國已經立國數十年，有的甚至已經傳了好幾代早已形成了獨立的國家意識。”</p>
 <p>“擁有獨立意識的國家有多難打看看秦滅六國就知道了，秦朝統一可是用了一百多年六七代人吶。”</p>
@@ -341,7 +338,6 @@
 <p>關興苦笑道：“沒辦法，宋朝的首要任務是防範武將，其次才是開疆拓土，這種情況下別說契丹，連後來在隴西建立西夏的党項羌人都打不過，因為不敢給武將權力和地位，有個叫狄青的名將打的西夏沒脾氣，但就因為是武將出身，被文官給活活逼死了。”</p>
 <p>“終宋一朝都在給武將套枷鎖，武將的地位有史以來最低，就連邊軍將領都處處掣肘，只能被動防守根本打不了進攻的仗，偶爾主動進攻一次還因彼此內訌導致戰敗。”</p>
 <p>劉備牙疼道：“雖然打壓武將事出有因，但這也太矯枉過正了吧，況且都過去好幾代了也該改回來了吧，最起碼適當的解下禁錮，給武將一點放手施展的餘地啊？”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興搖頭道：“哪那麼容易，宋朝就沒出現過強勢君王，朝政基本都由文官把持，文官又在五代十國被武將隨意砍殺欺負的太狠，到了宋朝防武將跟防賊似的，生怕武將有一點出頭的機會。”</p>
 <p>“說白了還是皇帝不行，宋朝皇帝一個比一個廢，導致老祖宗趙匡胤千古一帝的地位都受到質疑。”</p>
 <p>劉備說道：“妥協是換不來和平的，求和是沒有出路的，宋朝這種做法還不得被契丹欺負死？”</p>
@@ -360,11 +356,9 @@
 <p>民以食為天，有足夠的糧食才能養活更多的人，糧食才是國家強大的根本，所以劉備暗下決心不管多遠，都要將佔城稻取回來培育推廣。</p>
 <p>關興說道：“占城的具體位置我不清楚，只知道在扶南那塊，離咱們並不遠，糜芳傅士仁運氣好的話應該能遇到。”</p>
 <p>（兄弟們別噴了，歷史科普明天就結束了）</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-539">
 <h2>第539章 劉備收到曹操死訊</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_539.html">原始页面</a></div>
 <p>占城就在扶南？</p>
 <p>離這麼近嗎？</p>
 <p>劉備是知道扶南國存在的，給糜芳傅士仁的首個出海任務就是摸清扶南的情況，士燮來到江陵后又跟其進行過多次交談，從士燮口中了解到了更多關於扶南的信息，至少知道了目前的扶南國王姓范。</p>
@@ -412,7 +406,6 @@
 </section>
 <section class="chapter" id="ch-540">
 <h2>第540章 劉備瘋了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_540.html">原始页面</a></div>
 <p>什麼？</p>
 <p>曹操薨了？</p>
 <p>包括關興在內，帳中幾人同時站起，望著陳到滿臉的不可思議。</p>
@@ -472,7 +465,8 @@
 <p>關興牙疼的一萬個不想去，卻也知道若敢不去周倉就敢打暈他拖去，無奈只好跟著去見關羽。</p>
 <p>跟著周倉趕到關羽帳篷，關羽讓周倉在帳外守著，然後將關興摁在支踵上指著桌上的紙筆和皮鞭說道：“給你兩個選擇，要麼寫出《出師表》，要麼打斷皮鞭，你選。”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-531">第531章 劉備氣瘋了</a></li><li><a href="#ch-532">第532章 南北朝的糟心事</a></li><li><a href="#ch-533">第533章 劉關張諸葛全被氣著</a></li><li><a href="#ch-534">第534章 老劉家對土地的執念</a></li><li><a href="#ch-535">第535章 玄武門繼承製</a></li><li><a href="#ch-536">第536章 這一家子奇葩</a></li><li><a href="#ch-537">第537章 天子，兵強馬壯者王之</a></li><li><a href="#ch-538">第538章 占城稻</a></li><li><a href="#ch-539">第539章 劉備收到曹操死訊</a></li><li><a href="#ch-540">第540章 劉備瘋了？</a></li></ul></aside>
+  </div>
 </body>
 </html>

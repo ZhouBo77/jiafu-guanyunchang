@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 321–330 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-032-0311-0320.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-034-0331-0340.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-321">第321章 想看嗎，想要嗎？</a></li><li><a href="#ch-322">第322章 一計不成又生一計</a></li><li><a href="#ch-323">第323章 校事府也摻和進來了</a></li><li><a href="#ch-324">第324章 老天爺追著喂飯吃</a></li><li><a href="#ch-325">第325章 駱統徹底破防</a></li><li><a href="#ch-326">第326章 世上還是好人多</a></li><li><a href="#ch-327">第327章 夫人你也不想吧……</a></li><li><a href="#ch-328">第328章 與校事府中門對狙</a></li><li><a href="#ch-329">第329章 校事府：綁架我們才是專業的</a></li><li><a href="#ch-330">第330章 駱統與校事府苟且</a></li></ul>
 <section class="chapter" id="ch-321">
 <h2>第321章 想看嗎，想要嗎？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_321.html">原始页面</a></div>
 <p>捧著粥碗的瑤瑤不太想喝，一來她還不餓，二來碗沿比較臟，讓在自家小姐身邊養出潔癖的她有些下不了口。</p>
 <p>但為了任務她還是選擇忍受，側著身子露出半張臉，給了王斌一個自認為絕美的側顏。</p>
 <p>王斌卻沒心思欣賞她的側顏，而是看著她的身影陷入沉思。</p>
@@ -97,7 +104,6 @@
 </section>
 <section class="chapter" id="ch-322">
 <h2>第322章 一計不成又生一計</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_322.html">原始页面</a></div>
 <p>在朱康三人的注視下，瑤瑤跟做賊似的一步三回頭，不斷觀察四周的同時極速趕路，很快就走到了城門口。</p>
 <p>盯梢士兵急了，低聲問道：“營長，她出城幹什麼，難道聯絡點不在城內，還是王副廠長搞錯了，這姑娘就是貪圖副廠長他老人家的美色，沒別的意圖？”</p>
 <p>朱康無語的翻起了白眼，貪圖副廠長的美色，你要不要聽聽自己在說什麼，美色那玩意咱副廠長有嗎？</p>
@@ -121,7 +127,6 @@
 <p>駱誠小心問道：“那現在怎麼辦，要不要展開下一步行動？”</p>
 <p>駱統搖頭道：“不必了，計劃已經失敗了，咱們賭的是王斌沒見過美女，看見瑤瑤會像色狼一樣立即撲上去，結果呢，王斌看見瑤瑤之後並未急不可耐，而是不斷的東拉西扯，為什麼，肯定是在利用拉扯的功夫權衡利弊啊，男人一旦開始權衡利弊，就大概率不會再為美色所動。”</p>
 <p>美色固然誘人，但在權勢面前真心不值錢，除了呂布那樣的傻冒，沒幾個人會為了美色放棄前途。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>而且美色最大的衝擊力是在初見的瞬間，瑤瑤沒在初見王斌的瞬間將其吸引住，等王斌恢復了神志適應了他的美色之後再想讓其上鉤可就難如登天了。</p>
 <p>這就跟你初見王斌時會被對方的長相嚇倒，看的多了卻會看順眼是一個道理，不管美醜，看的久了也就那麼回事。</p>
 <p>因此駱統篤定，計劃已經失敗了，繼續用美色誘惑非但沒有意義，反而容易將自己折進去，所以必須改變計劃。</p>
@@ -147,7 +152,6 @@
 </section>
 <section class="chapter" id="ch-323">
 <h2>第323章 校事府也摻和進來了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_323.html">原始页面</a></div>
 <p>朱康跟著瑤瑤來到院門附近，找地藏好之後吩咐道：“你倆從左右兩翼繞過去盯著，看看有沒有人翻牆出來，咱們今天的主要任務是確定對方的身份。”</p>
 <p>兩人依計而行快速離去，朱康則將自己藏在稻草堆里耐心等待，沒等多久便見有人經過自己身邊進了院子，這讓他的心不由一沉。</p>
 <p>此人跟自己幾乎前後腳到，難道是院中之人派出來的？</p>
@@ -193,7 +197,6 @@
 </section>
 <section class="chapter" id="ch-324">
 <h2>第324章 老天爺追著喂飯吃</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_324.html">原始页面</a></div>
 <p>此人竟然跟蹤到了駱統藏身之地，不得不說盯梢跟蹤這事校事府密探確實比朱康那群大頭兵專業。</p>
 <p>張京問道：“你進城的時候有沒有發現什麼異常，城中可是加強了防範？”</p>
 <p>密探點頭道：“是的，城內巡邏隊伍比昨天多了好幾倍，而且進出城門嚴查路引，沒路引的當場扣押，說是關興親戚都沒用，幸好咱們在經過富春的時候重金購買了路引，否則我怕就進不來了。”</p>
@@ -248,7 +251,6 @@
 </section>
 <section class="chapter" id="ch-325">
 <h2>第325章 駱統徹底破防</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_325.html">原始页面</a></div>
 <p>在王斌朱康兩人的注視下，農夫上前忐忑說道：“接到縣衙懸賞之後我便通知村民注意陌生人的身影，但包括我在內大夥都沒太當回事，畢竟我們雞頭村太偏了，平日里鄰村的野狗都不過來，更別說陌生人了……”</p>
 <p>啰里吧嗦聽的程禮心頭冒火，不悅的說道：“你直接說重點行不行，駱統在哪？”</p>
 <p>農夫連忙答道：“在雞頭嶺，下午我在地里幹活的時候山上突然下來兩人，邊走邊謾罵，罵的那叫一個難聽，但大概意思是他們在溶洞里睡的好好的，突然衝進來一群人殺氣騰騰的把他們給嚇跑了，還說有個中年很像駱誠。”</p>
@@ -294,7 +296,6 @@
 </section>
 <section class="chapter" id="ch-326">
 <h2>第326章 世上還是好人多</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_326.html">原始页面</a></div>
 <p>駱統這下是真的遭到了暴擊，腦袋暈乎乎的整個人如墜夢裡。</p>
 <p>連賀齊都被俘了，自己被抓好像也沒那麼難以接受了。</p>
 <p>只是如此一來孫權怎麼辦，孫權還有重回江東的希望嗎？</p>
@@ -347,11 +348,9 @@
 <p>王斌也鬆了口氣嘆道：“我就說嘛，校事府怎麼可能跑烏傷來，人吶，果然不能想太多，想太多容易嚇著自己，這樣的話就沒事了，接著奏樂接著舞吧。”</p>
 <p>駱誠不會想到，他的主動交代給程禮王斌挖了多大一坑。</p>
 <p>校事府也不會想到，他們出賣了駱統，駱統叔侄非但沒怪罪反而主動替他們背鍋，世上還是好人多啊。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-327">
 <h2>第327章 夫人你也不想吧……</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_327.html">原始页面</a></div>
 <p>校事府藏身酒樓，房間之內。</p>
 <p>張京做出部署之後便陷入了焦急的等待，同時努力思索著後路，萬一計劃失敗，他們是繼續待在烏傷以圖後計，還是回去向曹仁賈逵請罪，留在烏傷的話路引該如何解決？</p>
 <p>沒等想好屬下回來了，剛進門便驚喜說道：“功曹成功了，駱統被抓了。”</p>
@@ -405,7 +404,6 @@
 </section>
 <section class="chapter" id="ch-328">
 <h2>第328章 與校事府中門對狙</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_328.html">原始页面</a></div>
 <p>王斌猜到馮飛媳婦身後有人盯梢，因此並未盲目行動，而是命兩屯士兵從後門偷偷離開，再從左右兩翼朝城門方向悄悄移動，爭取對準備綁架馮飛的綁匪形成包圍之勢。</p>
 <p>隨後從駐軍之中挑選出一個馮飛替身，帶著替身和馮飛媳婦走出廠門趕往縣衙。</p>
 <p>王斌怕兩人沒經驗騙不到綁匪，所以也跟著去了，邊跑邊叮囑道：“兒子被綁，你們做父母的肯定很著急，恨不得插上翅膀飛到孩子身邊去，所以咱不能跑太慢，太慢的話容易讓綁匪起疑。”</p>
@@ -453,7 +451,6 @@
 </section>
 <section class="chapter" id="ch-329">
 <h2>第329章 校事府：綁架我們才是專業的</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_329.html">原始页面</a></div>
 <p>王斌的隊伍太過臃腫，沒有校事府密探跑的快，導致李勝都快出城了他才回來，不過還好，至少將李勝堵在了城內。</p>
 <p>王斌來到隊伍前方，盯著李勝打量片刻說道：“把孩子放了，咱有話好說。”</p>
 <p>李勝冷哼道：“屁，放了孩子你還會跟我啰嗦？”</p>
@@ -480,7 +477,6 @@
 <p>程禮被嚇住了，連忙喊道：“別，冷靜。”</p>
 <p>這年頭捨生取義的人太多了，張京李勝既然這麼說了就真有可能集體自盡，他們死不死無所謂，但孩子不能死，孩子死了他怎麼向馮家交代？</p>
 <p>這孩子可是馮鐵柱的親孫子，馮鐵柱父子若因此生了嫌隙開始擺爛怎麼辦，更有甚者若一氣之下投了敵人怎麼辦？</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>關興將軍離開之前千叮萬囑要他們以人為本，不能寒了自己人的心，所以程禮寧可放掉張京也不願孩子有事。</p>
 <p>張京卻從程禮焦急的喊聲中聽出了他的忌憚和對孩子的重視程度，聞言將刀架自己脖子上向李勝走了過去，邊走邊說道：“別攔我啊，誰敢攔我我立馬自盡，我是朝廷鷹犬爛命一條，有馮廠長的孫子陪葬死也值了。”</p>
 <p>世間之事的扯淡之處在於只要你不在乎自己的命，別人就得在乎你的命了，所以曹操劉備這樣的亡命徒才能混的風生水起。</p>
@@ -509,7 +505,6 @@
 </section>
 <section class="chapter" id="ch-330">
 <h2>第330章 駱統與校事府苟且</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_330.html">原始页面</a></div>
 <p>張京李勝等人逃離之後並未向北趕往魏軍大營，而是繞了一圈避開村民再次回到了雞頭嶺。</p>
 <p>故地重遊的駱統心情格外複雜，看著熟悉的草木咬牙切齒道：“張功曹幫我一個忙，我這次被抓並非不夠謹慎，而是被人出賣了，所以我想請張功曹幫我查查，究竟是誰出賣的我？”</p>
 <p>自古叛徒最可恨，被敵人抓住那是技不如人，但被叛徒出賣是真的死都不甘心。</p>
@@ -554,7 +549,8 @@
 <p>程禮說道：“交給你跟朱康了，抽調鋼廠駐軍展開訓練，同時再從各縣縣衙抽調一批擅長追蹤破案的老吏加入，我再上報謝太守，從郡守衙門抽調批人，儘可能的完善訓練計劃，下次再遇到校事府綁架，老夫要讓他們吃不了兜著走。”</p>
 <p>王斌重重點頭。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-321">第321章 想看嗎，想要嗎？</a></li><li><a href="#ch-322">第322章 一計不成又生一計</a></li><li><a href="#ch-323">第323章 校事府也摻和進來了</a></li><li><a href="#ch-324">第324章 老天爺追著喂飯吃</a></li><li><a href="#ch-325">第325章 駱統徹底破防</a></li><li><a href="#ch-326">第326章 世上還是好人多</a></li><li><a href="#ch-327">第327章 夫人你也不想吧……</a></li><li><a href="#ch-328">第328章 與校事府中門對狙</a></li><li><a href="#ch-329">第329章 校事府：綁架我們才是專業的</a></li><li><a href="#ch-330">第330章 駱統與校事府苟且</a></li></ul></aside>
+  </div>
 </body>
 </html>

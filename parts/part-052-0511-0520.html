@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 511–520 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-051-0501-0510.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-053-0521-0530.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-511">第511章 當陽大會戰（三）</a></li><li><a href="#ch-512">第512章 當陽大會戰（四）</a></li><li><a href="#ch-513">第513章 當陽大會戰（五）</a></li><li><a href="#ch-514">第514章 當陽大會戰（六）</a></li><li><a href="#ch-515">第515章 當陽大會戰（完）</a></li><li><a href="#ch-516">第516章 曹操薨</a></li><li><a href="#ch-517">第517章 東吳俘虜全到江陵</a></li><li><a href="#ch-518">第518章 關興孫魯育夫妻重逢</a></li><li><a href="#ch-519">第519章 關羽竟是老賴</a></li><li><a href="#ch-520">第520章 不好，關興又來打劫了</a></li></ul>
 <section class="chapter" id="ch-511">
 <h2>第511章 當陽大會戰（三）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_511.html">原始页面</a></div>
 <p>天黑了。</p>
 <p>漢魏雙方卻都沒有收手的意思，而是借著火光繼續向對方發動悍不畏死的進攻。</p>
 <p>魏軍仗著人多和單兵素質強悍的優勢不斷前進，硬生生憑藉屍體填平了漢軍陣地內的所有壕溝陷阱，將戰線推到了劉備大纛五百米以內。</p>
@@ -73,7 +80,6 @@
 </section>
 <section class="chapter" id="ch-512">
 <h2>第512章 當陽大會戰（四）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_512.html">原始页面</a></div>
 <p>漢軍營地內到處都是用木板蓋著的壕溝，戰局稍有不利，漢軍就退到後方抽走木板，將壕溝變成魏軍難以逾越的天塹。</p>
 <p>不清楚情況的常雕就吃了暴虧，被打的丟棄馬匹被迫逃離。</p>
 <p>這也就是晚上視線不清，若是白天，他想逃掉怕是不那麼容易。</p>
@@ -96,7 +102,6 @@
 <p>這麼完美的戰術以前怎麼沒想到呢，果然還是要像安國將軍說的那樣，在戰爭中學習戰爭啊。</p>
 <p>夏銅為自己發現新戰術而驕傲的同時再次揮刀沖向王雙並吼道：“姓王的，老子說了今天必須拾掇你。”</p>
 <p>王雙被弓箭射的手忙腳亂，見夏銅衝來哪敢硬戰，想都沒想便縮到親兵身後大聲吼道：“破甲營有序撤退，調集床弩和投石機向重羽營全力攻擊。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>不是只有蜀軍有遠程攻擊手段，他們魏軍也有，你的重甲扛得住弓箭扛得住石頭嗎？</p>
 <p>想到這裡王雙突然靈機一動再次吼道：“把那些戰車給我抬過來往重羽營身上撞，我倒要看看他們的斬馬刀能不能劈開車廂？”</p>
 <p>魏軍抄襲關興的戰車大半都被蜀軍的斧頭營砍廢了，但只是車廂延伸出的刀刃被卸，車軲轆被砍壞，車廂還在，抬著車廂往重羽營身上撞，看誰防護力強？</p>
@@ -123,7 +128,6 @@
 </section>
 <section class="chapter" id="ch-513">
 <h2>第513章 當陽大會戰（五）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_513.html">原始页面</a></div>
 <p>天亮了。</p>
 <p>劉備發狠了，拍著柵欄厲聲說道：“傳我命令，命甘遜率部支援孟駿，與廖化共同夾擊曹洪，命趙雲儘快衝破徐晃封鎖繞到曹洪後方，給寡人吃掉曹洪，命張飛全力進攻擊潰張郃。”</p>
 <p>“再命張南率領弓弩手化整為零，以屯曲為單位在陣中游弋，利用射殺打亂魏軍陣型，同時放火點了魏軍的破戰車和投石機，有這玩意在重羽營沒法出擊。”</p>
@@ -170,7 +174,6 @@
 </section>
 <section class="chapter" id="ch-514">
 <h2>第514章 當陽大會戰（六）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_514.html">原始页面</a></div>
 <p>隨著劉備令下，休息半夜養足精神的夏銅再次出擊，馬忠率領三千人跟隨。</p>
 <p>馬忠的三千人中有五百弓弩手，其餘全是刀盾兵，見識過重甲兵實力的馬忠將三千大軍組成了半圓形，五百弓弩手為圓心，刀盾兵呈圓形將弓弩手護在圓內並護住重甲兵的左右兩翼。</p>
 <p>然後在夏銅的帶領下宛如推土機般輕鬆推過戰場來到趙雲身邊，向趙雲講述劉備的命令之後趙雲指著旁邊說道：“去幫廖化對付曹洪，截斷曹洪的退路。”</p>
@@ -212,7 +215,6 @@
 </section>
 <section class="chapter" id="ch-515">
 <h2>第515章 當陽大會戰（完）</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_515.html">原始页面</a></div>
 <p>王雙也是有脾氣的，被夏銅欺負這麼久早就暴走了，見夏銅非但沒有收斂反而越發得寸進尺徹底怒了，提著破甲錐就向夏銅衝去，準備親自斷後掩護大軍撤退。</p>
 <p>王雙是魏軍年輕一代中少有的猛將，武藝不輸五子良將，而且作戰經驗豐富，再暴怒也不可能無腦的沖，而是站在遠處不斷突刺。</p>
 <p>王雙仗著破甲錐比夏銅陌刀長了一米的優勢放棄其他招式只用前刺戰術，且沒用全力每次刺出都迅速收回然後再次刺去。</p>
@@ -260,7 +262,6 @@
 </section>
 <section class="chapter" id="ch-516">
 <h2>第516章 曹操薨</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_516.html">原始页面</a></div>
 <p>魏軍這邊。</p>
 <p>曹仁指揮大軍有條不紊的交替撤退，退出十餘里確定蜀軍沒有追擊之後才朝曹操躬身拜道：“大王，蜀軍沒有追來，咱們安全了。”</p>
 <p>說完保持躬身抱拳的姿勢等了許久也沒等到曹操回應，曹仁心裡咯噔一聲以無比僵硬的姿態緩慢抬頭，盯著曹操打量片刻才移動手臂，顫抖的將手指探到曹操鼻孔下邊，感受一番臉色大變。</p>
@@ -313,7 +314,6 @@
 </section>
 <section class="chapter" id="ch-517">
 <h2>第517章 東吳俘虜全到江陵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_517.html">原始页面</a></div>
 <p>還有別的選擇嗎？</p>
 <p>曹丕蹙眉陷入沉思，悲催發現他的選擇好像並不多，要麼稱帝過把當皇帝的癮，然後被劉備給弄死。</p>
 <p>要麼繼續稱王，被麾下的驕兵悍將和中原士族聯合天子劉協給弄死，要麼還政於天子，回鄉老老實實做個富家翁。</p>
@@ -369,11 +369,9 @@
 <p>諸葛亮：“……”</p>
 <p>東吳諸臣：“……”</p>
 <p>你個老匹夫反應挺快啊，剛從建業過來又要趕去當陽，不怕路途太遠閃著老腰啊。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-518">
 <h2>第518章 關興孫魯育夫妻重逢</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_518.html">原始页面</a></div>
 <p>呂岱的反應很好理解，在這個以出身論英雄的時代，很多人是從骨子裡看不起劉備這個織席販履之輩的，其中自然包括他們這群士族出身的東吳高官。</p>
 <p>也是由於出身原因，在諸葛亮舌戰群儒以及劉備迎娶孫尚香期間，他們東吳官員可沒少給劉備下絆子，再加上白衣渡江，劉備心裡對他們肯定有芥蒂。</p>
 <p>若劉備繼續窩在巴蜀的話他們自然不會在乎劉備的感受，但該死的大耳賊，哦不，英明神武的漢中王已經統一江南甚至打敗曹賊收復隴西，眼看就要三興漢室成為下一位漢高祖，這種情況下他們跟劉備之間的芥蒂就很致命了，若不趕緊表態主動消除芥蒂，有可能被劉備秋後算賬的。</p>
@@ -435,7 +433,6 @@
 </section>
 <section class="chapter" id="ch-519">
 <h2>第519章 關羽竟是老賴</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_519.html">原始页面</a></div>
 <p>任何事都是一回生二回熟的，夫妻坦誠相待也一樣，第一次可能有些嬌羞，第二次就開始沒羞沒臊了。</p>
 <p>關興熟練的躺進浴桶享受媳婦全身按摩，並詢問道：“我聽說娘親和小登小慮他們都來了，唯獨大姐（孫魯班）沒來？”</p>
 <p>孫魯育說道：“嗯嗯，紡織廠生意太好，大姐最近又增加了許多女工和織機，每天都忙的腳不沾地，根本沒時間過來。”</p>
@@ -485,7 +482,6 @@
 </section>
 <section class="chapter" id="ch-520">
 <h2>第520章 不好，關興又來打劫了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_520.html">原始页面</a></div>
 <p>黃承彥對關興可沒好感，非但沒有還滿是怨念。</p>
 <p>這小子在紙上隨便划拉兩下就讓自家在城內的宅基地少了四成，現在又跑過來滿臉假笑的，怎麼看都不像安了好心。</p>
 <p>關興聞言笑的更加熱情，滿臉真誠的說道：“黃老這是哪裡話，咱們可是親戚，我小時候月英嬸嬸還抱過我呢。”</p>
@@ -539,7 +535,8 @@
 <p>想到這些年的心酸，孫尚香的淚水像決堤的洪水，哭的暢汗淋漓一發不可收拾。</p>
 <p>劉備能體會到她這些年的苦楚，默默拍打著她的後背無聲安慰，等她哭累了才幫其擦掉淚水耐心勸慰，等氣氛烘托到位之後將其攔腰抱起走進內帳里……</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-511">第511章 當陽大會戰（三）</a></li><li><a href="#ch-512">第512章 當陽大會戰（四）</a></li><li><a href="#ch-513">第513章 當陽大會戰（五）</a></li><li><a href="#ch-514">第514章 當陽大會戰（六）</a></li><li><a href="#ch-515">第515章 當陽大會戰（完）</a></li><li><a href="#ch-516">第516章 曹操薨</a></li><li><a href="#ch-517">第517章 東吳俘虜全到江陵</a></li><li><a href="#ch-518">第518章 關興孫魯育夫妻重逢</a></li><li><a href="#ch-519">第519章 關羽竟是老賴</a></li><li><a href="#ch-520">第520章 不好，關興又來打劫了</a></li></ul></aside>
+  </div>
 </body>
 </html>

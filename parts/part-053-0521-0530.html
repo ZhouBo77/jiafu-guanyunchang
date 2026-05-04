@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 521–530 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-052-0511-0520.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-054-0531-0540.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-521">第521章 大肆封賞，全部升職</a></li><li><a href="#ch-522">第522章 士燮覲見劉備</a></li><li><a href="#ch-523">第523章 季漢君臣集體跳河？</a></li><li><a href="#ch-524">第524章 吃關興喝關興，吃完喝完罵關興</a></li><li><a href="#ch-525">第525章 關興動口，張苞動手</a></li><li><a href="#ch-526">第526章 三堂會審關興</a></li><li><a href="#ch-527">第527章 劉備得知自己結局</a></li><li><a href="#ch-528">第528章 馬謖去哪了？</a></li><li><a href="#ch-529">第529章 司馬家的下限</a></li><li><a href="#ch-530">第530章 關興背誦出師表</a></li></ul>
 <section class="chapter" id="ch-521">
 <h2>第521章 大肆封賞，全部升職</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_521.html">原始页面</a></div>
 <p>關興的效率非常高，天還沒黑便拜訪完了所有客戶並將合同放到了諸葛亮的桌案上。</p>
 <p>諸葛亮隨意翻了幾頁合同，看到合同上的金額人都麻了，關興簽訂的價格比自己預想的竟然高了三成不止，心夠黑的。</p>
 <p>關鍵他還能全部簽約成功，真是奇了怪了。</p>
@@ -71,7 +78,6 @@
 </section>
 <section class="chapter" id="ch-522">
 <h2>第522章 士燮覲見劉備</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_522.html">原始页面</a></div>
 <p>張飛沒想到青磚這麼結實，一掌刀下去磚頭沒斷骨頭斷了，這可咋搞，現在收手面子往哪放？</p>
 <p>有心放棄又拉不下臉的張飛強撐著說道：“剛才沒發揮好，我再試試。”</p>
 <p>劉備沒好氣的說道：“行了行了，都快六十的人了還當你是年輕小伙呢，起來我看看。”</p>
@@ -120,7 +126,6 @@
 </section>
 <section class="chapter" id="ch-523">
 <h2>第523章 季漢君臣集體跳河？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_523.html">原始页面</a></div>
 <p>長江上游江面上，無數巨木搭建的木筏被士兵操縱著順江而下。</p>
 <p>數百艘木筏宛如列陣迎敵的大軍，在江面上列成陣型快速前進，陣型最中間的木筏上插著一面關字大旗。</p>
 <p>大旗的前方擺著張鑲進竹筏內部的小方桌，桌上擺著竹筍蘑菇等各類野菜以及不知從什麼動物身上取下的，切成薄片的鮮肉，肉中間還擺著一個暖鍋，鍋中有湯在沸騰，關興張苞姜維三人圍著方桌吃的滿嘴流油。</p>
@@ -141,7 +146,6 @@
 <p>“哦哦……”關興張苞同時邁步，卻因步伐不協調出了差錯，張苞的腿碰到了關興的膝腕，將重心不穩的關興推進了江里，墜江的關興則在落水的剎那本能伸手想要抓住竹筏，結果抓到了張苞的褲腿，將張苞也給無情拽了下去。</p>
 <p>站在遠處等著兩人上岸的劉備士燮等人被這一烏龍驚的齊齊張大嘴巴，愣神片刻劉備率先反應過來，扯開嗓子吼道：“都愣著幹什麼，快救人吶，他倆喝多了。”</p>
 <p>說完提起衣襟率先跑了過去，看那架勢準備親自跳進江里救人，其他人見此哪還敢停在原地，紛紛撒開腳丫子跟上。</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 <p>領導都去救人了他們在岸邊站著，事後領導焉能不給你穿小鞋？</p>
 <p>宦海沉浮多年，知道態度比能力重要的官場老油條們緊隨劉備步伐，追擊的同時暗下決心，就算救不了人也得跳進長江洗個澡，藉此跟領導保持同頻。</p>
 <p>而另一邊，姜維也喝的五迷三道，看到落水的關興張苞腦瓜子懵了，直到劉備的喊聲傳來才猛的回神，想都沒想便一個助跑縱身躍向江中，躍至半空雙腳離開竹筏之後才突然想起一事，驚慌失措的吼道：“糟糕，我不會水啊。”</p>
@@ -166,7 +170,6 @@
 </section>
 <section class="chapter" id="ch-524">
 <h2>第524章 吃關興喝關興，吃完喝完罵關興</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_524.html">原始页面</a></div>
 <p>劉備關羽此刻的目光都在木料上，可沒心思聽他嗶嗶，聞言跟聾了似的連頭都沒回。</p>
 <p>張飛卻執意要跟兩人分享，見兩位兄長不搭理自己，果斷將煮熟的肉夾到碗里走到正跟士燮討論木材的劉備面前笑道：“大哥嘗嘗，這肉也不知道咋煮的，味道比咱們平時煮的好多了。”</p>
 <p>沒等話說完，筷頭的肉就送到了劉備唇邊，劉備本能張嘴一口吞下，驚訝說道：“好吃，哪來的？”</p>
@@ -214,7 +217,6 @@
 </section>
 <section class="chapter" id="ch-525">
 <h2>第525章 關興動口，張苞動手</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_525.html">原始页面</a></div>
 <p>袁徽懵了，指著關興渾身顫抖的半天說不出話來。</p>
 <p>身為士族宿老當世大儒，他何曾被人如此指著鼻子罵過？</p>
 <p>關鍵罵的還是對的，他無法反駁，因為他真是回來做官的。</p>
@@ -260,11 +262,9 @@
 <p>士燮愕然，你特么還要錢？</p>
 <p>劉備尷尬的給了關興一腳，無語罵道：“去去一邊玩去，你小子跟糜芳都學了些什麼啊？”</p>
 <p>打發走關興才朝士燮說道：“童言無忌，士將軍別見怪，回頭我就找人挑批最上等的木料給你送去。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-526">
 <h2>第526章 三堂會審關興</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_526.html">原始页面</a></div>
 <p>迎接士燮的隊伍順利回到江陵，然後又各自忙碌起來了。</p>
 <p>劉備諸葛亮去安置交州來的這幫人，關興則帶著食材回家陪媳婦，然後將食材分成三份，給丈母娘家和姑姑孫尚香那分別送去一份，至於張飛，除張苞之外的其他家眷還在成都呢，因此沒他的份。</p>
 <p>第二天一早關興先去視察磚瓦廠，然後回城召集工匠和人手開始修建房屋。</p>
@@ -317,11 +317,9 @@
 <p>“消息傳回成都，傳到大王您的耳朵里之後，巴蜀分成兩派，一派主張跟孫權和談，趁曹丕篡位之際北上伐魏，一派主張東征討孫為關將軍報仇，大王力排眾議，率舉國之兵東征討伐孫權，可惜……”</p>
 <p>聽到可惜二字，帳中四人緊張的心瞬間提到了嗓子眼，卻明智的沒有打斷而是靜等下文。</p>
 <p>關興說道：“可惜沒等大軍開拔，張飛將軍便因酗酒毆打士兵，並逼迫屬下三天之內備齊全軍戴孝用的白衣白甲這個壓根不可能的任務遭到屬下報復，屬下怕完不成任務被責罰，索性一不做二不休，趁張將軍深夜熟睡之際砍下他的頭顱投了東吳。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-527">
 <h2>第527章 劉備得知自己結局</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_527.html">原始页面</a></div>
 <p>此話一出帳中幾人近乎本能的向張飛望了過去，臉上神色無比怪異。</p>
 <p>他們做夢也沒想到戰場上勇猛無畏的張飛竟死的如此草率，這也太憋屈了。</p>
 <p>劉關張都不是怕死之輩，怕死的話以他們的出身爬不到現在的位置。</p>
@@ -362,7 +360,6 @@
 </section>
 <section class="chapter" id="ch-528">
 <h2>第528章 馬謖去哪了？</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_528.html">原始页面</a></div>
 <p>劉關張都沒想到自己征戰一生卻落得這樣的結局，一時之間相顧無言集體沉默。</p>
 <p>但當聽到諸葛亮詢問之後還是本能的向關興望了過去，雖然已經知道三國歸了晉，但他們還是想知道過程。</p>
 <p>關興說道：“魏吳兩軍雖然退了但南中的雍闓殺害庲絳都督正昂造反了，軍師一邊採用分化離間之計打擊南中匪首，一邊休養生息，數年之後揮師南下，五月渡瀘深入不毛討伐孟獲。”</p>
@@ -406,11 +403,9 @@
 <p>還有這說法呢？</p>
 <p>諸葛亮跟劉關張一樣差點沒一口老血噴出去，滿臉鬱悶的問道：“後來呢？”</p>
 <p>關興說道：“後來丞相便屯兵五丈原，在當地開荒種糧準備跟魏軍長期對峙靜等時機，可惜巴蜀人才凋零，大王駕崩后的這些年丞相既要穩定內部又要揮師北伐，事必躬親多年下來積勞成疾，沒多久便魂落五丈原，累死了。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-529">
 <h2>第529章 司馬家的下限</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_529.html">原始页面</a></div>
 <p>聽到諸葛亮魂落五丈原，劉關張三人跟被瞬間抽掉所有力氣似的全都癱在了支踵上。</p>
 <p>連諸葛亮都死了，匡扶漢室還有什麼希望。</p>
 <p>關興說道：“丞相去世之後蜀漢便不再征伐休養生息，坐看魏吳風雲。”</p>
@@ -453,11 +448,9 @@
 <p>關興繼續道：“陛下投降之後姜維自然也投降了，但在投降之前偷偷給陛下寫了封信，信的內容是願陛下忍數日之辱，臣欲使社稷危而復安，日月幽而復明，隨後便策反鍾會背叛曹魏，準備奪回巴蜀再建大漢，可惜鍾會沒聽姜維良言導致事敗，連同姜維一起被殺。”</p>
 <p>“丞相死後姜維繼承丞相遺志九伐中原，陛下投降之後姜維又搭上身後之名一計害三賢，害死了鍾會鄧艾以及他自己，若非百餘年後有個叫桓溫的討伐巴蜀無意中搜到了姜維給陛下的信，姜維怕是會以降而復叛的惡名被永遠釘在歷史的恥辱柱上。”</p>
 <p>“所以其他朝代都是以皇帝退位或者被殺為滅亡標誌，唯獨蜀漢是以姜維之死作為滅亡標誌的，姜維死了，蜀漢也就亡了。”</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-530">
 <h2>第530章 關興背誦出師表</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_530.html">原始页面</a></div>
 <p>姜維九伐中原，一計害三賢？</p>
 <p>大漢竟是以姜維之死作為亡國標誌的？</p>
 <p>劉關張諸葛近乎本能的同時抬頭望向帳外，雖然帳門緊閉什麼都看不見，眼前卻依稀出現了那個跟在張苞屁股後面的白衣少年。</p>
@@ -508,7 +501,8 @@
 <p>他們奮鬥一生卻換來這麼個結果，擱誰能不上火？</p>
 <p>諸葛亮臉色不善的問道：“司馬家如此行徑天下百姓必然不服，這個所謂的晉朝國祚不長吧？”</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-521">第521章 大肆封賞，全部升職</a></li><li><a href="#ch-522">第522章 士燮覲見劉備</a></li><li><a href="#ch-523">第523章 季漢君臣集體跳河？</a></li><li><a href="#ch-524">第524章 吃關興喝關興，吃完喝完罵關興</a></li><li><a href="#ch-525">第525章 關興動口，張苞動手</a></li><li><a href="#ch-526">第526章 三堂會審關興</a></li><li><a href="#ch-527">第527章 劉備得知自己結局</a></li><li><a href="#ch-528">第528章 馬謖去哪了？</a></li><li><a href="#ch-529">第529章 司馬家的下限</a></li><li><a href="#ch-530">第530章 關興背誦出師表</a></li></ul></aside>
+  </div>
 </body>
 </html>

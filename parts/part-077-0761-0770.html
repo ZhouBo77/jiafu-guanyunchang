@@ -7,22 +7,30 @@
   <style>
     :root { color-scheme: light; }
     body { font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; margin: 0; background:#f7f7f7; color:#222; }
+    .layout { max-width: 1280px; margin: 0 auto; padding: 0 18px; box-sizing: border-box; }
     main { max-width: 920px; margin: 0 auto; padding: 24px 18px 64px; background: #fff; min-height: 100vh; box-sizing: border-box; }
     h1,h2,h3 { line-height: 1.35; }
     .meta,.topnav,.part-list,.chapter-nav { color:#666; font-size:14px; }
     .topnav a,.part-list a,.chapter-nav a,a { color:#0b57d0; text-decoration:none; }
     .topnav a:hover,.part-list a:hover,.chapter-nav a:hover,a:hover { text-decoration:underline; }
-    .chapter { margin: 36px 0 48px; }
+    .chapter { margin: 36px 0 48px; scroll-margin-top: 24px; }
     .chapter p { line-height: 1.9; margin: .85em 0; text-indent: 2em; }
     .chapter h2 { margin-bottom: 10px; }
     .part-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 28px; }
     .card { border:1px solid #e4e4e4; border-radius:12px; padding:14px 16px; background:#fafafa; }
-    .footer-note { margin-top: 48px; font-size: 13px; color: #666; border-top:1px solid #eee; padding-top:16px; }
+    .floating-nav { position: fixed; top: 88px; right: max(16px, calc((100vw - 1280px) / 2 + 18px)); width: 220px; max-height: calc(100vh - 120px); overflow: auto; padding: 14px 16px; border:1px solid #e4e4e4; border-radius: 14px; background: rgba(255,255,255,.96); box-shadow: 0 10px 30px rgba(0,0,0,.08); backdrop-filter: blur(8px); }
+    .floating-nav h3 { margin: 0 0 10px; font-size: 16px; }
+    .floating-nav ul { margin: 0; padding-left: 18px; }
+    .floating-nav li { margin: 8px 0; line-height: 1.4; }
+    @media (max-width: 1180px) {
+      .floating-nav { display:none; }
+    }
   </style>
 </head>
 <body>
+  <div class="layout">
   <main>
-  <div class="topnav"><a href="../index.html">← 返回目录</a></div>
+<div class="topnav"><a href="../index.html">← 返回目录</a></div>
 <h1>家父关云长 · 第 761–770 章</h1>
 <div class="meta">作者：陇东少年 · 每 10 章合并一页 · 共 10 章</div>
 <div class="chapter-nav"><a href="part-076-0751-0760.html">上一页</a> · <a href="../index.html">目录</a> · <a href="part-078-0771-0780.html">下一页</a></div>
@@ -30,7 +38,6 @@
 <ul><li><a href="#ch-761">第761章 捷報傳江陵</a></li><li><a href="#ch-762">第762章 劉備接見文聘田豫</a></li><li><a href="#ch-763">第763章 曹丕的絕望</a></li><li><a href="#ch-764">第764章 曹丕又接噩耗</a></li><li><a href="#ch-765">第765章 大漢需要一場硬仗</a></li><li><a href="#ch-766">第766章 意想不到的人</a></li><li><a href="#ch-767">第767章 大軍集結</a></li><li><a href="#ch-768">第768章 關平回來了</a></li><li><a href="#ch-769">第769章 南中蠻兵齊聚江陵</a></li><li><a href="#ch-770">第770章 組建無當飛軍</a></li></ul>
 <section class="chapter" id="ch-761">
 <h2>第761章 捷報傳江陵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_761.html">原始页面</a></div>
 <p>得益於沈翊的完美部署，此役以漢軍完勝，魏軍全軍覆沒而落下帷幕。</p>
 <p>這個戰果讓張飛都忍不住驚嘆，誇讚沈翊打出了一場近乎完美的殲滅戰。</p>
 <p>大戰結束之後張飛召集眾將開會，商議決定讓丁奉率領一萬大軍帶足糧草去支援隨縣，他和沈翊留在江夏儘快穩定局勢，同時將所有魏軍俘虜全部送過江去接受改造，至於文聘田豫以及楊泰尤鼎四人，自然是送到江陵交給劉備處理。</p>
@@ -77,7 +84,6 @@
 </section>
 <section class="chapter" id="ch-762">
 <h2>第762章 劉備接見文聘田豫</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_762.html">原始页面</a></div>
 <p>江陵城外。</p>
 <p>看著越來越近的城牆，文聘田豫二人竟都生出些許近鄉情怯的慌亂。</p>
 <p>主要是他倆跟劉備太熟了。</p>
@@ -139,7 +145,6 @@
 </section>
 <section class="chapter" id="ch-763">
 <h2>第763章 曹丕的絕望</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_763.html">原始页面</a></div>
 <p>作為大漢最犀利的輿論武器，報紙很快便傳遍四方，甚至傳到了曹魏。</p>
 <p>大漢這邊看到報紙自然是一片歡騰信心倍增，信心暴增的同時也給了朝廷更大的支持，社會各個階層全都安分守己安居樂業，不再胡思亂想，就連孫權都上書恭賀，徹底放棄幻想決定積極支持劉備北伐了。</p>
 <p>相比之下曹魏那邊可就是另一番心情了，各地士族看到報紙全都陷入恐慌，開始人心浮動了。</p>
@@ -193,7 +198,6 @@
 </section>
 <section class="chapter" id="ch-764">
 <h2>第764章 曹丕又接噩耗</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_764.html">原始页面</a></div>
 <p>曹仁太清楚這個皇帝侄子的尿性了，用人臉朝前，不用人臉朝後，用不到自己的時候是絕對想不起自己的。</p>
 <p>所以曹仁斷定汝南那邊肯定出了問題，而且是大問題。</p>
 <p>曹丕拿出被自己揉的皺巴巴的報紙遞給他說道：“子孝叔，江夏丟了！”</p>
@@ -239,7 +243,6 @@
 </section>
 <section class="chapter" id="ch-765">
 <h2>第765章 大漢需要一場硬仗</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_765.html">原始页面</a></div>
 <p>江夏剛剛淪陷，鎮守淮南的張遼又不幸病逝，讓魏軍本就不高的士氣更加的雪上加霜。</p>
 <p>曹魏已經經不起這種如浪潮般一浪接著一浪的連串打擊了，因此曹丕決定傾全國之力跟劉備打場決戰，一把定輸贏，省的天天被各種壞消息輪番摧殘。</p>
 <p>詔令下達，中原士族的心情非常複雜，面對勝算渺小的戰役，士族本能的想要趨利避害投到劉備那邊去，但在收到劉備在江夏土改的消息之後又打消了念頭。</p>
@@ -284,7 +287,6 @@
 </section>
 <section class="chapter" id="ch-766">
 <h2>第766章 意想不到的人</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_766.html">原始页面</a></div>
 <p>眾人聞言齊齊止步看向關羽。</p>
 <p>關羽說道：“陛下雖已決定在襄樊與魏軍決戰，但江東的防線也不能不管，目前鎮守江東防範魏軍的是辛肥。”</p>
 <p>“辛肥此人忠心沒有問題，能力卻實在有點不盡人意，鎮守江東至今多次被臧霸和朱桓犯邊，若非陸遜及時救援，臧霸恐怕都打過長江威脅建業了。”</p>
@@ -333,7 +335,6 @@
 </section>
 <section class="chapter" id="ch-767">
 <h2>第767章 大軍集結</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_767.html">原始页面</a></div>
 <p>聽到伙頭軍趕人，酉齒沒好意思再問退到一邊乖乖開吃。</p>
 <p>酉齒也是個不講究的人，盤膝坐在地上夾起紅燒肉就往嘴裡塞，一口下去臉上瞬間露出前所未有的滿足表情，再夾塊排骨，酉齒臉上頓時露出了前所未有的幸福感。</p>
 <p>其他人也是這德行，跟酉齒一樣坐在地上大快朵頤，連湯汁都倒進嘴裡不說，吃完飯還要將碗底舔上三圈，主打一個不浪費。</p>
@@ -382,7 +383,6 @@
 </section>
 <section class="chapter" id="ch-768">
 <h2>第768章 關平回來了</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_768.html">原始页面</a></div>
 <p>關平也是從東三郡回來的，率領的兩萬騎兵路過襄陽時順手扔給了老丈人趙雲，因此只帶著五百輕騎趕來。</p>
 <p>看到關平出現，劉禪關興對視一眼火速迎了上去。</p>
 <p>關平則命親兵在原地等待，然後勒住馬韁跳下馬背，隨手將一名八九歲的小男孩從馬背上拽下，牽著男孩的手快步趕來行禮拜道：“臣關平拜見太子殿下。”</p>
@@ -435,7 +435,6 @@
 </section>
 <section class="chapter" id="ch-769">
 <h2>第769章 南中蠻兵齊聚江陵</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_769.html">原始页面</a></div>
 <p>不滿周歲的小孩外表都差不多，又穿著一樣的衣服，這種情況連經常不著家的關興都不太分的清楚，更別說初次見面的關樾了。</p>
 <p>關興盯著兩個孩子打量片刻提起左手說道：“這是你三叔。”</p>
 <p>他們的談話聲驚醒了旁邊的小喬和孫魯育，兩人扭頭髮現孩子竟不在嬰兒車裡，驚的連忙跑到孩子面前詫異道：“啥時候跑出來的，臉上怎麼還有巴掌印呢？”</p>
@@ -489,11 +488,9 @@
 <p>劉禪接茬道：“陛下見咱們南中猛將如雲，便命我打造了這五件金器，讓我通過比武的方式替他選出新的南中五虎將，有興趣的都可以參賽，獲勝的除這五件金器之外還有鍊鋼廠量身打造的鎧甲兵器等全套裝備。”</p>
 <p>台下聞言瞬間沸騰，手握方天畫戟的猛將鄂煥更是迫不及待的問道：“殿下，神策侯，這五件金器只能拿一件嗎，我能全要了不？”</p>
 <p>此話一出瞬間惹來所有人的怒目而視，你特么想屁吃，當我們都是死人吶？</p>
-<p>應廣大讀者的要求, 現推出VIP會員免廣告功能</p>
 </section>
 <section class="chapter" id="ch-770">
 <h2>第770章 組建無當飛軍</h2>
-<div class="meta"><a href="https://www.novel543.com/0823626287/8096_770.html">原始页面</a></div>
 <p>目前的南中可不是後世四季如春的彩雲之南，而是煙瘴蠻荒之地。</p>
 <p>蠻荒就意味著窮，窮人對錢可是有病態執念的，這種執念下看到純金的兵器鎧甲誰能不動心，不想佔為己有啊？</p>
 <p>因此鎧甲兵器剛一亮相，南中眾首領的眼神便齊齊露出了渴望之光，自恃武力高強的鄂煥更是迫不及待的放出想將所有黃金全都據為己有的豪言，惹得眾人全都怒目而視。</p>
@@ -542,7 +539,8 @@
 <p>就這樣，關興利用一套組合拳成功從南中各部中抽調出八千人組建了無當飛軍。</p>
 <p>隨後劉禪親自出面，任命姜維為無當飛軍首任統領。</p>
 </section>
-<div class="footer-note">来源：novel543 / 稷下书院；原作者：陇东少年。依据用户提供的授权声明整理。</div>
-  </main>
+</main>
+<aside class="floating-nav"><h3>本页导航</h3><ul><li><a href="#ch-761">第761章 捷報傳江陵</a></li><li><a href="#ch-762">第762章 劉備接見文聘田豫</a></li><li><a href="#ch-763">第763章 曹丕的絕望</a></li><li><a href="#ch-764">第764章 曹丕又接噩耗</a></li><li><a href="#ch-765">第765章 大漢需要一場硬仗</a></li><li><a href="#ch-766">第766章 意想不到的人</a></li><li><a href="#ch-767">第767章 大軍集結</a></li><li><a href="#ch-768">第768章 關平回來了</a></li><li><a href="#ch-769">第769章 南中蠻兵齊聚江陵</a></li><li><a href="#ch-770">第770章 組建無當飛軍</a></li></ul></aside>
+  </div>
 </body>
 </html>
